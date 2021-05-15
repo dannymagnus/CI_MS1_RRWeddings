@@ -21,7 +21,7 @@ I want links to my social media, as this is where I post most of my stories for 
 As a user I want to be able to get wedding stationary ideas
 -----Site Owner Goals
 Reach B2C customers nationally
-As a 
+Increase lead generation
 
 -----User Requirements and Expectations
 EXPLAIN
@@ -32,8 +32,8 @@ Text headings - #d7aeae
 Text Body - #787878
 Background colours - #fff
 --------Fonts
-Headings - Cormorant Garamond
-Body - Playfair Display
+Headings - Cormorant Garamond (Required serif font, luxurious feel) - would like custom font. Possibly in later release
+Body - Playfair Display - compatible text (similar to available product text)
 Quick sand -main body and sub heading - fits with typography in body of main design choices in sellable product.
 --------Structure
 EXPLAIN
@@ -47,10 +47,34 @@ github - https://github.com repository for code and assets
 gitpod - code editor
 validation HTML- https://balsamiq.com/ validatorw3
 Validation CSS - https://jigsaw.w3.org/css-validator/ jigsaw
-Validation Accessibility - 
+Validation Accessibility - https://wave.webaim.org/
+Perfomance - https://developers.google.com/web/tools/lighthouse
+Mockup testing - http://ami.responsivedesign.is/
 
 ------Features
-EXPLAIN
+## existing features
+_navigation bar_ - this will appear across all pages so that the user does not have to navigate using the browsers back and forward button
+
+_landing page_ landing page will have a hero image and links to other pages, it will have a headline with keywords explaining what the business offers
+
+_get in touch_
+The get in touch page will have the process details for starting the inquiry/order process, it will also contain the contact form
+
+_about rcweddings_
+The about page will have details of the business and founder background, company ethos, history.
+
+_Designs_
+The designs page will be the structure page for the bespoke, customisable and on the day sections
+
+_bespoke designs_
+Summary information with example images on what bespoke consists of with indicator EPP.
+
+_customisable designs_
+Summary information with product imagery and EPP example.
+
+_FAQ page_
+FAQ section to build trust and represent as an established brand
+
 ------Validation
 EXPLAIN
 ------Testing of User Stories(Feature-Action-Expected result-Actual result)

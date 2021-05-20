@@ -1,0 +1,29 @@
+/* Font import*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+/*Style Header*/
+
+#logo {
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    float:left
+}
+
+header nav a {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#header_text {
+    line-height: 10px;
+}
+
+nav ul {
+    float:right;
+}
+
+nav ul li {
+    float:left;
+}

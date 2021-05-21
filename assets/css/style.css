@@ -8,6 +8,11 @@
     border: none;
 }
 
+body {
+    color: #787878;
+    font-family: 'Playfair Display', sans-serif;
+}
+
 /*Style Header*/
 
 #logo {
@@ -36,10 +41,21 @@ nav li {
     letter-spacing: 2px;
 }
 
+nav a {
+    text-decoration: none;
+    color:inherit;
+    font-family: inherit;
+}
+
 header nav a {
     margin-right: 5px;
     margin-left: 5px;
 }
 
+#menu a:hover {
+    font-size: 110%;
+}
 
-
+#menu a:active {
+    font-weight: bolder;
+}

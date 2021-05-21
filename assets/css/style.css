@@ -2,13 +2,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 /*Style Header*/
 
 #logo {
     font-family: 'Cormorant Garamond', serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    float:left
+    float: left;
+    font-size: 280%;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+/*style nav bar*/
+
+nav ul {
+    float:right;
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    font-size: 120%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 header nav a {
@@ -16,14 +41,5 @@ header nav a {
     margin-left: 5px;
 }
 
-#header_text {
-    line-height: 10px;
-}
 
-nav ul {
-    float:right;
-}
 
-nav ul li {
-    float:left;
-}

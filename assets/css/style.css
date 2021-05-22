@@ -84,20 +84,31 @@ header nav a {
 }
 
 #hero-text p {
-    margin-top: 75px;
+    margin-top: 50px;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 33%;
 }
 
 /* Why choose us */
 
+#why-us {
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .sub-heading {
-    margin-top: 75px;
+    margin-top: 50px;
+    text-align: center;
 }
 
-h1.sub-heading {
-    text-align: center;
+#reasons-text {
+    max-width: 50%;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#reasons-text p {
+    margin-bottom: 50px;
 }

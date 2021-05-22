@@ -11,7 +11,13 @@
 body {
     color: #787878;
     font-family: 'Playfair Display', sans-serif;
+    font-weight: 100;
 }
+
+.banner {
+    text-align: center;
+}
+
 /*Header styling*/ 
 /*Style Logo*/
 
@@ -70,4 +76,19 @@ header nav a {
     width: 100%;
     height: 300px;
     background: url('../images/hero-image-weddings.png') no-repeat 25% 25%;
+}
+
+/* Hero text and description*/
+
+#hero-welcome h1 {
+    background-color: lightpink;
+}
+
+#hero-welcome p {
+    margin-top: 75px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }

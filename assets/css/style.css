@@ -13,6 +13,10 @@ body {
     font-family: 'Playfair Display', sans-serif;
 }
 
+h1,h2 {
+    font-family: 'Cormorant Garamond';
+}
+
 .banner {
     text-align: center;
 }
@@ -115,13 +119,18 @@ header nav a {
 
 /*Get in touch*/
 
+#reasons-text h1 {
+    text-transform: uppercase;
+}
+
 #reasons-text a{
     text-decoration: none;
     color: inherit;
-    border: 2px solid #78787880;
+    border: 2px solid rgba(250,218,221,0.5);
     padding: 15px;
     line-height: 75px;
     background-color: rgba(250,218,221,0.5);
     font-size: 1.5em;
     border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(62, 67, 73);
 }

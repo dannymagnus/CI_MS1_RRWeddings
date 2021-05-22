@@ -12,8 +12,8 @@ body {
     color: #787878;
     font-family: 'Playfair Display', sans-serif;
 }
-
-/*Style Header*/
+/*Header styling*/ 
+/*Style Logo*/
 
 #logo {
     font-family: 'Cormorant Garamond', serif;
@@ -56,6 +56,12 @@ header nav a {
     font-size: 110%;
 }
 
-#menu a:active {
+.active {
     font-weight: bolder;
+}
+
+/* Hero Image*/
+
+.clear {
+    clear: both;
 }

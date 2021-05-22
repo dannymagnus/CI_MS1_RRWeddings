@@ -80,7 +80,7 @@ header nav a {
 /* Hero text and description*/
 
 #hero-text h1 {
-    background-color: lightpink;
+    background-color:rgba(250,218,221,0.5);
 }
 
 #hero-text p {
@@ -111,4 +111,17 @@ header nav a {
 
 #reasons-text p {
     margin-bottom: 50px;
+}
+
+/*Get in touch*/
+
+#reasons-text a{
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid #78787880;
+    padding: 15px;
+    line-height: 75px;
+    background-color: rgba(250,218,221,0.5);
+    font-size: 1.5em;
+    border-radius: 10px;
 }

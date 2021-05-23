@@ -153,3 +153,25 @@ header nav a {
     position: absolute;
     top: 125px;
 }
+
+/* Styling Kind Words Section */
+
+.testimonial-container {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.testimonial-box {
+    max-width: 33%;
+    border: 1px solid #787878;
+    box-shadow: #787878 5px 5px 5px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.testimonial__heading {
+    text-transform: uppercase;
+
+}

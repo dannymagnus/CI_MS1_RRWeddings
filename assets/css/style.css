@@ -163,12 +163,13 @@ header nav a {
 }
 
 .testimonial-box {
-    max-width: 33%;
+    width: 33%;
     border: 1px solid #787878;
     box-shadow: #787878 5px 5px 5px;
     margin: 10px;
     padding: 15px;
     text-align: center;
+    border-radius: 10px;
 }
 
 .testimonial__heading {

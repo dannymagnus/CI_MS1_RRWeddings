@@ -18,7 +18,7 @@ body {
 }
 
 h1,h2 {
-    font-family: 'Cormorant Garamond';
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .banner {
@@ -158,6 +158,7 @@ header nav a {
 
 .testimonial-container {
     display: flex;
+    margin-top: 75px;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -174,5 +175,25 @@ header nav a {
 
 .testimonial__heading {
     text-transform: uppercase;
-
+    min-height: 150px;
+    vertical-align: middle;
+    margin-top: 50px;
+    font-size: larger;
+    font-family: 'Cormorant Garamond';
 }
+
+.testimonial__body {
+    min-height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    vertical-align: middle;
+}
+
+.testimonial__footer {
+    margin-bottom: 50px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: larger;
+}
+
+/* Styling Footer */
+

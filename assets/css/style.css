@@ -17,7 +17,8 @@ body {
     font-family: 'Playfair Display', sans-serif;
 }
 
-h1,h2 {
+h1,
+h2 {
     font-family: 'Cormorant Garamond', serif;
 }
 
@@ -25,7 +26,7 @@ h1,h2 {
     text-align: center;
 }
 
-/*Header styling*/ 
+/*Header styling*/
 /*Style Logo*/
 
 #logo {
@@ -36,14 +37,15 @@ h1,h2 {
     font-size: 280%;
 }
 
-#logo, #menu {
+#logo,
+#menu {
     line-height: 75px;
 }
 
 /*style nav bar*/
 
 nav ul {
-    float:right;
+    float: right;
     list-style-type: none;
 }
 
@@ -56,7 +58,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
     font-family: inherit;
 }
 
@@ -65,7 +67,7 @@ header nav a {
     margin-left: 5px;
 }
 
-#menu a:hover {
+a:hover {
     font-size: 110%;
 }
 
@@ -84,7 +86,7 @@ header nav a {
 /* Hero text and description*/
 
 #hero-text h1 {
-    background-color:rgba(250,218,221,0.5);
+    background-color: rgba(250, 218, 221, 0.5);
 }
 
 #hero-text p {
@@ -102,6 +104,7 @@ header nav a {
     margin-left: 50px;
     margin-right: 50px;
 }
+
 .sub-heading {
     margin-top: 50px;
     text-align: center;
@@ -109,8 +112,8 @@ header nav a {
 }
 
 #reasons-text {
-    display:inline-block;
-    max-width:40%;
+    display: inline-block;
+    max-width: 40%;
 }
 
 #reasons-text p {
@@ -123,13 +126,13 @@ header nav a {
     text-transform: uppercase;
 }
 
-#reasons-text a{
+#reasons-text a {
     text-decoration: none;
     color: inherit;
-    border: 2px solid rgba(250,218,221,0.5);
+    border: 2px solid rgba(250, 218, 221, 0.5);
     padding: 15px;
     line-height: 75px;
-    background-color: rgba(250,218,221,0.5);
+    background-color: rgba(250, 218, 221, 0.5);
     font-size: 1.5em;
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(62, 67, 73);
@@ -138,10 +141,11 @@ header nav a {
 /* Style why us images */
 
 .image-stack {
-    float:right;
+    float: right;
     width: 50%;
-    position:relative;   
+    position: relative;
 }
+
 #paint {
     max-width: 40%;
     margin-right: -15%;
@@ -197,3 +201,25 @@ header nav a {
 
 /* Styling Footer */
 
+.footer {
+    padding-left: 75px;
+    padding-right: 75px;
+    position: relative;
+}
+
+.footer__box {
+    display: inline-block;
+    width: 20%;
+    vertical-align: text-top;
+    font-size: .5em;
+}
+
+.footer__box ul {
+    list-style-type: none;
+}
+
+.footer__box a {
+    text-decoration: none;
+    color: inherit;
+}
+.

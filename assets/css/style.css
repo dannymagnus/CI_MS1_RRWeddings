@@ -211,7 +211,7 @@ a:hover {
     display: inline-block;
     width: 20%;
     vertical-align: text-top;
-    font-size: .5em;
+    font-size: .75em;
 }
 
 .footer__box ul {
@@ -222,4 +222,9 @@ a:hover {
     text-decoration: none;
     color: inherit;
 }
-.
+
+/*Styling social media*/
+
+.footer__box__social {
+    
+}

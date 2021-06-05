@@ -361,16 +361,16 @@ a:hover {
 /*About me bottom area */
 
 #about-me-bottom {
-    background-color: lightsalmon;
-    height: 800px;
+    background-color: rgba(250, 218, 221, 0.5);
+    height: 700px;
     margin: 50px 50px;
+    position: relative;
 }
 
 #about-me-bottom__image-stack {
     float:left;
     height: 100%;
     width:33%;
-    background-color: lightgreen;
     position:relative;
 }
 
@@ -384,14 +384,29 @@ a:hover {
 #painting-stack-2 {
     max-width: 60%;
     position: absolute;
-    top: 275px;
+    top: 35%;
 }
-
-
 
 #about-me-bottom__right-image {
     float: right;
     height: 100%;
     width:33%;
-    background-color: lightcoral;
+    position:relative;
+    text-align: center;
+}
+
+#about-me-bottom__right-image img {
+    width: 80%;
+    margin-top: 25%;
+}
+
+#about-me-bottom__text-container {
+    width: 33%;
+    height:100%;
+    float: left;
+    overflow: scroll;
+}
+
+#about-me-bottom__text-container p {
+    margin: 50px;
 }

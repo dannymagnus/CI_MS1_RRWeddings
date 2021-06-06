@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 .clear {
@@ -35,52 +36,110 @@ h2 {
 
 /*Style Logo*/
 
-#logo {
-    font-family: 'Cormorant Garamond', serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    float: left;
-    font-size: 400%;
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color: #3a3a3a;
 }
 
-#logo,
-#menu {
-    line-height: 75px;
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
 }
 
-/*style nav bar*/
-
-nav ul {
-    float: right;
-    list-style-type: none;
-}
-
-nav li {
-    float: left;
-    font-size: 120%;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-nav a {
+.booking-button a {
     text-decoration: none;
     color: inherit;
-    font-family: inherit;
+    border: 2px solid rgba(250, 218, 221, 0.5);
+    padding: 0 1.5rem;
+    margin-right:1.5rem;
+    background-color: rgba(250, 218, 221, 0.5);
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(62, 67, 73);
 }
 
-header nav a {
-    margin-right: 5px;
-    margin-left: 5px;
+.navbar-links {
+    height: 100%;
 }
 
-a:hover {
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: #3a3a3a;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
     font-size: 110%;
 }
 
-.active {
-    font-weight: bolder;
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
 }
 
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color:black;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .booking-button {
+        display: none;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
 
 /* Hero Image*/
 

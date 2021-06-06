@@ -1,3 +1,5 @@
+https://dannymagnus.github.io/wedding-company/
+
 ##Project Goals
 rrweddings is a small wedding company offering various end to end solutions, direct to customers for wedding stationary design, creation, print and delivery.  Key USP is bespoke design from ground up including items for on the day, such as orders of service, signage, food menus.  Key purposes of the website are to:
 Increase customer base

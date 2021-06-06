@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -90,7 +91,6 @@ a:hover {
     background: url('../images/hero-image-weddings.png') no-repeat 25% 25%;
 }
 
-
 /* Hero text and description*/
 
 #hero-text h1 {
@@ -106,6 +106,17 @@ a:hover {
     width: 33%;
 }
 
+@media (max-width: 768px) {
+    #hero-text p {
+        margin-top: 50px;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        font-size: 2vw;
+    }
+}
 
 /* Why choose us */
 
@@ -116,7 +127,7 @@ a:hover {
 
 .sub-heading {
     text-align: center;
-    line-height:150px;
+    line-height: 150px;
 
 }
 
@@ -128,7 +139,6 @@ a:hover {
 #reasons-text p {
     margin-bottom: 50px;
 }
-
 
 /*Get in touch*/
 
@@ -168,14 +178,34 @@ a:hover {
     position: absolute;
     top: 125px;
 }
+
+@media (max-width: 768px) {
+    #why-us__image-stack {
+        float: right;
+        width: 100%;
+        position: relative;
+    }
+    #paint {
+        width: 40%;
+        margin: 0 auto;
+    }
+    
+    #portrait-left {
+        width: 40%;
+        margin: 0 auto;
+    
+    }
+
+}
+
 /* As featured in*/
 
 #featured-outer h1 {
-    line-height:150px;
+    line-height: 150px;
 }
 
 #featured-container {
-    margin-top:150px;
+    margin-top: 150px;
     text-align: center;
     width: 100%;
 }
@@ -206,7 +236,7 @@ a:hover {
 }
 
 #kind-words h1 {
-    background-color: rgba(250, 235, 215,0);
+    background-color: rgba(250, 235, 215, 0);
     display: block;
     width: 100%;
     line-height: 150px;
@@ -270,7 +300,7 @@ a:hover {
     vertical-align: middle;
     font-size: .75em;
     text-transform: uppercase;
-    text-align: center; 
+    text-align: center;
 }
 
 .footer__box>ul {
@@ -282,16 +312,18 @@ a:hover {
     color: inherit;
     padding-top: 20px;
 }
-.footer__box h2,h3 {
+
+.footer__box h2,
+h3 {
     padding-top: 25%;
-    padding-bottom:10px;
+    padding-bottom: 10px;
 }
 
 
 /*Styling social media*/
 
 .footer__box__social h2 {
-    float:right;
+    float: right;
     width: 33%;
     margin: 0 auto;
 }
@@ -311,39 +343,38 @@ a:hover {
 /* About me page*/
 
 #about-outer h1 {
-    font-size:200%;
+    font-size: 200%;
     line-height: 150px;
     text-align: center;
 }
 
 #about-me-top {
-    margin:0 50px;
+    margin: 0 50px;
     height: 800px;
     background-color: bisque;
-    position:relative;
+    position: relative;
 }
 
 #about-me-top__image-container {
-    height:800px;
-    width:70%;
-    background-color: aliceblue;
+    height: 800px;
+    width: 70%;
     overflow: hidden;
-    float:left;
+    float: left;
 }
 
 #about-me-top__image-container img {
     height: 100%;
     width: 100%;
-    object-position: -150px;
+    object-position: center center;
     object-fit: cover;
 }
 
 
 #about-me-top__text-container {
     height: 800px;
-    width:30%;
-    float:left;
-    background-color:aquamarine;
+    width: 30%;
+    float: left;
+    background-color: rgba(250, 218, 221, 0.5);
     text-align: center;
     overflow: scroll;
 }
@@ -368,10 +399,10 @@ a:hover {
 }
 
 #about-me-bottom__image-stack {
-    float:left;
+    float: left;
     height: 100%;
-    width:33%;
-    position:relative;
+    width: 33%;
+    position: relative;
 }
 
 #painting-stack-1 {
@@ -390,8 +421,8 @@ a:hover {
 #about-me-bottom__right-image {
     float: right;
     height: 100%;
-    width:33%;
-    position:relative;
+    width: 33%;
+    position: relative;
     text-align: center;
 }
 
@@ -402,7 +433,7 @@ a:hover {
 
 #about-me-bottom__text-container {
     width: 33%;
-    height:100%;
+    height: 100%;
     float: left;
     overflow: scroll;
 }

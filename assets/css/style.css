@@ -173,44 +173,58 @@ h1,h2,h3 {
     width: 33%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     #hero-text p {
         margin-top: 50px;
         text-align: center;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
-        font-size: 2vw;
+        width: 90%;
+        font-size: 1rem;
     }
 }
 
 /* Why choose us */
 
 #reasons-outer {
-    min-height: 1200px;
-    margin: 100px 50px;
+    min-height: 1000px;
+    width: 90%;
+    margin:auto;
+    background-color:pink;
+    margin-top: 5rem;
 }
 
 .sub-heading {
     text-align: center;
-    line-height: 150px;
+    line-height: 3rem;
+    background-color:blue;
+    display: block;
+}
 
+#reasons-container {
+    display:flex;
+    background-color: aliceblue;
+    margin-top: 5rem;
+    min-height: 25rem;
 }
 
 #reasons-text {
-    display: inline-block;
-    max-width: 40%;
+    min-height: 25rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 #reasons-text p {
-    margin-bottom: 50px;
+    margin:25px;
 }
 
 /*Get in touch*/
 
 #reasons-text h1 {
     text-transform: uppercase;
+    margin:25px;
 }
 
 #reasons-text a {
@@ -220,85 +234,94 @@ h1,h2,h3 {
     padding: 15px;
     line-height: 75px;
     background-color: rgba(250, 218, 221, 0.5);
-    font-size: 1.5em;
+    font-size: 1.5rem;
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(62, 67, 73);
+    max-width:250px;
+    margin: 25px;
 }
 
+@media (max-width: 800px) {
+    #reasons-container {
+        flex-direction: column;
+    }
+    #portrait-left {
+    width: 55%;
+    position: absolute;
+    top: 75px;}
+}
 
 /* Style why us images */
 
 #why-us__image-stack {
-    float: right;
-    width: 50%;
     position: relative;
+    min-height: 30rem;
+    background-color:grey;
 }
 
 #paint {
-    max-width: 40%;
+    width: 55%;
     margin-right: -15%;
-    margin-left: 20%;
+    margin-left: 0;
 }
 
 #portrait-left {
-    max-width: 40%;
+    width: 55%;
     position: absolute;
     top: 125px;
-}
 
-@media (max-width: 768px) {
-    #why-us__image-stack {
-        float: right;
-        width: 100%;
-        position: relative;
-    }
-
-    #paint {
-        width: 40%;
-        margin: 0 auto;
-    }
-
-    #portrait-left {
-        width: 40%;
-        margin: 0 auto;
-    }
 }
 
 /* As featured in*/
 
+
+#featured-outer {
+    background-color: mediumaquamarine;
+    margin-top:5rem;
+}
+
+
 #featured-outer h1 {
-    line-height: 150px;
+    line-height: 5rem;
+    display: block;
+    text-align: center;
 }
 
 #featured-container {
-    margin-top: 150px;
-    text-align: center;
     width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color:plum;
+}
+
+#featured-container ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 3rem;
+    list-style: none;
 }
 
 #featured-container li {
-    height: 100px;
-    width: 100px;
-    display: inline-block;
-    margin: 25px;
+    width:20%
 }
 
 #featured-container img {
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width: 100%;
     object-fit: contain;
 }
 
 /* Styling Kind Words Section */
 
 #kind-words {
-    clear: both;
+    margin-top:5rem;
     width: 100%;
     padding-bottom: 50px;
     background-image: url(../images/outline2.webp);
-    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215,.5);
     background-size: contain;
-    background-position: bottom bottom;
 }
 
 #kind-words h1 {
@@ -314,7 +337,7 @@ h1,h2,h3 {
 }
 
 .testimonial-box {
-    width: 33%;
+    min-width: 0;
     border: 1px solid #787878;
     box-shadow: #787878 5px 5px 5px;
     margin: 15px;
@@ -327,7 +350,7 @@ h1,h2,h3 {
 
 .testimonial__heading {
     text-transform: uppercase;
-    min-height: 150px;
+    min-height: 33%;
     vertical-align: middle;
     margin-top: 50px;
     font-size: larger;
@@ -335,7 +358,7 @@ h1,h2,h3 {
 }
 
 .testimonial__body {
-    min-height: 200px;
+    min-height: 33%;
     margin: 50px 25px;
     vertical-align: middle;
 }
@@ -353,28 +376,33 @@ h1,h2,h3 {
     }
     .testimonial-box 
     {
-        width: 100%;
-        font-size: 2vw;
+        font-size: 3vw;
     }
 }
 
 /* Styling Footer */
 
-.footer {
+.footer-outer {
     position: relative;
-    height: 250px;
-    text-align: center;
+    display: flex;
     margin-bottom: 100px;
+    justify-content: space-between;
+    width: 100%;
+    align-items:flex-start;
+    height:600px;
 }
 
 .footer__box {
-    height: 100%;
-    display: inline-block;
-    width: 18%;
     vertical-align: middle;
     font-size: .75em;
     text-transform: uppercase;
     text-align: center;
+    margin: 3rem;
+}
+
+.footer__box__social ul {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .footer__box>ul {
@@ -389,7 +417,6 @@ h1,h2,h3 {
 
 .footer__box h2,
 h3 {
-    padding-top: 25%;
     padding-bottom: 10px;
 }
 
@@ -397,22 +424,21 @@ h3 {
 /*Styling social media*/
 
 .footer__box__social h2 {
-    float: right;
     width: 33%;
     margin: 0 auto;
 }
 
 .footer__box__logo {
-    width: 100%;
-    height: 100%;
     background-image: url(../images/logoweb.webp);
-    background-size: 100%;
+    background-size:100%;
+    background-color: #3a3a3a;
 }
 
 .footer__box__center {
     border-left: 1px solid #3a3a3a;
     border-right: 1px solid #3a3a3a;
 }
+
 
 /* About me page*/
 

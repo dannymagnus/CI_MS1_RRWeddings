@@ -112,6 +112,7 @@ h1,h2,h3 {
 
     .toggle-button {
         display: flex;
+        margin: .75rem;
     }
 
     .booking-button {

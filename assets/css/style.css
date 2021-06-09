@@ -397,16 +397,17 @@ h1,h2,h3 {
     font-size: .75em;
     text-transform: uppercase;
     text-align: center;
-    margin: 3rem;
+    margin:1rem;
 }
 
-.footer__box__social ul {
-    display: flex;
-    justify-content: space-evenly;
+.footer__box.footer__box__social {
+    min-width: 20%;
 }
 
 .footer__box>ul {
     list-style-type: none;
+    display:flex;
+    flex-direction: column;
 }
 
 .footer__box a {
@@ -423,6 +424,12 @@ h3 {
 
 /*Styling social media*/
 
+.footer__box__social>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .footer__box__social h2 {
     width: 33%;
     margin: 0 auto;
@@ -437,6 +444,14 @@ h3 {
 .footer__box__center {
     border-left: 1px solid #3a3a3a;
     border-right: 1px solid #3a3a3a;
+}
+
+@media (max-width: 800px) {
+    .footer-outer {
+        flex-direction: column-reverse;
+        align-items: stretch;
+        justify-content: start;
+    }
 }
 
 

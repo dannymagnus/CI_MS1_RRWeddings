@@ -191,20 +191,17 @@ h1,h2,h3 {
     min-height: 1000px;
     width: 90%;
     margin:auto;
-    background-color:pink;
     margin-top: 5rem;
 }
 
 .sub-heading {
     text-align: center;
     line-height: 3rem;
-    background-color:blue;
     display: block;
 }
 
 #reasons-container {
     display:flex;
-    background-color: aliceblue;
     margin-top: 5rem;
     min-height: 25rem;
 }
@@ -249,6 +246,12 @@ h1,h2,h3 {
     width: 55%;
     position: absolute;
     top: 75px;}
+    #reasons-text {
+        align-items: center;
+    }
+    #reasons-text p {
+        text-align: center;
+    }
 }
 
 /* Style why us images */
@@ -256,7 +259,6 @@ h1,h2,h3 {
 #why-us__image-stack {
     position: relative;
     min-height: 30rem;
-    background-color:grey;
 }
 
 #paint {
@@ -276,8 +278,13 @@ h1,h2,h3 {
 
 
 #featured-outer {
-    background-color: mediumaquamarine;
     margin-top:5rem;
+}
+
+@media (min-width: 560px) {
+    #featured-outer {
+        margin-top:10rem;
+    }
 }
 
 
@@ -292,7 +299,6 @@ h1,h2,h3 {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    background-color:plum;
 }
 
 #featured-container ul {

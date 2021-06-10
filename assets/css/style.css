@@ -468,46 +468,64 @@ h3 {
     font-size: 200%;
     line-height: 150px;
     text-align: center;
+    margin: 0 50px;
+    overflow: hidden;
+    position:relative;
 }
 
 #about-me-top {
-    margin: 0 50px;
     height: 800px;
+    width:100%;
     background-color: bisque;
     position: relative;
 }
 
 #about-me-top__image-container {
     height: 800px;
-    width: 70%;
-    overflow: hidden;
-    float: left;
-}
-
-#about-me-top__image-container img {
-    height: 100%;
     width: 100%;
-    object-position: center center;
-    object-fit: cover;
+    background: url(../images/about-me-main.jpg) center center;
+    background-size: cover;
+    background-position: -300px center;
+    overflow: hidden;
+    background-repeat: repeat-x;
+    position: relative;
 }
-
 
 #about-me-top__text-container {
     height: 800px;
-    width: 30%;
-    float: left;
-    background-color: rgba(250, 218, 221, 0.5);
+    width: 33%;
+    background-color: rgba(250, 218, 221, .75);
     text-align: center;
-    overflow: scroll;
+    position: absolute;
+    bottom: 0;
+    right:50px;
+    font-size: 1.25vw;
+}
+
+@media (max-width:1000px) {
+    #about-me-top__text-container {
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width:560px) {
+    #about-me-top__text-container {
+        margin:0;
+        width: 100%;
+        height: 400px;
+        background-color: rgba(250, 218, 221, .75);
+        text-align: center;
+        position: absolute;
+        right: 0;
+        font-size: 2vw;
+    }
 }
 
 #about-me-top p {
-    display: inline-block;
     margin: 10%;
 }
 
 #about-me-top h2 {
-    display: inline-block;
     margin: 10%;
 }
 

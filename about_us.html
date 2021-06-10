@@ -39,7 +39,6 @@
         <h1>a bit about me...</h1>
         <div id="about-me-top">
             <div id="about-me-top__image-container">
-                <img src="assets/images/about-me-main.jpg" alt="artist at desk">
             </div>
             <div id="about-me-top__text-container">
                 <h2>
@@ -89,7 +88,7 @@
             style="height: 1px; border-width:0;color:gray;background-color:gray; width:100%; margin-left: auto;margin-right: auto; margin-bottom: 10px;margin-top:50px;">
         <hr
             style="height: 1px; border-width:0;color:gray;background-color:gray; width:100%; margin-left: auto;margin-right: auto; margin-bottom:50px;">
-        <div class="footer">
+        <div class="footer-outer">
             <div class="footer__box">
                 <h3>
                     <i class="far fa-copyright"></i> 2020 Rebecca Richards <br> Designs
@@ -122,26 +121,43 @@
                     <li>My Little Eye Photograph</li>
                 </ul>
             </div>
-            <div class="footer__box footer__box_center">
+            <div class="footer-logo" class="footer__box">
                 <!--Need to link to privacy policy page-->
-                <div class="footer__box__logo">
-                </div>
             </div>
             <!--need to link to terms and conditions page-->
             <div class="footer__box">
                 <h3>Company</h3>
-                <h4><a href="#" target="_blank">Terms & Conditions</a></h3>
-                    <h4><a href="#" target="_blank">Privacy Policy</a></h3>
+                <ul>
+                    <li><a href="#" target="_blank">Terms & Conditions</a></li>
+                    <li><a href="#" target="_blank">Privacy Policy</a></li>
+                </ul>
             </div>
-            <div class="footer__box footer__box__social">
+            <div class="footer__box footer__box__social" id="footer-social">
                 <!--Social media footer needs to go here-->
-                <h2><a href="https://www.instagram.com/accounts/login/?next=/rebeccarichardsdesigns/" rel="noopener"
-                        target="_blank"><i class="fab fa-facebook-f"></i></a></h2>
-                <h2><a href="https://www.facebook.com/rebeccarichardsdesigns" target="_blank" rel="noopener"><i
-                            class="fab fa-instagram"></i></a></h2>
-                <h2><a href="https://www.pinterest.co.uk/rebeccarichardsdesigns/rebecca-richards-designs-wedding-invitations/"
-                        rel="noopener" target="_blank"><i class="fab fa-pinterest-p"></i></a></i></h2>
+                <ul>
+                    <li>
+                        <h2><a href="https://www.instagram.com/accounts/login/?next=/rebeccarichardsdesigns/"
+                                rel="noopener" target="_blank"><i class="fab fa-facebook-f"></i></a></h2>
+                    </li>
+                    <li>
+                        <h2><a href="https://www.facebook.com/rebeccarichardsdesigns" target="_blank" rel="noopener"><i
+                                    class="fab fa-instagram"></i></a></h2>
+                    </li>
+                    <li>
+                        <h2><a href="https://www.pinterest.co.uk/rebeccarichardsdesigns/rebecca-richards-designs-wedding-invitations/"
+                                rel="noopener" target="_blank"><i class="fab fa-pinterest-p"></i></a></h2>
+                    </li>
+                </ul>
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 </body>

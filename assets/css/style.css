@@ -500,6 +500,13 @@ h3 {
     bottom: 0;
     right:50px;
     font-size: 1.25vw;
+    padding: 2%;
+}
+
+@media (max-width:800px) {
+    #about-me-top__text-container {
+        font-size: 1.75vw;
+    }
 }
 
 @media (max-width:1000px) {
@@ -511,22 +518,22 @@ h3 {
 @media (max-width:560px) {
     #about-me-top__text-container {
         margin:0;
-        width: 100%;
-        height: 400px;
+        width: 95%;
+        height: 350px;
         background-color: rgba(250, 218, 221, .75);
         text-align: center;
         position: absolute;
         right: 0;
-        font-size: 2vw;
+        font-size: 2.3vw;
     }
 }
 
 #about-me-top p {
-    margin: 10%;
+    margin: 5%;
 }
 
 #about-me-top h2 {
-    margin: 10%;
+    margin: 5%;
 }
 
 /*About me bottom area */

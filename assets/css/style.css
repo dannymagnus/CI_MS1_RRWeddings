@@ -582,3 +582,43 @@ h3 {
     background-size: cover;
     height: 560px;
 }
+
+/* Products Page*/
+
+#product-hero {
+    height: 450px;
+    overflow: hidden;
+}
+
+#product-hero img {
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+}
+
+#products-banner {
+    background-color: rgba(175, 238, 238,.5);
+}
+
+#product-anchors {
+    margin:1rem;
+}
+
+#product-anchors a {
+    text-decoration: none;
+    color:inherit;
+}
+
+#customisable-border {
+    border-left: 2px solid #3a3a3a;
+    padding-left: .5rem;
+}
+
+#products-text-container {
+    display: flex;
+    flex-direction:column;
+}
+
+
+
+

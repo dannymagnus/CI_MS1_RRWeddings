@@ -632,6 +632,11 @@ h3 {
     justify-content: center;
 }
 
+#products-text-container {
+    text-align: center;
+    margin: 10px;
+}
+
 .sm {
     display: none;
 }
@@ -647,13 +652,18 @@ h3 {
 }
 
 .bespoke-box {
-    width: 360px;
+    width: 340px;
     text-align: center;
-    margin: 10px;
 }
 
 .sm {
     display: none;
+}
+
+@media (min-width: 560px) {
+    #bespoke-text-1 {
+        width: auto;
+    }
 }
 
 @media (min-width: 768px) {
@@ -671,6 +681,10 @@ h3 {
     #bespoke-text-1 {
         width: 60%;
     }
+
+    .sm {
+        display: inline;
+    }
 }
 
 /* Customisable */
@@ -680,6 +694,7 @@ h3 {
     overflow: hidden;
     background-size: cover;
     background-position: center center;
+    margin-top: 5rem;
 }
 
 #peony-banner {
@@ -704,20 +719,54 @@ h3 {
 }
 
 #customisable-text {
-    margin: 3rem 1rem;
+    margin: 3rem 1rem 0;
 }
+
+/*Peony*/
 
 .cust-product-outer {
     display: flex;
     justify-content: space-evenly;
-    margin: 3rem;
+    margin: 1rem;
     flex-wrap: wrap;
     align-items: center;
 }
 
+.cust-product-text-container {
+    text-align: center;
+}
+
 .cust-product-outer img {
     width: 340px;
-    margin: 10px;
+    height: 340px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+@media (min-width: 560px) {
+    .cust-product-outer img {
+        width: 320px;
+    }
+}
+
+@media (min-width:1000px) {
+    .cust-product-text-container {
+        width: 340px;
+    }
+    .cust-product-outer {
+        margin-top: 5rem;
+    }
+    .customisable-banner {margin-top:10rem;}
+    .spacer {margin-top:7rem;}
+}
+
+@media (min-width: 768px) {
+    .cust-product-img-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 700px;
+        justify-content: space-between;
+    }
 }
 
 #anenome-banner {

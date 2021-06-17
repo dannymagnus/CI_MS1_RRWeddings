@@ -790,3 +790,44 @@ h3 {
     background-size: cover;
     background-position: center center;
 }
+
+/* Contact us */
+
+contact-outer {
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#contact-outer h1 {
+    font-size: 200%;
+    line-height: 150px;
+    text-align: center;
+    width:90%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background-color: antiquewhite;
+}
+
+#map-outer {
+    width:90%;
+    display: flex;
+    margin: 0 auto;
+    background-color: #787878;
+    justify-content: center;
+}
+
+#map-container {
+    width:800px;
+    height: 400px;
+    background-color: aqua;
+}
+
+#contact-details-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#form input {
+    background-color: rgb(221, 221, 221)
+}

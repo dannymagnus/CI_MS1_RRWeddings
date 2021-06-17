@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 
@@ -20,7 +19,9 @@ body {
     text-transform: uppercase;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 180%;
 }
@@ -29,6 +30,9 @@ h1,h2,h3 {
     text-align: center;
 }
 
+.spacer {
+    margin-top: 3rem;
+}
 
 /*Header styling*/
 
@@ -190,7 +194,7 @@ h1,h2,h3 {
 #reasons-outer {
     min-height: 1000px;
     width: 90%;
-    margin:auto;
+    margin: auto;
     margin-top: 5rem;
 }
 
@@ -198,10 +202,11 @@ h1,h2,h3 {
     text-align: center;
     line-height: 3rem;
     display: block;
+    font-size: 300%;
 }
 
 #reasons-container {
-    display:flex;
+    display: flex;
     margin-top: 5rem;
     min-height: 25rem;
 }
@@ -214,14 +219,14 @@ h1,h2,h3 {
 }
 
 #reasons-text p {
-    margin:25px;
+    margin: 25px;
 }
 
 /*Get in touch*/
 
 #reasons-text h1 {
     text-transform: uppercase;
-    margin:25px;
+    margin: 25px;
 }
 
 #reasons-text a {
@@ -234,7 +239,7 @@ h1,h2,h3 {
     font-size: 1.5rem;
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(62, 67, 73);
-    max-width:250px;
+    max-width: 250px;
     margin: 25px;
 }
 
@@ -242,15 +247,23 @@ h1,h2,h3 {
     #reasons-container {
         flex-direction: column;
     }
+
     #portrait-left {
-    width: 55%;
-    position: absolute;
-    top: 75px;}
+        width: 55%;
+        position: absolute;
+        top: 75px;
+    }
+
     #reasons-text {
         align-items: center;
     }
+
     #reasons-text p {
         text-align: center;
+    }
+
+    .sub-heading {
+        font-size: 250%;
     }
 }
 
@@ -278,12 +291,12 @@ h1,h2,h3 {
 
 
 #featured-outer {
-    margin-top:5rem;
+    margin-top: 5rem;
 }
 
 @media (min-width: 560px) {
     #featured-outer {
-        margin-top:10rem;
+        margin-top: 10rem;
     }
 }
 
@@ -310,7 +323,7 @@ h1,h2,h3 {
 }
 
 #featured-container li {
-    width:20%
+    width: 20%
 }
 
 #featured-container img {
@@ -322,11 +335,11 @@ h1,h2,h3 {
 /* Styling Kind Words Section */
 
 #kind-words {
-    margin-top:5rem;
+    margin-top: 5rem;
     width: 100%;
     padding-bottom: 50px;
     background-image: url(../images/outline2.webp);
-    background-color: rgba(250, 235, 215,.5);
+    background-color: rgba(250, 235, 215, .5);
     background-size: contain;
 }
 
@@ -339,7 +352,7 @@ h1,h2,h3 {
 
 .testimonial-container {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 .testimonial-box {
@@ -380,8 +393,8 @@ h1,h2,h3 {
     .testimonial-container {
         flex-direction: column;
     }
-    .testimonial-box 
-    {
+
+    .testimonial-box {
         font-size: 3vw;
     }
 }
@@ -394,8 +407,8 @@ h1,h2,h3 {
     margin-bottom: 100px;
     justify-content: space-between;
     width: 100%;
-    align-items:flex-start;
-    height:600px;
+    align-items: flex-start;
+    height: 600px;
 }
 
 .footer__box {
@@ -403,7 +416,7 @@ h1,h2,h3 {
     font-size: .75em;
     text-transform: uppercase;
     text-align: center;
-    margin:1rem;
+    margin: 1rem;
 }
 
 .footer__box.footer__box__social {
@@ -412,7 +425,7 @@ h1,h2,h3 {
 
 .footer__box>ul {
     list-style-type: none;
-    display:flex;
+    display: flex;
     flex-direction: column;
 }
 
@@ -443,7 +456,7 @@ h3 {
 
 .footer__box__logo {
     background-image: url(../images/logoweb.webp);
-    background-size:100%;
+    background-size: 100%;
     background-color: #3a3a3a;
 }
 
@@ -469,12 +482,12 @@ h3 {
     text-align: center;
     margin: 0 50px;
     overflow: hidden;
-    position:relative;
+    position: relative;
 }
 
 #about-me-top {
     height: 800px;
-    width:100%;
+    width: 100%;
     background-color: bisque;
     position: relative;
 }
@@ -497,7 +510,7 @@ h3 {
     text-align: center;
     position: absolute;
     bottom: 0;
-    right:50px;
+    right: 50px;
     font-size: 1.25vw;
     padding: 2%;
 }
@@ -516,7 +529,7 @@ h3 {
 
 @media (max-width:560px) {
     #about-me-top__text-container {
-        margin:0;
+        margin: 0;
         width: 95%;
         height: 350px;
         background-color: rgba(255, 245, 231, 0.9);
@@ -539,16 +552,16 @@ h3 {
 
 .about-bottom-container {
     margin-top: 50px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    align-items:center;
-    justify-content:space-around;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .bottom-box {
-    width:360px;
+    width: 360px;
     text-align: center;
-    margin:10px;
+    margin: 10px;
 }
 
 #overlap-container {
@@ -570,7 +583,7 @@ h3 {
     position: absolute;
     height: 300px;
     bottom: 0;
-    right:0;
+    right: 0;
     background-image: url(../images/about-me-stack-2.jpg);
     background-size: cover;
 }
@@ -596,16 +609,16 @@ h3 {
 }
 
 #products-banner {
-    background-color: rgba(175, 238, 238,.5);
+    background-color: rgba(175, 238, 238, .5);
 }
 
 #product-anchors {
-    margin:1rem;
+    margin: 1rem;
 }
 
 #product-anchors a {
     text-decoration: none;
-    color:inherit;
+    color: inherit;
 }
 
 #customisable-border {
@@ -613,18 +626,10 @@ h3 {
     padding-left: .5rem;
 }
 
-
 #product-text-outer {
-    display:flex;
+    display: flex;
     width: 100%;
     justify-content: center;
-}
-
-#products-text-container {
-    display: flex;
-    flex-direction:column;
-    text-align:center;
-    margin: 5rem 1rem;
 }
 
 .sm {
@@ -633,57 +638,28 @@ h3 {
 
 /*Bespoke Section*/
 
-#bespoke-banner {
-    height: 200px;
-    overflow: hidden;
-    background-image: url(../images/bespoke-image.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
-#bespoke-banner div {
-    background-color: rgba(0, 0, 0, .2);
-}
-
-#bespoke-banner h1{
-    vertical-align: middle;
-    line-height: 200px;
-    color:white;
-    font-size: 40px;
-}
-
-#product-hero img {
-    object-fit: cover;
-    width: 100%;
-    height: 600px;
-}
-
 .bespoke-container {
     margin-top: 50px;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    align-items:center;
-    justify-content:space-around;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .bespoke-box {
-    width:360px;
+    width: 360px;
     text-align: center;
-    margin:10px;
-}
-
-#bespoke-video-container {
-    position: relative;
-    height: 260px;
+    margin: 10px;
 }
 
 .sm {
     display: none;
 }
 
-@media (min-width: 768px) {#bespoke-text-2 {
-    width: auto;
-}
+@media (min-width: 768px) {
+    #bespoke-text-2 {
+        width: auto;
+    }
 }
 
 @media (min-width: 992px) {
@@ -691,6 +667,7 @@ h3 {
         position: relative;
         width: 30%;
     }
+
     #bespoke-text-1 {
         width: 60%;
     }
@@ -698,21 +675,53 @@ h3 {
 
 /* Customisable */
 
-#customisable-banner {
+.customisable-banner {
     height: 200px;
     overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+#peony-banner {
     background-image: url(../images/bespoke-image.jpg);
     background-size: cover;
     background-position: center center;
 }
 
-#customisable-banner div {
+.customisable-banner div {
     background-color: rgba(0, 0, 0, .2);
 }
 
-#customisable-banner h1{
+.customisable-banner h1 {
     vertical-align: middle;
     line-height: 200px;
-    color:white;
+    color: white;
     font-size: 40px;
+}
+
+.customisable-container {
+    display: flex;
+}
+
+#customisable-text {
+    margin: 3rem 1rem;
+}
+
+.cust-product-outer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cust-product-outer img {
+    width: 340px;
+    margin: 10px;
+}
+
+#anenome-banner {
+    background-image: url(../images/bespoke-image.jpg);
+    background-size: cover;
+    background-position: center center;
 }

@@ -793,9 +793,8 @@ h3 {
 
 /* Contact us */
 
-contact-outer {
+#contact-outer {
     width: 100%;
-    background-color: aliceblue;
 }
 
 #contact-outer h1 {
@@ -806,28 +805,32 @@ contact-outer {
     margin: 0 auto;
     overflow: hidden;
     position: relative;
-    background-color: antiquewhite;
 }
 
 #map-outer {
     width:90%;
     display: flex;
     margin: 0 auto;
-    background-color: #787878;
     justify-content: center;
 }
 
 #map-container {
     width:800px;
     height: 400px;
-    background-color: aqua;
 }
 
 #contact-details-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 5rem auto;
 }
 
 #form input {
     background-color: rgb(221, 221, 221)
+}
+
+.contact-box {
+    width: 340px
 }

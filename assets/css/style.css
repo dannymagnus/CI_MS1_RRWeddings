@@ -641,6 +641,12 @@ h3 {
     display: none;
 }
 
+@media (min-width: 992px) {
+    #products-text-container{
+        margin: 50px;
+    }
+}
+
 /*Bespoke Section*/
 
 .bespoke-container {
@@ -685,6 +691,11 @@ h3 {
     .sm {
         display: inline;
     }
+
+    .bespoke-container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
 
 /* Customisable */
@@ -720,6 +731,11 @@ h3 {
 
 #customisable-text {
     margin: 3rem 1rem 0;
+}
+
+@media (min-width: 992px) {
+    .customisable-container{margin-left:50px;
+    margin-right: 50px;}
 }
 
 /*Peony*/

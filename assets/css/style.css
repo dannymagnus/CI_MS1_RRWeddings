@@ -53,7 +53,11 @@ h3 {
     margin: .5rem;
 }
 
-.booking-button a {
+.brand-title a {
+    color: inherit;
+}
+
+.booking-button {
     text-decoration: none;
     color: inherit;
     border: 2px solid rgba(250, 218, 221, 0.5);
@@ -62,6 +66,16 @@ h3 {
     background-color: rgba(250, 218, 221, 0.5);
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(62, 67, 73);
+}
+
+.booking-button:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3a3a3a;
+}
+
+.modal-header {
+    background-color: rgba(250, 218, 221, 0.5);
 }
 
 .navbar-links {
@@ -118,7 +132,7 @@ h3 {
         margin: .75rem;
     }
 
-    .booking-button {
+    .enquire-navbar {
         display: none;
     }
 
@@ -244,6 +258,11 @@ h3 {
 }
 
 @media (max-width: 800px) {
+
+    #reasons-text {
+        margin-bottom: 5rem;
+    }
+
     #reasons-container {
         flex-direction: column;
     }
@@ -330,6 +349,12 @@ h3 {
     height: 100%;
     width: 100%;
     object-fit: contain;
+}
+
+@media (min-width:800px) {
+    #featured-container li {
+        width: 10%
+    }
 }
 
 /* Styling Kind Words Section */
@@ -642,7 +667,7 @@ h3 {
 }
 
 @media (min-width: 992px) {
-    #products-text-container{
+    #products-text-container {
         margin: 50px;
     }
 }
@@ -734,8 +759,10 @@ h3 {
 }
 
 @media (min-width: 992px) {
-    .customisable-container{margin-left:50px;
-    margin-right: 50px;}
+    .customisable-container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
 
 /*Peony*/
@@ -769,11 +796,18 @@ h3 {
     .cust-product-text-container {
         width: 340px;
     }
+
     .cust-product-outer {
         margin-top: 5rem;
     }
-    .customisable-banner {margin-top:10rem;}
-    .spacer {margin-top:7rem;}
+
+    .customisable-banner {
+        margin-top: 10rem;
+    }
+
+    .spacer {
+        margin-top: 7rem;
+    }
 }
 
 @media (min-width: 768px) {
@@ -801,21 +835,21 @@ h3 {
     font-size: 200%;
     line-height: 150px;
     text-align: center;
-    width:90%;
+    width: 90%;
     margin: 0 auto;
     overflow: hidden;
     position: relative;
 }
 
 #map-outer {
-    width:90%;
+    width: 90%;
     display: flex;
     margin: 0 auto;
     justify-content: center;
 }
 
 #map-container {
-    width:800px;
+    width: 800px;
     height: 400px;
 }
 
@@ -827,7 +861,7 @@ h3 {
     margin: 5rem auto;
 }
 
-#form input {
+.form input {
     background-color: rgb(221, 221, 221)
 }
 

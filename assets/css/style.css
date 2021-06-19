@@ -208,8 +208,7 @@ h3 {
 #reasons-outer {
     min-height: 1000px;
     width: 90%;
-    margin: auto;
-    margin-top: 5rem;
+    margin: 5rem auto 0;
 }
 
 .sub-heading {

@@ -436,19 +436,15 @@ h3 {
     justify-content: space-between;
     width: 100%;
     align-items: flex-start;
-    height: 600px;
 }
 
 .footer__box {
+    width:18%;
     vertical-align: middle;
     font-size: .75em;
     text-transform: uppercase;
     text-align: center;
     margin: 1rem;
-}
-
-.footer__box.footer__box__social {
-    min-width: 20%;
 }
 
 .footer__box>ul {
@@ -482,10 +478,10 @@ h3 {
     margin: 0 auto;
 }
 
-.footer__box__logo {
-    background-image: url(../images/logoweb.webp);
-    background-size: 100%;
-    background-color: #3a3a3a;
+#footer-brand-logo {
+    object-fit:contain;
+    width: 100%;
+    height: 100%;
 }
 
 .footer__box__center {
@@ -496,8 +492,17 @@ h3 {
 @media (max-width: 800px) {
     .footer-outer {
         flex-direction: column-reverse;
-        align-items: stretch;
+        align-items: center;
         justify-content: start;
+    }
+    .footer__box{
+        width:auto;
+    }
+    .footer__box.footer__box__social {
+        width: 100%;
+    }
+    #footer-brand-logo-container {
+        display: none;
     }
 }
 

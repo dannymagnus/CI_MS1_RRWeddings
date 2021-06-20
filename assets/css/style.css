@@ -748,12 +748,6 @@ h3 {
     margin-top: 5rem;
 }
 
-#peony-banner {
-    background-image: url(../images/bespoke-image.jpg);
-    background-size: cover;
-    background-position: center center;
-}
-
 .customisable-banner div {
     background-color: rgba(0, 0, 0, .2);
 }
@@ -781,6 +775,12 @@ h3 {
 }
 
 /*Peony*/
+
+#peony-banner {
+    background-image: url(../images/peony-1.jpg);
+    background-size: cover;
+    background-position: center center;
+}
 
 .cust-product-outer {
     display: flex;
@@ -835,7 +835,7 @@ h3 {
 }
 
 #anenome-banner {
-    background-image: url(../images/bespoke-image.jpg);
+    background-image: url(../images/anenome-1.jpg);
     background-size: cover;
     background-position: center center;
 }

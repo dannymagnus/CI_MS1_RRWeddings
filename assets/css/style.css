@@ -60,7 +60,6 @@ h3 {
 .booking-button {
     text-decoration: none;
     color: inherit;
-    border: 2px solid rgba(250, 218, 221, 0.5);
     padding: 0 1.5rem;
     margin-right: 1.5rem;
     background-color: rgba(250, 218, 221, 0.5);
@@ -245,8 +244,7 @@ h3 {
 #reasons-text a {
     text-decoration: none;
     color: inherit;
-    border: 2px solid rgba(250, 218, 221, 0.5);
-    padding: 15px;
+        padding: 15px;
     line-height: 75px;
     background-color: rgba(250, 218, 221, 0.5);
     font-size: 1.5rem;

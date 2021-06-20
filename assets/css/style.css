@@ -244,7 +244,7 @@ h3 {
 #reasons-text a {
     text-decoration: none;
     color: inherit;
-        padding: 15px;
+    padding: 15px;
     line-height: 75px;
     background-color: rgba(250, 218, 221, 0.5);
     font-size: 1.5rem;
@@ -439,7 +439,7 @@ h3 {
 }
 
 .footer__box {
-    width:18%;
+    width: 18%;
     vertical-align: middle;
     font-size: .75em;
     text-transform: uppercase;
@@ -479,7 +479,7 @@ h3 {
 }
 
 #footer-brand-logo {
-    object-fit:contain;
+    object-fit: contain;
     width: 100%;
     height: 100%;
 }
@@ -495,12 +495,15 @@ h3 {
         align-items: center;
         justify-content: start;
     }
-    .footer__box{
-        width:auto;
+
+    .footer__box {
+        width: auto;
     }
+
     .footer__box.footer__box__social {
         width: 100%;
     }
+
     #footer-brand-logo-container {
         display: none;
     }
@@ -651,6 +654,11 @@ h3 {
 #product-anchors a {
     text-decoration: none;
     color: inherit;
+}
+
+#product-anchors a:hover {
+    font-size: 110%;
+    font-weight: bold;
 }
 
 #customisable-border {

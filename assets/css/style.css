@@ -619,7 +619,7 @@ h3 {
     height: 300px;
     margin-right: -15%;
     margin-left: 0;
-    background-image: url(../images/about-me-stack-1.jpg);
+    background-image: url(../images/about-me-stack-1.webp);
     background-size: cover;
 }
 
@@ -629,12 +629,12 @@ h3 {
     height: 300px;
     bottom: 0;
     right: 0;
-    background-image: url(../images/about-me-stack-2.jpg);
+    background-image: url(../images/about-me-stack-2.webp);
     background-size: cover;
 }
 
 #about-bottom-portrait {
-    background-image: url(../images/about-me-bottom-right.jpg);
+    background-image: url(../images/about-me-bottom-right.webp);
     background-repeat: no-repeat;
     background-size: cover;
     height: 560px;

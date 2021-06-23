@@ -540,7 +540,7 @@ h3 {
 #about-me-top__image-container {
     height: 800px;
     width: 100%;
-    background: url(../images/about-me-main.jpg) center center;
+    background: url(../images/about-me-main.webp) center center;
     background-size: cover;
     background-position: -300px center;
     overflow: hidden;

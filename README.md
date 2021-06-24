@@ -98,14 +98,42 @@ _Contact Us_
 The get in touch page will have the process details for starting the inquiry/order process, it will also contain the contact form.
 
 ------Validation
-EXPLAIN
-------Testing of User Stories(Feature-Action-Expected result-Actual result)
-EXPLAIN
-------Bugs
-EXPLAIN
-------Deployment
-EXPLAIN
-------Credit
-EXPLAIN
------Acknowledgements
-EXPLAIN
+## Technologies Used
+
+### Languages 
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Frameworks, libraries and other tools 
+
+1. [Git](https://git-scm.com/)
+- Git was used for version control within VSCode to push the code to GitHub.
+2. [GitHub](https://github.com/)
+- GitHub was used as a remote repository to store project code. 
+3. [GIMP](https://www.gimp.org/)
+- GIMP was used to edit, crop, resize and convert files found within each of the site pages.
+4. [Balsamiq](https://balsamiq.com/)
+-  Balsamiq was my choice for creating wireframes for the site.
+5. [Font Awesome](https://fontawesome.com/)
+- Font awesome was used to generate the social media footer icons on each page.
+6. [Google Fonts](https://fonts.google.com/)
+- Cormorant Garamond and Playfair Display were the fonts taken from Google for headings and body respectively.
+7. [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- Bootstrap was used for the landing carousel, responsive nav bar, contact form, privacy policy and general terms and conditions modals.
+8. [Am I Responsive](http://ami.responsivedesign.is/)
+- The mockup image was created using Am I Responsive
+9. [Gitpod] (https://gitpod.io/)
+- Gitpod was used in part to write the code for this project.
+10. [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
+- VSCode was the IDE used to write the remainder of the project code.
+11. [Google Maps](https://www.google.co.uk/maps)
+- Google Maps was used for the iframe in contact information.
+
+## Testing 
+
+### HTML Validation
+
+The HTML of the each page of the site was validated using [W3C Markup Validation Service](https://validator.w3.org/).  All pages returned a pass with 0 errors and 0 warnings.
+
+Results can be found as follows: 

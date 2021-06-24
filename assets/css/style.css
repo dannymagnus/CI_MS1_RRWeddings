@@ -360,9 +360,6 @@ h3 {
 }
 
 #kind-words h1 {
-    background-color: rgba(250, 235, 215, 0);
-    display: block;
-    width: 100%;
     line-height: 150px;
 }
 
@@ -371,24 +368,23 @@ h3 {
     justify-content: space-around;
 }
 
+/*Testimonials*/
+
 .testimonial-box {
-    min-width: 0;
     border: 1px solid #787878;
     box-shadow: #787878 5px 5px 5px;
     margin: 15px;
     padding: 15px;
     text-align: center;
     border-radius: 10px;
-    max-height: 75%;
     background-color: white;
 }
 
 .testimonial__heading {
-    text-transform: uppercase;
     min-height: 33%;
     vertical-align: middle;
     margin-top: 50px;
-    font-size: larger;
+    font-size:large;
     font-family: 'Cormorant Garamond';
 }
 
@@ -433,6 +429,8 @@ h3 {
     text-align: center;
     margin: 1rem;
 }
+
+/*Footer logo*/
 
 #footer-brand-logo-container {
     margin-top: 0;

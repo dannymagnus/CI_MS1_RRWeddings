@@ -136,5 +136,33 @@ The get in touch page will have the process details for starting the inquiry/ord
 
 The HTML of the each page of the site was validated using [W3C Markup Validation Service](https://validator.w3.org/).  All pages returned a pass with 0 errors and 0 warnings.
 
-Results can be found as follows: [Home](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/html-validation/html-validation-index.png) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/html-validation/html-validation-about.PNG) [Products](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/html-validation/html-validation-products.png) [Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/html-validation/contact-validation-index.png)
+Results can be found as follows: [Home](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/html-validation/html-validation-index.png) [About](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/html-validation/html-validation-about_us.png) [Products](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/html-validation/html-validation-products.png) [Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/html-validation/html-validation-contact.png)
 
+### CSS Validation
+
+The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. 
+
+The CSS passed with [0 errors](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/css-validation/css-validation.png). 
+
+### Accessibility
+
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was used to ensure the website met high accessibility standards. All pages returned 0 errors.
+
+Results as follows: [Home](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/wave-validation/wave-validation-index.png) [About](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/wave-validation/wave-validation-about_us.png) [Products](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/wave-validation/wave-validation-products.png) [Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/wave-validation/wave-validation-index.png) 
+
+### Performance 
+
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. Each page passed with at least 97% score on performance, 97% on accessibility, 93% on best practices and 100% on SEO. 
+
+Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-home.PNG) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-about.PNG) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-timetable.PNG) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-pricing.PNG) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-contact.PNG) [404](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-404.PNG)
+
+------Testing of User Stories(Feature-Action-Expected result-Actual result)
+EXPLAIN
+------Bugs
+EXPLAIN
+------Deployment
+EXPLAIN
+------Credit
+EXPLAIN
+-----Acknowledgements
+EXPLAIN

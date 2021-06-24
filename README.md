@@ -60,21 +60,6 @@ There shall be a link/button in the header to a modal contact/enquiry form.
 
 The site will be split into 4 pages, home, products/services, about us, contact me.
 
------- Wireframes
-balsamiq tool has been used to create the site wireframes and has been attached in the images folder of this repo.
-
-------Technologies used
-HTML - Used for front end appliation and main contect structure
-CSS - Used for document styling as can be cascaded to multiple sheets
-balsamiq - https://balsamiq.com - wireframing tool
-github - https://github.com repository for code and assets
-gitpod - code editor
-validation HTML- https://balsamiq.com/ validatorw3
-Validation CSS - https://jigsaw.w3.org/css-validator/ jigsaw
-Validation Accessibility - https://wave.webaim.org/
-Perfomance - https://developers.google.com/web/tools/lighthouse
-Mockup testing - http://ami.responsivedesign.is/
-
 ------Features
 
 _navigation bar_ - this will appear across all pages so that the user does not have to navigate using the browsers back and forward button.  It also gives familiarity across the site

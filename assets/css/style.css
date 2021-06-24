@@ -211,7 +211,6 @@ h3 {
 /* Why choose us */
 
 #why-us-outer {
-    min-height: 1000px;
     width: 90%;
     margin: 5rem auto 0;
 }
@@ -265,8 +264,6 @@ h3 {
         flex-direction: column;
     }
     #portrait-left {
-        width: 55%;
-        position: absolute;
         top: 75px;
     }
     #reasons-text {
@@ -311,7 +308,7 @@ h3 {
 
 @media (max-width:500px) {
     #featured-outer {
-        margin-top: 2rem;
+        margin: 2rem;
     }
 }
 

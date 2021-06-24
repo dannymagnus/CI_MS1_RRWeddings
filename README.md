@@ -137,9 +137,10 @@ Results as follows: [Home](https://github.com/dannymagnus/wedding-company/blob/m
 
 ### Performance 
 
-[Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. Each page passed with at least 97% score on performance, 97% on accessibility, 93% on best practices and 100% on SEO. 
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. Each page scored over 90 in all categories - performance, accessibility, best practice and SEO with results below:
 
-Click on the page name to see the result: [Home](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-home.PNG) [About](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-about.PNG) [Timetable](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-timetable.PNG) [Pricing](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-pricing.PNG) [Contact](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-contact.PNG) [404](https://github.com/TaraRhoseyn/CardiffSwimCentreMS1/blob/main/docs/validation/lighthouse-performance/lighthouse-404.PNG)
+
+ [Home](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/lighthouse-validation/lighthouse-validation-index.png) [About](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/lighthouse-validation/lighthouse-validation-about_us.png) [Products](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/lighthouse-validation/lighthouse-validation-products.png) [Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/lighthouse-validation/lighthouse-validation-contact.png)
 
 ------Testing of User Stories(Feature-Action-Expected result-Actual result)
 EXPLAIN

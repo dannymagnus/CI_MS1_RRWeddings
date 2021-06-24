@@ -136,4 +136,4 @@ The get in touch page will have the process details for starting the inquiry/ord
 
 The HTML of the each page of the site was validated using [W3C Markup Validation Service](https://validator.w3.org/).  All pages returned a pass with 0 errors and 0 warnings.
 
-Results can be found as follows: 
+Results can be found as follows: [Home]

@@ -11,7 +11,26 @@ The business goals for rrweddings are:
 - To create a brand identity which stands out in a crowded market by showing the unique creation methods.
 - To reach a wider audience base outside of local wedding fayres and wedding venue network
 
+The User Goals:
+- I want to be able to view an image gallery so that I can see what products are available to help me decide and provide inspiration.
+- As a potential customer I want to be able to contact the company for more information so that I discuss my specific needs.
+- I want to be able to see some product prices and product information so I know whether the product is right for me
+- I want to know that I can trust the business and see more of the people behind the scenes as it is a meaningful purchase.
 
+## User Experience
+
+### Target Audience
+
+- Brides
+- Grooms
+- wedding planners
+- wedding venues
+
+### User Stories
+
+The two categories of users are first time users, who will be visiting the page for the first time, and return visitors, who will be returning to finalise their purchase and book.
+
+-------------------------------------------------------------------
 ------User Goals/Stories
 As a potential customer:
 - I want to be able to view an image gallery so that I can see what products are avaliable to help me decide

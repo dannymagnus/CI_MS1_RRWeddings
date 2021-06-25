@@ -44,8 +44,6 @@ The two categories of users are first time users, who will be visiting the page 
 11. As a site owner; I want prospective customers to be able to contact me to book their wedding stationery.
 12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
 
-# SCOPE  to complete
-
 ## Scope 
 
 The scope of the project in it’s first release is defined by the following features: 
@@ -63,7 +61,6 @@ The scope of the project in it’s first release is defined by the following fea
 - Embedded video to show the creation process and increase interaction with the site.
 - An example image gallery for two off the shelf designs.
 - Favicon icon to help users identify the site.
-
 
 Features to be built in future releases: 
 

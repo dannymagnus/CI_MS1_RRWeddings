@@ -221,9 +221,9 @@ By forking this GitHub repository you are making a copy of the original to view 
 
 ### Code
 
-- **WebDev Simplified** [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=363s)[Units](https://www.youtube.com/watch?v=-GR52czEd-0)Youtuber for understanding flexbox and implementing testimonials, units, implementing responsive navbar.
+- **WebDev Simplified** [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=363s) [Units](https://www.youtube.com/watch?v=-GR52czEd-0)Youtuber for understanding flexbox and implementing testimonials, units, implementing responsive navbar.
 - **Frontend Paathshala** [Modal Forms](https://https://www.youtube.com/watch?v=29ENlVMuTHs)
-- **CSS Tricks** [Flexbox] (https://www.youtube.com/watch?v=29ENlVMuTHs) For flexbox in 
+- **CSS Tricks** [Flexbox](https://www.youtube.com/watch?v=29ENlVMuTHs) For flexbox in 
 overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers) 
 - **W3C Schools** - for [Breakpoints](https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp) in making each page responsive on different devices.
 

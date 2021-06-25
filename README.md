@@ -243,5 +243,6 @@ Media from the following artists was used throughout the site.
 ### Acknowledgements: 
 
 - To my wife Rebbeca Richards for her testing, support, feedback, permissions for content and images on this project. 
+- To Trevor Lazarus for his feedback and guidance.
 - To my mentor Mo Shami for his invaluable guidance and direction.
 - To the Code Institute slack community of students.

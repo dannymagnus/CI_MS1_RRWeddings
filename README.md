@@ -105,7 +105,7 @@ The get in touch page will have the process details for starting the inquiry/ord
 6. [Google Fonts](https://fonts.google.com/)
 - Cormorant Garamond and Playfair Display were the fonts taken from Google for headings and body respectively.
 7. [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-- Bootstrap was used for the landing carousel, responsive nav bar, contact form, privacy policy and general terms and conditions modals.
+- Bootstrap was used for the landing carousel, responsive nav bar, contact form modal, privacy policy and general terms and conditions modals.
 8. [Am I Responsive](http://ami.responsivedesign.is/)
 - The mockup image was created using Am I Responsive
 9. [Gitpod] (https://gitpod.io/)
@@ -142,13 +142,106 @@ Results as follows: [Home](https://github.com/dannymagnus/wedding-company/blob/m
 
  [Home](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/lighthouse-validation/lighthouse-validation-index.png) [About](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/lighthouse-validation/lighthouse-validation-about_us.png) [Products](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/lighthouse-validation/lighthouse-validation-products.png) [Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/lighthouse-validation/lighthouse-validation-contact.png)
 
-------Testing of User Stories(Feature-Action-Expected result-Actual result)
-EXPLAIN
+### Performing tests on various devices 
+
+#### Devices tested: 
+
+- Samsung Galaxy S20 Plus
+- iPhone SE 
+- Iphone XS
+- Macbook Pro 13.3"
+
+#### Tests performed: 
+
+1. Navigation toggle expands sub menu with no errors, resizing changes nav bar to burger icon.
+2. Navigation link work properly and redirect to appropriate pages with no broken links.
+3. Clicking the header logo directs users back to the home page on all pages.
+2. All internal anchor and outbound links tested to ensure correct redirect behavior with no broken links
+3. The enquire modal opens correctly on each page from both header and inline in index, able to populate and closes when submitted or close selected.
+4. The modal or contact form will not submit umless the user has sumbitted a name and email, phone remains optional.
+5. The footer modals; privacy policy and terms and conditions, are scrollable and close when close icons are selected.
+6. The bespoke video plays on each device and is able to be controlled and expanded to full screen.
+7. Images and text collapse into a column view when view on mobile devices.
+9. The google map has a location pin and is responsive to show company location.
+11. Inline anchor in product page direct customer to contact page.
+12. Anchor elements show a grow effect when hovered over and selected. 
+13. All pages are responsive and no text or image cut off in mobile views
+14. Designated items and text do not show in mobile layout.
+15. All copy is clear and legible.
+16. Flexbox and direction and breakpoints checked on browser resizing.
+
+#### Results: 
+
+All devices were able to pass all tests.
+
+### Browser compatability
+
+- **Microsoft Edge**: Website and user stories work as expected. 
+- **Google Chrome**: Website and user stories work as expected. 
+- **Safari**:  Website and user stories work as expected. 
+- **Firefox**: Website and user stories work as expected. 
 ------Bugs
 EXPLAIN
-------Deployment
-EXPLAIN
-------Credit
-EXPLAIN
------Acknowledgements
-EXPLAIN
+## Deployment
+
+### GitHub Pages
+
+This website has been deployed using GitHub pages. To do the same...
+
+1. Log into your GitHub account and find the [repository](https://github.com/dannymagnus/wedding-company). 
+2. Click on 'Settings' in the repository. 
+3. Click 'Pages' in the left-hand menu once you're in Settings. 
+4. Click 'Source'.
+5. Click the dropdown menu which says 'None', then select 'Master Branch'.
+6. Wait for page to refresh automatically. 
+7. Under GitHub pages you can now find a link to the published live website. 
+
+### Forking the GitHub Repository 
+
+By forking this GitHub repository you are making a copy of the original to view or make changes without affecting the original. You can do this by following these steps...
+
+1. Log into your GitHub account and find the [repository](https://github.com/dannymagnus/wedding-company).
+2. Click 'Fork' (last button on the top right of the repository page).
+3. You will then have a copy of the repository in your own GitHub account. 
+
+### Making a Local Clone
+
+1. Log into your GitHub account and find the [repository](https://github.com/dannymagnus/wedding-company).
+2. Click on the 'Code' button (next to 'Add file'). 
+3. To clone the repository using HTTPS, under clone with HTTPS, copy the link.
+4. Then open Git Bash.
+5. Change the current working directory to where you want the cloned directory to be made.
+6. In your IDE's terminal type 'git clone' followed by the URL you copied.
+7. Press Enter. 
+8. Your local clone will now be made.
+
+## Credits
+
+*All credit also included in the page files.*
+
+### Code
+
+- **WebDev Simplified** [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=363s)[Units](https://www.youtube.com/watch?v=-GR52czEd-0)Youtuber for understanding flexbox and implementing testimonials, units, implementing responsive navbar.
+- **Frontend Paathshala** [Modal Forms](https://https://www.youtube.com/watch?v=29ENlVMuTHs)
+- **CSS Tricks** [Flexbox] (https://www.youtube.com/watch?v=29ENlVMuTHs) For flexbox in 
+overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers) 
+- **W3C Schools** - for [Breakpoints](https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp) in making each page responsive on different devices.
+
+### Media
+
+Media from the following artists was used throughout the site.
+
+- [The Brand Studio](https://www.thebrandstudio.co/)
+- [Rebecca Carpenter Photography](https://rebeccacarpenterphotography.com/)
+- [Pierra Photography](https://pierragphotography.com/)
+- [Stott Weddings](https://www.stottweddings.com/)
+- [Anna Rousos](https://annaroussos.com/)
+- [Katherine Yiannaki](https://katherineyiannaki.com/)
+- [David Boyton Photography](https://davidboyntonweddingphotography.pixieset.com/)
+
+
+### Acknowledgements: 
+
+- To my wife Rebbeca Richards for her testing, support, feedback, permissions for content and images on this project. 
+- To my mentor Mo Shami for his invaluable guidance and direction.
+- To the Code Institute slack community of students.

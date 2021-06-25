@@ -18,6 +18,7 @@
 
 <body>
     <header>
+        <!--Responsive nav bar styled using bootstrap library with custom CSS-->
         <nav class="navbar">
             <div class="brand-title">
                 <a href="index.html">RR Weddings</a>
@@ -29,12 +30,14 @@
             </a>
             <div class="navbar-links">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a id="home-link" href="index.html">Home</a></li>
                     <li><a href="products.html">Products</a></li>
                     <li><a href="about_us.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
+            <!--modal here is in different location to index as there is no get in touch button later in page-->
+            <!--Bootstrap 4 used with some custom CSS-->
             <div class="enquire-navbar">
                 <a class="booking-button" href="#mymodal" data-toggle="modal" data-target="#mymodal">Enquire now!</a>
                 <div class="modal" id="mymodal">

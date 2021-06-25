@@ -32,17 +32,18 @@ The two categories of users are first time users, who will be visiting the page 
 3. As a first time user; I want to see that the businesses values match my own.
 4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.
 5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
-6. As a first time user; I want to be able to contact the business if I have any initial queries. 
+6. As a first time user; I want to be able to contact the business if I have any initial queries easily. 
+7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.
 #### Return visitors
 
-7. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
+8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
 #### Site owner
 
-8. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
-9. As a site owner; I want to reach B2C customers nationally
-10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
-11. As a site owner; I want prospective customers to be able to contact me to book their wedding stationery.
-12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
+9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
+10. As a site owner; I want to reach B2C customers nationally
+11. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
+12. As a site owner; I want prospective customers to be able to contact me to book their wedding stationery.
+13. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
 
 ## Scope 
 
@@ -276,6 +277,13 @@ All devices were able to pass all tests.
 | Find brand header logo in top left of each page  |   Click on header logo    | Navigates to home page in same browser tab | Works as expected |
 
 [Screenshot to show user story]()
+
+*2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
+| Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
 
 *2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.*
 

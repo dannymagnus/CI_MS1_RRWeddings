@@ -45,6 +45,33 @@ The two categories of users are first time users, who will be visiting the page 
 12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
 
 # SCOPE  to complete
+
+## Scope 
+
+The scope of the project in it’s first release is defined by the following features: 
+
+- Responsive navigation bar mirrored across each page which enables users to navigate the site without user the browser buttons.
+- A footer across all pages with links to social media, terms and conditions with pricing, links to featured partners. 
+- Modal where you can book an intial enquiry with the site owner/company.
+- Pricing page which communicates the benefits of membership clearly and explains costs simply. 
+- Contact form where the customer can send an enquiry, when all fields are populated.
+- Embedded map with pin to show company location.
+- Contact details with email address and business address for further correspondance and to provide more that one contact method. 
+- An as featured in section to incorporate badges to give business credibility. 
+- An about page to with information about the business and owner to build a personal connection and trust.
+- A products page with introduction to products on offer with entry price points.
+- Embedded video to show the creation process and increase interaction with the site.
+- An example image gallery for two off the shelf designs.
+- Favicon icon to help users identify the site.
+
+
+Features to be built in future releases: 
+
+- Further four designs with image galleries in customisable section. 
+- Links to downloadable price lists for each suite of options.
+- A page for 'on the day' stationary offerings, to include propositions such as menus, place cards, orders of service, signage.
+
+*Find more information on features in the [Features section](#features)*
 # Design
 
 My theme for the design came from the brand imagery. I wanted to create a website that would compliment but not overshadow the galleries to ensure they stand out to customers. 

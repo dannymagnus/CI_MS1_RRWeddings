@@ -4,18 +4,20 @@
 
 [View live site](https://dannymagnus.github.io/wedding-company/)
 
-##Project Goals
-rrweddings is a small wedding company offering various end to end solutions, direct to customers for wedding stationary design, creation, print and delivery.  Key USP is bespoke design from ground up including items for on the day, such as orders of service, signage, food menus.  Key purposes of the website are to:
-Increase customer base
-Increase sales
-Reach wider audience that local fayres and venue contacts
+## Project Goals
+
+The business goals for rrweddings are:
+- To generate sales of the different wedding stationery packages. 
+- To create a brand identity which stands out in a crowded market by showing the unique creation methods.
+- To reach a wider audience base outside of local wedding fayres and wedding venue network
+
 
 ------User Goals/Stories
 As a potential customer:
-I want to be able to view an image gallery so that I can see what products are avaliable to help me decide
-As a potential custemer I want to be able to contact the company for more information so that I discuss my specific needs
-I want to gain some ideas and inspiration if I'm unlcear on what I want
-I want to know that I can trust the business as
+- I want to be able to view an image gallery so that I can see what products are avaliable to help me decide
+- As a potential custemer I want to be able to contact the company for more information so that I discuss my specific needs
+- I want to gain some ideas and inspiration if I'm unlcear on what I want
+- I want to know that I can trust the business as
 As a business owner:
 I want to to show my work to potential customers via image gallery and collections
 I want to to present my/business personality positively to gain trust from my prospects
@@ -108,7 +110,7 @@ The get in touch page will have the process details for starting the inquiry/ord
 - Bootstrap was used for the landing carousel, responsive nav bar, contact form modal, privacy policy and general terms and conditions modals.
 8. [Am I Responsive](http://ami.responsivedesign.is/)
 - The mockup image was created using Am I Responsive
-9. [Gitpod] (https://gitpod.io/)
+9. [Gitpod](https://gitpod.io/)
 - Gitpod was used in part to write the code for this project.
 10. [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
 - VSCode was the IDE used to write the remainder of the project code.
@@ -180,6 +182,7 @@ All devices were able to pass all tests.
 - **Google Chrome**: Website and user stories work as expected. 
 - **Safari**:  Website and user stories work as expected. 
 - **Firefox**: Website and user stories work as expected. 
+
 ------Bugs
 EXPLAIN
 ## Deployment
@@ -243,6 +246,5 @@ Media from the following artists was used throughout the site.
 ### Acknowledgements: 
 
 - To my wife Rebbeca Richards for her testing, support, feedback, permissions for content and images on this project. 
-- To Trevor Lazarus for his feedback and guidance.
 - To my mentor Mo Shami for his invaluable guidance and direction.
 - To the Code Institute slack community of students.

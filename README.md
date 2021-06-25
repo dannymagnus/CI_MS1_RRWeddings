@@ -27,9 +27,9 @@ The User Goals:
 The two categories of users are first time users, who will be visiting the page for the first time, and return visitors, who will be returning to finalise their purchase and book.
 #### First-time users
 
-1. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
-2. As a first time user; I want to be able to navigate the site and access the information easily.
-3. As a first time user; I want to see that the businesses values match my own
+1. As a first time user; I want to be able to navigate the site and access the information easily.
+2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
+3. As a first time user; I want to see that the businesses values match my own.
 4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.
 5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
 6. As a first time user; I want to be able to contact the business if I have any initial queries. 
@@ -266,6 +266,25 @@ All devices were able to pass all tests.
 - **Safari**:  Website and user stories work as expected. 
 - **Firefox**: Website and user stories work as expected. 
 
+### Testing user stories
+
+*1. As a first time user; I want to be able to navigate the site and access the information easily.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Find Navigation bar on top right of each page       |      Click each link to desired page       | Site loads each page as clicked in same browser tab | Works as expected |
+| Find brand header logo in top left of each page  |   Click on header logo    | Navigates to home page in same browser tab | Works as expected |
+
+[Screenshot to show user story]()
+
+*2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
+| Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
+
+[Screenshot to show user story]()
 ------Bugs
 EXPLAIN
 ## Deployment

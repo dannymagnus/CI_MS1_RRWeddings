@@ -3,7 +3,6 @@
 ![Mockup of RR Weddings](https://github.com/dannymagnus/wedding-company/blob/master/docs/mockup/mockup_rrweddings.png)
 
 [View live site](https://dannymagnus.github.io/wedding-company/)
-
 ## Project Goals
 
 The business goals for rrweddings are:
@@ -16,19 +15,60 @@ The User Goals:
 - As a potential customer I want to be able to contact the company for more information so that I discuss my specific needs.
 - I want to be able to see some product prices and product information so I know whether the product is right for me
 - I want to know that I can trust the business and see more of the people behind the scenes as it is a meaningful purchase.
-
 ## User Experience
-
 ### Target Audience
 
 - Brides
 - Grooms
 - wedding planners
 - wedding venues
-
 ### User Stories
 
 The two categories of users are first time users, who will be visiting the page for the first time, and return visitors, who will be returning to finalise their purchase and book.
+#### First-time users
+
+1. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
+2. As a first time user; I want to be able to navigate the site and access the information easily.
+3. As a first time user; I want to see that the businesses values match my own
+4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.
+5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
+6. As a first time user; I want to be able to contact the business if I have any initial queries. 
+#### Return visitors
+
+7. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
+#### Site owner
+
+8. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
+9. As a site owner; I want to reach B2C customers nationally
+10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
+11. As a site owner; I want prospective customers to be able to contact me to book their wedding stationery.
+12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
+
+# SCOPE  to complete
+# Design
+
+My theme for the design came from the brand imagery. I wanted to create a website that would compliment but not overshadow the galleries to ensure they stand out to customers. 
+I wanted it to appear soft with romantic elements to match the target audience, which mostly consists of female brides, and I used inspiration from nature to compliment the products on offer.
+
+I wanted a site that was straightforward, with the information being concise and clear in a way that’s easy to navigate. 
+### Colour Scheme
+
+I have used a neutral colour scheme to compliment the images on the website. Warm pastel shades give off a feeling of luxury whilst also appealing to many brides wedding colour schemes.
+### Typography
+
+My heading font is Cormorant Garamond from Google Fonts. I chose this font because:
+- The elegant and curved nature is similar to the fonts used in the products on display. 
+- It gives a contrast to the font used for the body text so the headers stand out.
+
+My body font is Playfair Display from Google Fonts. I chose this font because:
+It contrasts well with the header font.
+### Imagery
+
+All of the imagery displayed on the site are provided by the business RRweddings. They are shown with the credits to the owners/photographers of the images on the home page. Permission was granted by the site owner to use existing text from a previous site.
+
+Most of the images depict the products either in an aspirational gallery to act as a portfolio, or in the product pages to show to prospective customers. 
+The images are high quality, professional standard with a cohesive theme throughout to maintain the business and brand standards. They convey the brand identity through florals and natural elements whilst giving the impression of luxury.
+
 
 -------------------------------------------------------------------
 ------User Goals/Stories

@@ -77,10 +77,10 @@ I wanted it to appear soft with romantic elements to match the target audience, 
 I wanted a site that was straightforward, with the information being concise and clear in a way that’s easy to navigate. 
 ### Colour Scheme
 
-Text headings - #383d41
-Text Body - #383d41
-Background colours - #fff
-Modals and buttons - rgba(250, 218, 221, 0.5)
+- Text headings - #383d41
+- Text Body - #383d41
+- Background colours - #fff
+- Modals and buttons - rgba(250, 218, 221, 0.5)
 
 These colours have been chosen as they fit with the images that will be used for background and for foreground images and a representative of the end product.  They must also be suitable for accessibility support.
 ### Typography

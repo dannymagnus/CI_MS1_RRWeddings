@@ -80,6 +80,31 @@ Features to be built in future releases:
 
 ## Structure
 
+The structure of the site is to contain four pages in order; 
+- Home 
+- Products
+- About
+- Contact.
+
+Each page contains the following structure
+
+*Brand logo text* - Clicking this will return the user to the landing page regardless from which page it is selected.
+
+*Navbar* - A responsive navbar to be featured in the header of each page.  The links will be ordered from left to right in order of priority to the site and project goals and will link to each of the four pages listed above.  A modal enquiry button will also be featured unless on mobile devices for a quick enquiry form.
+
+*Title Banner* - to display current page on view.
+
+*Content Blocks* - The top most being the highest priority information flowing downwards to the lower tiers of priority. The structure will follow the law of thirds to make it visually appealing to users.  These blocks will contain call to action in each page, either inline or modal to contact the business and internal links following the sales progression where appropriate.
+
+*Footer* - This will display image credits and link to other business partners eg wedding photography, it will have terms and conditions link as well as social media links
+
+
+## Skeleton 
+
+Designed using mobile first the following forms the skeleton.
+
+### Wireframes
+
 
 # Design
 

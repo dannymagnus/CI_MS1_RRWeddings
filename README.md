@@ -40,10 +40,9 @@ The two categories of users are first time users, who will be visiting the page 
 #### Site owner
 
 9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
-10. As a site owner; I want to reach B2C customers nationally
-11. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
-12. As a site owner; I want prospective customers to be able to contact me to book their wedding stationery.
-13. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
+10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
+11. As a site owner; I want prospective customers to be able to contact me to book their wedding stationery.
+12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
 
 ## Scope 
 
@@ -78,7 +77,12 @@ I wanted it to appear soft with romantic elements to match the target audience, 
 I wanted a site that was straightforward, with the information being concise and clear in a way that’s easy to navigate. 
 ### Colour Scheme
 
-I have used a neutral colour scheme to compliment the images on the website. Warm pastel shades give off a feeling of luxury whilst also appealing to many brides wedding colour schemes.
+Text headings - #383d41
+Text Body - #383d41
+Background colours - #fff
+Modals and buttons - rgba(250, 218, 221, 0.5)
+
+These colours have been chosen as they fit with the images that will be used for background and for foreground images and a representative of the end product.  They must also be suitable for accessibility support.
 ### Typography
 
 My heading font is Cormorant Garamond from Google Fonts. I chose this font because:
@@ -279,18 +283,72 @@ All devices were able to pass all tests.
 [Screenshot to show user story]()
 
 *2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.*
+*4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*
+*9. 9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
 
 | Feature                            |                 Action                 |                           Expected result |     Actual result |
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
 | Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
 | Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
 
-*2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.*
+*3. As a first time user; I want to see that the businesses values match my own.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Find link to About page in nav bar       |      Click link and scroll down      |To see images of artist and text about values | Works as expected |
+
+[Screenshot to show user story]()
+
+*4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*
+*9. 9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
 
 | Feature                            |                 Action                 |                           Expected result |     Actual result |
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
 | Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
 | Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
+[Screenshot to show user story]()
+
+*5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
+| Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
+[Screenshot to show user story]()
+
+*6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
+*8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
+*10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
+*11. As a site owner; I want prospective customers to be able to contact me to book their wedding stationery.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Find Enquire now Modal in nav bar      |      Click link, complete all fields and press submit OR close button     |Form submits and closes OR closes without submission.  If all fields not filled correctly, higlights error to user | Works as expected |
+| Find Get in touch button | Click button, complete all fields and click submit OR close icon | Form submits and closes OR closes without submission.  If all fields not filled correctly, higlights error to user | Works as expected |
+| Find internal get in touch OR email me links   |   Click on link   | Redirects to Contact page | Works as expected |
+[Screenshot to show user story]()
+
+*7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
+| Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
+[Screenshot to show user story]()
+
+*9. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
+| Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
+
+*12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.*
+
+| Feature                            |                 Action                 |                           Expected result |     Actual result |
+ ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| Find Products page       |      Click product page link in nav bar, scroll down page OR click links in products page for Bepoke / Customisable  |To see video / images of stationary and description of service | Works as expected |
+
 
 [Screenshot to show user story]()
 ------Bugs

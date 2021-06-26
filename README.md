@@ -3,10 +3,25 @@
 ![Mockup of RR Weddings](https://github.com/dannymagnus/wedding-company/blob/master/docs/mockup/mockup_rrweddings.png)
 
 [View live site](https://dannymagnus.github.io/wedding-company/)
-## Project Goals
+## Owner
+
+RR Weddings is small wedding stationary design company based in the Sutton Coldfield in the West Midlands.  Founded in 2020, the company specialises in bespoke wedding stationary design.  In addition, they also offer a compact range of off the shelf designs.
+
+## Who is the site for?
+
+- Brides
+- Grooms
+- wedding planners
+- wedding venues
+
+## UX
+
+### 1. Strategy
+
+### Project Goals
 
 The business goals for rrweddings are:
-- To generate sales of the different wedding stationery packages. 
+- To generate leads for sales of the different wedding stationery packages. 
 - To create a brand identity which stands out in a crowded market by showing the unique creation methods.
 - To reach a wider audience base outside of local wedding fayres and wedding venue network
 
@@ -15,17 +30,10 @@ The User Goals:
 - As a potential customer I want to be able to contact the company for more information so that I discuss my specific needs.
 - I want to be able to see some product prices and product information so I know whether the product is right for me
 - I want to know that I can trust the business and see more of the people behind the scenes as it is a meaningful purchase.
-## User Experience
-### Target Audience
-
-- Brides
-- Grooms
-- wedding planners
-- wedding venues
-### User Stories
+#### User Stories
 
 The two categories of users are first time users, who will be visiting the page for the first time, and return visitors, who will be returning to finalise their purchase and book.
-#### First-time users
+##### First-time users
 
 1. As a first time user; I want to be able to navigate the site and access the information easily.
 2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
@@ -34,10 +42,10 @@ The two categories of users are first time users, who will be visiting the page 
 5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
 6. As a first time user; I want to be able to contact the business if I have any initial queries easily. 
 7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.
-#### Return visitors
+##### Return visitors
 
 8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
-#### Site owner
+##### Site owner
 
 9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
 10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
@@ -69,6 +77,10 @@ Features to be built in future releases:
 - A page for 'on the day' stationary offerings, to include propositions such as menus, place cards, orders of service, signage.
 
 *Find more information on features in the [Features section](#features)*
+
+## Structure
+
+
 # Design
 
 My theme for the design came from the brand imagery. I wanted to create a website that would compliment but not overshadow the galleries to ensure they stand out to customers. 
@@ -97,51 +109,6 @@ All of the imagery displayed on the site are provided by the business RRweddings
 
 Most of the images depict the products either in an aspirational gallery to act as a portfolio, or in the product pages to show to prospective customers. 
 The images are high quality, professional standard with a cohesive theme throughout to maintain the business and brand standards. They convey the brand identity through florals and natural elements whilst giving the impression of luxury.
-
-
--------------------------------------------------------------------
-------User Goals/Stories
-As a potential customer:
-- I want to be able to view an image gallery so that I can see what products are avaliable to help me decide
-- As a potential custemer I want to be able to contact the company for more information so that I discuss my specific needs
-- I want to gain some ideas and inspiration if I'm unlcear on what I want
-- I want to know that I can trust the business as
-As a business owner:
-I want to to show my work to potential customers via image gallery and collections
-I want to to present my/business personality positively to gain trust from my prospects
-I want to show why a prospect should choose me to do thier invitations via my USPs
-I want to show testimonials to build trust from my prospects
-I want to ecourage propects to contact rather than e-comm purchase - increase ATV
-I want to blog on the site so that I can keep prospects engaged in my brand until they purchase (not impulse)
-I want links to my social media, as this is where I post most of my stories for marketing purposes
-As a user I want to be able to get wedding stationary ideas
-As a user I want to be able to navigate the site easily so I am not confused about what is offered
-As a user I want to be able to see what products and services are offered so that I can decide if I they are something I want to purchase
-As a user I want to be able to see how to contact the business so that I can get further information
-As a user I expect the site to be easy to navigate
-
-
------Site Owner Goals
-Reach B2C customers nationally
-Increase lead generation
-Publish work to be seen by potential clients and colaborators
-
------User Requirements and Expectations
-EXPLAIN
-
----- Design Choices
-
---------Colors
-Text headings - #d7aeae
-Text Body - #787878
-Background colours - #fff
-
-These colours have been chosen as they fit with the images that will be used for background and for foreground images and a representative of the end product.  They must also be suitable for accessibility support.
-
---------Fonts
-Headings - Cormorant Garamond (Required serif font, luxurious feel) - would like custom font. Possibly in later release
-Body - Playfair Display - compatible text (similar to available product text)
-Quick sand -main body and sub heading - fits with typography in body of main design choices in sellable product.
 
 --------Structure
 Each page will have the company logo, navigation bar, H1 elements and image to suit.  This is to ensure that each page is familiar to the user and is completed across the site.
@@ -312,8 +279,8 @@ All devices were able to pass all tests.
 
 | Feature                            |                 Action                 |                           Expected result |     Actual result |
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
-| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
-| Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
+| Find link to products page in nav bar       |      Click link and scroll down to Bespoke and Customisable sections      |Entry price points and timescales in text | Works as expected |
+| Find Terms and Conditions link in footer  |   Click on link and scroll open dialogue | Opens modal with scollable text with prices and timings| Works as expected |
 [Screenshot to show user story]()
 
 *6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
@@ -332,8 +299,8 @@ All devices were able to pass all tests.
 
 | Feature                            |                 Action                 |                           Expected result |     Actual result |
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
-| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
-| Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
+| Testimonials and 'As Featured in'      |      Scroll down in home page     |To see as feaured in section with 8 badges and then testimonials section | Works as expected |
+
 [Screenshot to show user story]()
 
 *9. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*

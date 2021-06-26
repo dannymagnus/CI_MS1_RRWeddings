@@ -49,7 +49,7 @@ The two categories of users are first time users, who will be visiting the page 
 
 9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
 10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
-11. As a site owner; I want prospective customers to be able to contact me to book their wedding stationery.
+11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
 12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
 
 ## Scope 
@@ -84,7 +84,7 @@ The structure of the site is to contain four pages in order;
 - Home 
 - Products
 - About
-- Contact.
+- Contact
 
 Each page contains the following structure
 
@@ -105,8 +105,8 @@ Designed using mobile first the following forms the skeleton.
 
 ### Wireframes
 
-
-# Design
+## Surface
+### Design
 
 My theme for the design came from the brand imagery. I wanted to create a website that would compliment but not overshadow the galleries to ensure they stand out to customers. 
 I wanted it to appear soft with romantic elements to match the target audience, which mostly consists of female brides, and I used inspiration from nature to compliment the products on offer.
@@ -135,36 +135,208 @@ All of the imagery displayed on the site are provided by the business RRweddings
 Most of the images depict the products either in an aspirational gallery to act as a portfolio, or in the product pages to show to prospective customers. 
 The images are high quality, professional standard with a cohesive theme throughout to maintain the business and brand standards. They convey the brand identity through florals and natural elements whilst giving the impression of luxury.
 
---------Structure
-Each page will have the company logo, navigation bar, H1 elements and image to suit.  This is to ensure that each page is familiar to the user and is completed across the site.
 
-There shall be a link/button in the header to a modal contact/enquiry form.
+## Features
 
-The site will be split into 4 pages, home, products/services, about us, contact me.
+The website consists of four pages and 10 features.
 
-------Features
+### Current Features
 
-_navigation bar_ - this will appear across all pages so that the user does not have to navigate using the browsers back and forward button.  It also gives familiarity across the site
+### Feature 1: home page
 
-_home page_ landing page will have a hero image and links to other pages, it will have a headline with keywords explaining what the business offers.
-It contains sections for summary of the business offer, why us, and a section for testimonials to build trust in the brand.
+The sections of home page include:
 
-_Products/Services_
-The designs page will be the structure page for the bespoke, customisable (and on the day - differed) sections.  It will contain representative images of the products and indicative pricepoints - it will have inline links and call to action for follow up contact
+The main feature of the home page is the slideshow which plays on entry to the site.
+A ‘why us’ section which aims to build trust with potential customers
+A ‘featured’ to build brand credibility
+A ‘testimonials’ section to build trust with potential customers.
+Modal pop up form to enable customers to contact the business easily
+The footer contains links to social media to provide additional inspiration for visitors.
 
-_bespoke designs_
-Section within products and services page with summary information with example images on what bespoke consists of with indicator EPP.
+The site is fully responsive and tested on tablet on mobile. The copy is partially written by myself in addition to copy given by RRweddings. Permission has been granted in all cases.
 
-_customisable designs_
-Section within products and services page with summary product information with product imagery and EPP example.
+*Section 1 – Slideshow:*
 
-_about us_
-The about page will have details of the business and founder background, company ethos, history.
+The slideshow is the first impression that the business gets to make on the visitor. I chose 3 images all with a cohesive theme in terms of the colour palette and the styling. It plays automatically to add some movement to the page.
 
-_Contact Us_
-The get in touch page will have the process details for starting the inquiry/order process, it will also contain the contact form.
+![Hero image](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-1-one.PNG)
 
-------Validation
+*Section 2 – Why Us:*
+
+The why us section has text and images with a call to action. The imagery shows the business owner which aims to build trust potential customers. The call to action provides an easy way for customers to get in touch quickly.
+
+Info about image layout/modal button & link
+
+*Section 3 – Featured:*
+
+The featured section shows the business logos of high profile wedding businesses which the brand has been featured in. This aims to show credibility and to show customers that the products on offer are of a high standard.
+
+Info about image layout & link
+
+*Section 4 – Testimonials:*
+
+The testominals section is comprised of text boxes with previous customers reviews. This is important to have visible on the first page to help build trust with prospective customers.
+
+Info about text box layout & link
+
+*Section 5 – Modal pop up form:*
+
+Sorry no idea what this is ☺ 
+
+*Section 6 – footer:*
+
+The footer is a feature across all pages but is important to allow customers to explore other areas of the business and gain more inspiration.
+
+Info about footer & link
+
+**The home page features highlight the following user stories:**
+
+2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
+3. As a first time user; I want to see that the businesses values match my own.
+4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.
+6. As a first time user; I want to be able to contact the business if I have any initial queries easily. 
+7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.
+8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
+10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
+
+### Feature 2: Products
+
+The sections of home page include:
+
+The hero image with internal page links.
+The ‘bespoke’ section provides product information
+The ‘customisable’ section provides product information
+The ‘Anemone’ section is a product example with pricing.
+The ‘Peony section is a product example with pricing.
+The call to action takes the customer straight to a contact form.
+
+
+*Section 1 - Product hero image and internal page links
+
+The product hero image is aimed to capture to visitors attention and to maintain the brand identity throughout the different pages. The internal page links provide easy navigation access.
+
+Link to hero image
+
+*Section 2 - Bespoke
+
+The bespoke section provides the customer with a product description, and copy including pricing and timescales, alongside a demonstration video.
+The video adds another dimension to the business, enabling potential customers to visualise how their purchase would be created.
+
+Link to feature
+
+*Section 3 – Customisable
+
+The customisable section provides the customer with a product description, and copy including pricing and timescales.
+
+Link to feature
+
+*Section 4 – Anemone gallery
+
+The Anemone gallery contains detailed product description to inform the customer with key details including product pricing.
+
+Link to feature
+
+*Section 5 – Peony Gallery
+
+The Peony gallery contains detailed product description to inform the customer with key details including product pricing.
+
+Link to feature
+*Section 6 – Call to action
+
+The call to action button takes the customer directly to the contact form.
+
+Link to feature
+
+**The Product page features highlight the following user stories:**
+
+2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
+1. As a first time user; I want to be able to navigate the site and access the information easily.
+5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
+As a site owner; I want potential clients to be able to view imagery to inspire and attract them to book or purchase.
+- As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
+4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.
+9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
+12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
+
+
+
+### Feature 3: About me
+
+This section includes brand imagery of the business owner. The copy provides the customer with business values and there are call to action points for the visitors to get in touch.
+
+**The About Me page feature highlights the following user stories:**
+3. As a first time user; I want to see that the businesses values match my own.
+11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
+7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.
+### Feature 4: Contact
+
+The sections of the Contact page include:
+Location map
+Contact form 
+**Section 1 – Location Map**
+
+The location map shows the business location via googlemaps.
+
+Link to feature
+
+**Section 2 – Contact form**
+
+See what she has written for contact form
+Link to feature
+
+**The Contact feature highlights the following user stories:**
+
+6. As a first time user; I want to be able to contact the business if I have any initial queries easily. 
+8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
+10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
+11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
+
+
+
+### Feature 5: Navigation bar
+
+The navigation bar is responsive depending on whether it’s viewed on desktop or tablet and mobile. It also has a collapsible toggle.
+
+**The Navigation bar feature highlights the following user stories:**
+
+1. As a first time user; I want to be able to navigate the site and access the information easily.
+2. - As a first time user; I want to be able to navigate the site and access the information easily.
+
+Link to feature
+
+
+### Feature 6: Footer
+
+
+The Footer is displayed across all pages, it contains links to the businesses social media pages, terms and conditions, privacy policy and credits to external partners.
+
+Link to feature
+
+**The Footer feature highlights the following user stories:**
+
+2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
+1. As a first time user; I want to be able to navigate the site and access the information easily.
+- As a site owner; I want potential clients to be able to view imagery to inspire and attract them to book or purchase.
+5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
+9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
+
+
+
+
+She also explains the contact form & modal in more detail as separate features??
+
+## Feature 7: Modal
+The modal displays as a button in all pages until in mobile view then is available as a get in touch button on the home page.
+
+Link to features
+
+**The Modal feature highlights the following user stories**
+
+6. As a first time user; I want to be able to contact the business if I have any initial queries easily. 
+10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
+8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
+
+
 ## Technologies Used
 
 ### Languages 
@@ -311,7 +483,8 @@ All devices were able to pass all tests.
 *6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
 *8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
 *10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
-*11. As a site owner; I want prospective customers to be able to contact me to book their wedding stationery.*
+*11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
+*
 
 | Feature                            |                 Action                 |                           Expected result |     Actual result |
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |

@@ -447,13 +447,17 @@ All devices were able to pass all tests.
 [Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-1.png)
 
 *2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.*
+
 *4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*
+
 *9. 9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
 
 | Feature                            |                 Action                 |                           Expected result |     Actual result |
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
 | Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
 | Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
+
+[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-2-4-9.png)
 
 *3. As a first time user; I want to see that the businesses values match my own.*
 

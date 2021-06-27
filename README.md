@@ -130,7 +130,7 @@ I wanted a site that was straightforward, with the information being concise and
 These colours have been chosen as they fit with the images that will be used for background and for foreground images and a representative of the end product.  They must also be suitable for accessibility support.
 <br>
 
-(docs/features/colour_pallette.png)
+(https://github.com/dannymagnus/wedding-company/blob/master/docs/features/colour_pallette.png)
 
 ### Fonts
 My heading font is Cormorant Garamond from Google Fonts. I chose this font because:

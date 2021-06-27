@@ -465,16 +465,16 @@ All devices were able to pass all tests.
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
 | Find link to About page in nav bar       |      Click link and scroll down      |To see images of artist and text about values | Works as expected |
 
-[Screenshot to show user story]()
+[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-3.png)
 
 *4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*
-*9. 9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
+*9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
 
 | Feature                            |                 Action                 |                           Expected result |     Actual result |
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
-| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
+| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery |To see images of stationary designs | Works as expected |
 | Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
-[Screenshot to show user story]()
+[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-4-9.png)
 
 *5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.*
 
@@ -482,7 +482,7 @@ All devices were able to pass all tests.
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
 | Find link to products page in nav bar       |      Click link and scroll down to Bespoke and Customisable sections      |Entry price points and timescales in text | Works as expected |
 | Find Terms and Conditions link in footer  |   Click on link and scroll open dialogue | Opens modal with scollable text with prices and timings| Works as expected |
-[Screenshot to show user story]()
+[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-5.png)
 
 *6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
 *8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*

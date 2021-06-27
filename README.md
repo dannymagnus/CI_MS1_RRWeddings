@@ -513,8 +513,7 @@ All devices were able to pass all tests.
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
 | Find Products page       |      Click product page link in nav bar, scroll down page OR click links in products page for Bepoke / Customisable  |To see video / images of stationary and description of service | Works as expected |
 
-
-[Screenshot to show user story]()
+[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-12.png)
 ------Bugs
 EXPLAIN
 ## Deployment

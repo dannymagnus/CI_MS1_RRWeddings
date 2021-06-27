@@ -159,7 +159,7 @@ The site is fully responsive and tested on tablet on mobile. The copy is partial
 
 The slideshow is the first impression that the business gets to make on the visitor. I chose 3 images all with a cohesive theme in terms of the colour palette and the styling. It plays automatically to add some movement to the page.
 
-![Hero image](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-1-one.PNG)
+![Hero image](https://github.com/dannymagnus/wedding-company/blob/main/assets/images/slide1.webp)
 
 *Section 2 – Why Us:*
 

@@ -482,6 +482,7 @@ All devices were able to pass all tests.
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
 | Find link to products page in nav bar       |      Click link and scroll down to Bespoke and Customisable sections      |Entry price points and timescales in text | Works as expected |
 | Find Terms and Conditions link in footer  |   Click on link and scroll open dialogue | Opens modal with scollable text with prices and timings| Works as expected |
+
 [Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-5.png)
 
 *6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
@@ -495,7 +496,8 @@ All devices were able to pass all tests.
 | Find Enquire now Modal in nav bar      |      Click link, complete all fields and press submit OR close button     |Form submits and closes OR closes without submission.  If all fields not filled correctly, higlights error to user | Works as expected |
 | Find Get in touch button | Click button, complete all fields and click submit OR close icon | Form submits and closes OR closes without submission.  If all fields not filled correctly, higlights error to user | Works as expected |
 | Find internal get in touch OR email me links   |   Click on link   | Redirects to Contact page | Works as expected |
-[Screenshot to show user story]()
+
+[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-6-8-10-11.png)
 
 *7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.*
 
@@ -503,14 +505,7 @@ All devices were able to pass all tests.
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
 | Testimonials and 'As Featured in'      |      Scroll down in home page     |To see as feaured in section with 8 badges and then testimonials section | Works as expected |
 
-[Screenshot to show user story]()
-
-*9. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*
-
-| Feature                            |                 Action                 |                           Expected result |     Actual result |
- ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
-| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
-| Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
+[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-7.png)
 
 *12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.*
 

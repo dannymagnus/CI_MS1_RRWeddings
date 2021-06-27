@@ -142,6 +142,7 @@ The website consists of four pages and 10 features.
 
 ### Current Features
 
+
 ### Feature 1: home page
 
 The sections of home page include:
@@ -191,7 +192,6 @@ Info about text box layout & link
 
 ![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal_pop_up.png)
 
-
 *Section 6 – footer:*
 
 The footer is a feature across all pages but is important to allow customers to explore other areas of the business and gain more inspiration.
@@ -209,6 +209,8 @@ Info about footer & link
 7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.
 8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
 10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
+
+
 
 ### Feature 2: Products
 
@@ -257,7 +259,7 @@ The Peony gallery contains detailed product description to inform the customer w
 
 The call to action button takes the customer directly to the contact form.
 
-Link to feature
+![Get in Touch](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/call_to_action.png)
 
 **The Product page features highlight the following user stories:**
 
@@ -283,6 +285,8 @@ This section includes brand imagery of the business owner. The copy provides the
 11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
 7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.
 
+
+
 ### Feature 4: Contact
 
 The sections of the Contact page include:
@@ -292,12 +296,13 @@ Contact form
 
 The location map shows the business location via googlemaps.
 
-Link to feature
+![Business Location](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/googlemaps.png)
 
 **Section 2 – Contact form**
 
 See what she has written for contact form
-Link to feature
+
+![Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/contact_form.png)
 
 **The Contact feature highlights the following user stories:**
 
@@ -320,12 +325,13 @@ The navigation bar is responsive depending on whether it’s viewed on desktop o
 ![Nav Bar](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/nav_bar.png)
 
 
+
 ### Feature 6: Footer
 
 
-The Footer is displayed across all pages, it contains links to the businesses social media pages, terms and conditions, privacy policy and credits to external partners.
+The Footer is displayed across all pages, it shows the business copyright, contains links to the businesses social media pages, terms and conditions, privacy policy and credits to external partners.
 
-Link to feature
+![Footer](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/footer.png)
 
 **The Footer feature highlights the following user stories:**
 
@@ -340,10 +346,13 @@ Link to feature
 
 She also explains the contact form & modal in more detail as separate features??
 
+
+
 ## Feature 7: Modal
+
 The modal displays as a button in all pages until in mobile view then is available as a get in touch button on the home page.
 
-Link to features
+![Enquire Now](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/aneenquire_now.png)
 
 **The Modal feature highlights the following user stories**
 

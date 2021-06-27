@@ -444,7 +444,7 @@ All devices were able to pass all tests.
 | Find Navigation bar on top right of each page       |      Click each link to desired page       | Site loads each page as clicked in same browser tab | Works as expected |
 | Find brand header logo in top left of each page  |   Click on header logo    | Navigates to home page in same browser tab | Works as expected |
 
-[Screenshot to show user story]()
+[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-1.png)
 
 *2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.*
 *4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*

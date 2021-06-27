@@ -161,11 +161,15 @@ The slideshow is the first impression that the business gets to make on the visi
 
 ![Hero image](https://github.com/dannymagnus/wedding-company/blob/master/assets/images/slide1.webp)
 
+![Slideshow](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/slideshow.png)
+
 *Section 2 – Why Us:*
 
 The why us section has text and images with a call to action. The imagery shows the business owner which aims to build trust potential customers. The call to action provides an easy way for customers to get in touch quickly.
 
 Info about image layout/modal button & link
+
+![Why CHoose Us](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/why_choose_us.png)
 
 *Section 3 – Featured:*
 
@@ -173,21 +177,28 @@ The featured section shows the business logos of high profile wedding businesses
 
 Info about image layout & link
 
+![Featured](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/featured.png)
+
 *Section 4 – Testimonials:*
 
 The testominals section is comprised of text boxes with previous customers reviews. This is important to have visible on the first page to help build trust with prospective customers.
 
 Info about text box layout & link
 
+![Testimonials](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/testimonials.png)
+
 *Section 5 – Modal pop up form:*
 
-Sorry no idea what this is ☺ 
+![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal_pop_up.png)
+
 
 *Section 6 – footer:*
 
 The footer is a feature across all pages but is important to allow customers to explore other areas of the business and gain more inspiration.
 
 Info about footer & link
+
+![Footer](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/footer.png)
 
 **The home page features highlight the following user stories:**
 
@@ -228,19 +239,20 @@ Link to feature
 
 The customisable section provides the customer with a product description, and copy including pricing and timescales.
 
-Link to feature
+![Bespoke and Customisable](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/bespoke_customisable.png)
 
 *Section 4 – Anemone gallery
 
 The Anemone gallery contains detailed product description to inform the customer with key details including product pricing.
 
-Link to feature
+![Anemone](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/anemone.png)
 
 *Section 5 – Peony Gallery
 
 The Peony gallery contains detailed product description to inform the customer with key details including product pricing.
 
-Link to feature
+![Peony](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/peony.png)
+
 *Section 6 – Call to action
 
 The call to action button takes the customer directly to the contact form.
@@ -264,10 +276,13 @@ As a site owner; I want potential clients to be able to view imagery to inspire 
 
 This section includes brand imagery of the business owner. The copy provides the customer with business values and there are call to action points for the visitors to get in touch.
 
+![A Bit About Me](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/about.png)
+
 **The About Me page feature highlights the following user stories:**
 3. As a first time user; I want to see that the businesses values match my own.
 11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
 7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.
+
 ### Feature 4: Contact
 
 The sections of the Contact page include:
@@ -302,7 +317,7 @@ The navigation bar is responsive depending on whether it’s viewed on desktop o
 1. As a first time user; I want to be able to navigate the site and access the information easily.
 2. - As a first time user; I want to be able to navigate the site and access the information easily.
 
-Link to feature
+![Nav Bar](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/nav_bar.png)
 
 
 ### Feature 6: Footer

@@ -418,7 +418,7 @@ She also explains the contact form & modal in more detail as separate features??
 
 The modal displays as a button in all pages until in mobile view then is available as a get in touch button on the home page.
 
-![Enquire Now](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/aneenquire_now.png)
+![Enquire Now](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/enquire_now.png)
 
 **The Modal feature highlights the following user stories**
 

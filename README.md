@@ -159,7 +159,7 @@ The site is fully responsive and tested on tablet on mobile. The copy is partial
 
 The slideshow is the first impression that the business gets to make on the visitor. I chose 3 images all with a cohesive theme in terms of the colour palette and the styling. It plays automatically to add some movement to the page.
 
-![Hero image](https://github.com/dannymagnus/wedding-company/blob/main/assets/images/slide1.webp)
+![Hero image](https://github.com/dannymagnus/wedding-company/blob/master/assets/images/slide1.webp)
 
 *Section 2 – Why Us:*
 
@@ -513,7 +513,7 @@ All devices were able to pass all tests.
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
 | Find Products page       |      Click product page link in nav bar, scroll down page OR click links in products page for Bepoke / Customisable  |To see video / images of stationary and description of service | Works as expected |
 
-[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-12.png)
+[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-.png)
 ------Bugs
 EXPLAIN
 ## Deployment

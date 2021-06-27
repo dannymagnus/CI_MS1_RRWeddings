@@ -1,40 +1,77 @@
 # RR Weddings
+(Developer: Daniel Richards)
 
 ![Mockup of RR Weddings](https://github.com/dannymagnus/wedding-company/blob/master/docs/mockup/mockup_rrweddings.png)
 
 [View live site](https://dannymagnus.github.io/wedding-company/)
-## Owner
 
-RR Weddings is small wedding stationary design company based in the Sutton Coldfield in the West Midlands.  Founded in 2020, the company specialises in bespoke wedding stationary design.  In addition, they also offer a compact range of off the shelf designs.
+## Table of Content
 
-## Who is the site for?
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Scope](#scope)
+4. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colour](#colours)
+    3. [Fonts](#fonts)
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)
+5. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks-&-tools)
+6. [Features](#features)
+7. [Testing](#validation)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatibility)
+    7. [Testing user stories](#testing-user-stories)
+8. [Bugs](#Bugs)
+10. [Deployment](#deployment)
+11. [Credits](#credits)
+12. [Acknowledgements](#acknowledgements)
 
+## Project Goals 
+
+### User Goals
+- Finding stationary products and services for wedding events.
+- See example products and be able to contact the company.
+- Find information about the restaurant.
+- Get ideas and inspiration for wedding stationary.
+
+### Site Owner Goals
+- To generate leads for sales of the different wedding stationery packages. 
+- To create a brand identity which stands out in a crowded market by showing the unique creation methods.
+- To reach a wider audience base outside of local wedding fayres and wedding venue network
+
+## User Experience
+
+### Target Audience
 - Brides
 - Grooms
 - wedding planners
 - wedding venues
 
-## UX
+### User Requirements and Expectations
 
-### 1. Strategy
+- An easy navigation system with instant learning.
+- Able to navigate the site quickly and easily.
+- No broken links.
+- Responsive and visually appealing on all devices.
+- An easy way to contact the bussiness
+- Easy access to content through links but not too deep into site
+- Accessibility
 
-### Project Goals
+### User Stories
 
-The business goals for rrweddings are:
-- To generate leads for sales of the different wedding stationery packages. 
-- To create a brand identity which stands out in a crowded market by showing the unique creation methods.
-- To reach a wider audience base outside of local wedding fayres and wedding venue network
-
-The User Goals:
-- I want to be able to view an image gallery so that I can see what products are available to help me decide and provide inspiration.
-- As a potential customer I want to be able to contact the company for more information so that I discuss my specific needs.
-- I want to be able to see some product prices and product information so I know whether the product is right for me
-- I want to know that I can trust the business and see more of the people behind the scenes as it is a meaningful purchase.
-#### User Stories
-
-The two categories of users are first time users, who will be visiting the page for the first time, and return visitors, who will be returning to finalise their purchase and book.
-##### First-time users
-
+#### First-time User 
 1. As a first time user; I want to be able to navigate the site and access the information easily.
 2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
 3. As a first time user; I want to see that the businesses values match my own.
@@ -42,17 +79,17 @@ The two categories of users are first time users, who will be visiting the page 
 5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
 6. As a first time user; I want to be able to contact the business if I have any initial queries easily. 
 7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.
-##### Return visitors
 
-8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
-##### Site owner
+#### Returning User
+8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.
 
+#### Site Owner 
 9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
 10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
 11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
 12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
 
-## Scope 
+## Scope
 
 The scope of the project in it’s first release is defined by the following features: 
 
@@ -76,10 +113,34 @@ Features to be built in future releases:
 - Links to downloadable price lists for each suite of options.
 - A page for 'on the day' stationary offerings, to include propositions such as menus, place cards, orders of service, signage.
 
-*Find more information on features in the [Features section](#features)*
+## Design
 
-## Structure
+### Design Choices
+My theme for the design came from the brand imagery. I wanted to create a website that would compliment but not overshadow the galleries to ensure they stand out to customers. 
+I wanted it to appear soft with romantic elements to match the target audience, which mostly consists of female brides, and I used inspiration from nature to compliment the products on offer.
 
+I wanted a site that was straightforward, with the information being concise and clear in a way that’s easy to navigate.
+
+### Colour
+- Text headings - #383d41
+- Text Body - #383d41
+- Background colours - #fff
+- Modals and buttons - rgba(250, 218, 221, 0.5)
+
+These colours have been chosen as they fit with the images that will be used for background and for foreground images and a representative of the end product.  They must also be suitable for accessibility support.
+<br>
+
+<img src="docs/features/colour_pallette.png">
+
+### Fonts
+My heading font is Cormorant Garamond from Google Fonts. I chose this font because:
+- The elegant and curved nature is similar to the fonts used in the products on display. 
+- It gives a contrast to the font used for the body text so the headers stand out.
+<br>
+My body font is Playfair Display from Google Fonts. I chose this font because:
+It contrasts well with the header font.
+
+### Structure
 The structure of the site is to contain four pages in order; 
 - Home 
 - Products
@@ -96,45 +157,52 @@ Each page contains the following structure
 
 *Content Blocks* - The top most being the highest priority information flowing downwards to the lower tiers of priority. The structure will follow the law of thirds to make it visually appealing to users.  These blocks will contain call to action in each page, either inline or modal to contact the business and internal links following the sales progression where appropriate.
 
-*Footer* - This will display image credits and link to other business partners eg wedding photography, it will have terms and conditions link as well as social media links
-
-
-## Skeleton 
-
-Designed using mobile first the following forms the skeleton.
+*Footer* - This will display image credits and link to other business partners eg wedding photography, it will have terms and conditions link as well as social media links.
 
 ### Wireframes
 
-## Surface
-### Design
+<details><summary>Home</summary>
+<img src="docs/wireframes/home_wireframe.png">
+</details>
+<details><summary>Products</summary>
+<img src="docs/wireframes/product_wireframe.png">
+</details>
+<details><summary>About Us</summary>
+<img src="docs/wireframes/about_wireframe.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/wireframes/contact_wireframe.png">
+</details>
 
-My theme for the design came from the brand imagery. I wanted to create a website that would compliment but not overshadow the galleries to ensure they stand out to customers. 
-I wanted it to appear soft with romantic elements to match the target audience, which mostly consists of female brides, and I used inspiration from nature to compliment the products on offer.
+## Technologies Used
 
-I wanted a site that was straightforward, with the information being concise and clear in a way that’s easy to navigate. 
-### Colour Scheme
+### Languages
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-- Text headings - #383d41
-- Text Body - #383d41
-- Background colours - #fff
-- Modals and buttons - rgba(250, 218, 221, 0.5)
-
-These colours have been chosen as they fit with the images that will be used for background and for foreground images and a representative of the end product.  They must also be suitable for accessibility support.
-### Typography
-
-My heading font is Cormorant Garamond from Google Fonts. I chose this font because:
-- The elegant and curved nature is similar to the fonts used in the products on display. 
-- It gives a contrast to the font used for the body text so the headers stand out.
-
-My body font is Playfair Display from Google Fonts. I chose this font because:
-It contrasts well with the header font.
-### Imagery
-
-All of the imagery displayed on the site are provided by the business RRweddings. They are shown with the credits to the owners/photographers of the images on the home page. Permission was granted by the site owner to use existing text from a previous site.
-
-Most of the images depict the products either in an aspirational gallery to act as a portfolio, or in the product pages to show to prospective customers. 
-The images are high quality, professional standard with a cohesive theme throughout to maintain the business and brand standards. They convey the brand identity through florals and natural elements whilst giving the impression of luxury.
-
+### Frameworks & Tools
+1. [Git](https://git-scm.com/)
+- Git was used for version control within VSCode to push the code to GitHub.
+2. [GitHub](https://github.com/)
+- GitHub was used as a remote repository to store project code. 
+3. [GIMP](https://www.gimp.org/)
+- GIMP was used to edit, crop, resize and convert files found within each of the site pages.
+4. [Balsamiq](https://balsamiq.com/)
+-  Balsamiq was my choice for creating wireframes for the site.
+5. [Font Awesome](https://fontawesome.com/)
+- Font awesome was used to generate the social media footer icons on each page.
+6. [Google Fonts](https://fonts.google.com/)
+- Cormorant Garamond and Playfair Display were the fonts taken from Google for headings and body respectively.
+7. [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+- Bootstrap was used for the landing carousel, responsive nav bar, contact form modal, privacy policy and general terms and conditions modals.
+8. [Am I Responsive](http://ami.responsivedesign.is/)
+- The mockup image was created using Am I Responsive
+9. [Gitpod](https://gitpod.io/)
+- Gitpod was used in part to write the code for this project.
+10. [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
+- VSCode was the IDE used to write the remainder of the project code.
+11. [Google Maps](https://www.google.co.uk/maps)
+- Google Maps was used for the iframe in contact information.
 
 ## Features
 
@@ -161,8 +229,6 @@ The site is fully responsive and tested on tablet on mobile. The copy is partial
 The slideshow is the first impression that the business gets to make on the visitor. I chose 3 images all with a cohesive theme in terms of the colour palette and the styling. It plays automatically to add some movement to the page.
 
 ![Hero image](https://github.com/dannymagnus/wedding-company/blob/master/assets/images/slide1.webp)
-
-![Slideshow](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/slideshow.png)
 
 *Section 2 – Why Us:*
 
@@ -360,74 +426,85 @@ The modal displays as a button in all pages until in mobile view then is availab
 10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
 8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
 
-
-## Technologies Used
-
-### Languages 
-
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
-- [CSS3](https://en.wikipedia.org/wiki/CSS)
-
-### Frameworks, libraries and other tools 
-
-1. [Git](https://git-scm.com/)
-- Git was used for version control within VSCode to push the code to GitHub.
-2. [GitHub](https://github.com/)
-- GitHub was used as a remote repository to store project code. 
-3. [GIMP](https://www.gimp.org/)
-- GIMP was used to edit, crop, resize and convert files found within each of the site pages.
-4. [Balsamiq](https://balsamiq.com/)
--  Balsamiq was my choice for creating wireframes for the site.
-5. [Font Awesome](https://fontawesome.com/)
-- Font awesome was used to generate the social media footer icons on each page.
-6. [Google Fonts](https://fonts.google.com/)
-- Cormorant Garamond and Playfair Display were the fonts taken from Google for headings and body respectively.
-7. [Bootstrap v5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-- Bootstrap was used for the landing carousel, responsive nav bar, contact form modal, privacy policy and general terms and conditions modals.
-8. [Am I Responsive](http://ami.responsivedesign.is/)
-- The mockup image was created using Am I Responsive
-9. [Gitpod](https://gitpod.io/)
-- Gitpod was used in part to write the code for this project.
-10. [Visual Studio Code (VSCode)](https://code.visualstudio.com/)
-- VSCode was the IDE used to write the remainder of the project code.
-11. [Google Maps](https://www.google.co.uk/maps)
-- Google Maps was used for the iframe in contact information.
-
-## Testing 
+## Validation
 
 ### HTML Validation
-
 The HTML of the each page of the site was validated using [W3C Markup Validation Service](https://validator.w3.org/).  All pages returned a pass with 0 errors and 0 warnings.
 
-Results can be found as follows: [Home](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/html-validation/html-validation-index.png) [About](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/html-validation/html-validation-about_us.png) [Products](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/html-validation/html-validation-products.png) [Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/html-validation/html-validation-contact.png)
-
+<details><summary>Home</summary>
+<img src="docs/validation/html-validation/html-validation-index.png
+">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/html-validation/html-validation-about_us.png
+">
+</details>
+<details><summary>Products</summary>
+<img src="docs/validation/html-validation/html-validation-products.png
+">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/html-validation/html-validation-contact.png
+">
+</details>
 ### CSS Validation
-
 The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. 
 
-The CSS passed with [0 errors](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/css-validation/css-validation.png). 
+The CSS passed with 0 errors
+
+<details><summary>RR Weddings</summary>
+<img src="docs/validation/css-validation/css-validation.png
+">
+</details>
 
 ### Accessibility
-
 The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was used to ensure the website met high accessibility standards. All pages returned 0 errors.
 
-Results as follows: [Home](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/wave-validation/wave-validation-index.png) [About](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/wave-validation/wave-validation-about_us.png) [Products](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/wave-validation/wave-validation-products.png) [Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/wave-validation/wave-validation-index.png) 
+<details><summary>Home</summary>
+<img src="docs/validation/wave-validation/wave-validation-index.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/wave-validation/wave-validation-about_us.png">
+</details>
+<details><summary>Products</summary>
+<img src="docs/validation/wave-validation/wave-validation-products.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/wave-validation/wave-validation-index.png">
+</details>
+
 
 ### Performance 
-
 [Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website. Each page scored over 90 in all categories - performance, accessibility, best practice and SEO with results below:
 
-
- [Home](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/lighthouse-validation/lighthouse-validation-index.png) [About](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/lighthouse-validation/lighthouse-validation-about_us.png) [Products](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/lighthouse-validation/lighthouse-validation-products.png) [Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/validation/lighthouse-validation/lighthouse-validation-contact.png)
+<details><summary>Home</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-validation-index.png">
+</details>
+<details><summary>About</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-validation-about_us.png">
+</details>
+<details><summary>Products</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-validation-products.png">
+</details>
+<details><summary>Contact</summary>
+<img src="docs/validation/lighthouse-validation/lighthouse-validation-contact.png">
+</details>
 
 ### Performing tests on various devices 
-
-#### Devices tested: 
-
+The website was tested on the following devices:
 - Samsung Galaxy S20 Plus
 - iPhone SE 
 - Iphone XS
 - Macbook Pro 13.3"
+
+In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
+
+### Browser compatability
+The website was tested on the following browsers:
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Egde
+-Safari
 
 #### Tests performed: 
 

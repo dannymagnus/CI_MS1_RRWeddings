@@ -229,8 +229,6 @@ The slideshow is the first impression that the business gets to make on the visi
 
 ![Hero image](https://github.com/dannymagnus/wedding-company/blob/master/assets/images/slide1.webp)
 
-![Slideshow](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/slideshow.png)
-
 *Section 2 – Why Us:*
 
 The why us section has text and images with a call to action. The imagery shows the business owner which aims to build trust potential customers. The call to action provides an easy way for customers to get in touch quickly.

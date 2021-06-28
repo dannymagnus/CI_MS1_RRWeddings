@@ -918,7 +918,7 @@ h3 {
 
 #error-outer {
     position: relative;
-    height:600px;
+    height:400px;
 }
 
 #image-404 {
@@ -931,5 +931,5 @@ h3 {
 #error-outer a {
     position: absolute;
     bottom: 150px;
-    right:33%;
+    right:20%;
 }

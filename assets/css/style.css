@@ -928,8 +928,3 @@ h3 {
     background-size: contain;
 }
 
-#error-outer a {
-    position: absolute;
-    bottom: 150px;
-    right:33%;
-}

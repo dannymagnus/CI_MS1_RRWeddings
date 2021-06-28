@@ -629,6 +629,7 @@ All devices were able to pass all tests.
 </details>
 
 10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Find Enquire now Modal in nav bar      |      Click link, complete all fields and press submit OR close button     |Form submits and closes OR closes without submission.  If all fields not filled correctly, highlights error to user | Works as expected |

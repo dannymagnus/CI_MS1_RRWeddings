@@ -935,7 +935,7 @@ h3 {
 }
 
 .oops-container {
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
 @media (min-width: 560px) {
@@ -943,5 +943,5 @@ h3 {
         flex-direction: row;
         margin: 100px 0;
     }
-    
+
 }

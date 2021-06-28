@@ -927,7 +927,8 @@ h3 {
     height:100%;
     background-size: contain;
     position: absolute;
-    bottom: 0;
+    bottom: 150px;
+    right: 300px;
 }
 
 

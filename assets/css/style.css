@@ -919,4 +919,6 @@ h3 {
 #image-404 {
     width: 100%;
     background-image: url(../images/404-image.png);
+    height:600px;
+    background-size: contain;
 }

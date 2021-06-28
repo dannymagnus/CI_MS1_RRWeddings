@@ -933,3 +933,7 @@ h3 {
     height: 100%;
     object-fit:contain;
 }
+
+.oops-container h1 {
+    font-size: 180%;
+}

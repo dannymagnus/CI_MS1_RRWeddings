@@ -653,6 +653,7 @@ All devices were able to pass all tests.
 </details>
 
 12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Find Products page       |      Click product page link in nav bar, scroll down page OR click links in products page for Bespoke / Customisable  |To see video / images of stationary and description of service | Works as expected |

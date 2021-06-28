@@ -923,6 +923,11 @@ h3 {
     margin-top: 100px;
 }
 
+oops-container__image {
+    width: 320px;
+    height:400px;
+}
+
 #oops-container img {
     width: 320px;
     height: 400px;

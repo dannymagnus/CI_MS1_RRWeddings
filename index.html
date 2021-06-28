@@ -6,15 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Award winning Wedding Stationary Design">
+    <meta name="keywords" content="wedding stationary, wedding invitations, Keyword3">
+    <!--Used to give Favicon icon in browser tab from favicon.io-->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!--Bootstrap style sheets used for modal, carousel-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Font awesome used for social media icons in footer-->   
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Custom CSS styles-->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>RR Weddings | Home</title>
-    <script src="https://kit.fontawesome.com/acb51437a2.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
     <header>
         <!--Responsive nav bar styled using bootstrap library with custom CSS-->
@@ -22,14 +25,16 @@
             <div class="brand-title">
                 <a href="index.html">RR Weddings</a>
             </div>
+            <!--Toggle menu burger icon for mobile devices-->
             <a href="#" class="toggle-button" aria-label="Toggle navigation">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
             </a>
+            <!--Section for responsive navbar links-->
             <div class="navbar-links">
                 <ul>
-                    <li><a id="home-link" href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="products.html">Products</a></li>
                     <li><a href="about_us.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -37,8 +42,8 @@
             </div>
             <!--Link to modal later in page, used there as this becomes hidden on resize-->
             <div class="enquire-navbar">
-                <a class="booking-button" href="#mymodal" data-toggle="modal" data-target="#mymodal">Enquire
-                    now!</a>
+                <!--Enquire now booking button seen right of nav bar-->
+                <a class="booking-button" href="#mymodal" data-toggle="modal" data-target="#mymodal">Enquire now!</a>
             </div>
         </nav>
     </header>
@@ -47,6 +52,7 @@
         <div id="landing-carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
+                    <!--Three images credited from Garthmyl Wedding Venue for landing page-->
                     <img class="d-block w-100" src="assets/images/slide1.webp" alt="First Slide">
                 </div>
                 <div class="carousel-item">
@@ -74,6 +80,7 @@
             <h1 class="sub-heading">Why choose us?</h1>
             <div id="reasons-container">
                 <div id="reasons-text">
+                    <!--Text used to promote reasons to purchase with RR Weddings-->
                     <p>
                         I work closely with each and every client, whether it is working on bespoke designs, a customisable collection, or stationery for the day itself. <br>
                         I love being able to bring to life your dreams and ideas, and create something that really sets the tone for your day.
@@ -91,12 +98,14 @@
                         <div class="modal" id="mymodal">
                             <div class="modal-dialog ">
                                 <div class="modal-content">
+                                    <!--Modal Header-->
                                     <div class="modal-header">
                                         <h5 class="modal-title">Contact us</h5>
                                         <button type="button" class="close" data-dismiss="modal"
                                             aria-label="Close">x</button>
                                     </div>
                                     <div class="modal-body">
+                                        <!--Input form for modal contact all fields to be completed-->
                                         <form id="md-form" class="form" action="https://formdump.codeinstitute.net/"
                                             method="post" target="_blank">
                                             <label for="md-name">Name</label><br>
@@ -104,10 +113,10 @@
                                             <label for="md-email">Email</label><br>
                                             <input id="md-email" name="email" type="email" required size="30"><br>
                                             <label for="md-phone">Contact no.</label><br>
-                                            <input id="md-phone" name="phone" type="text" size="13"><br>
+                                            <input id="md-phone" name="phone" type="text" size="13" required><br>
                                             <label for="md-message">Your message</label><br>
                                             <textarea id="md-message" name="message" rows="5"
-                                                cols="30">Please enter your message here</textarea>
+                                                cols="30" required>Please enter your message here</textarea>
                                             <div class="modal-footer">
                                                 <button type="submit" class="booking-button" data-dismiss="modal">Lets do this!</button>
                                             </div>
@@ -121,40 +130,51 @@
                 <!--Image stack, custom CSS-->
                 <!--Image credit The Brand Studio-->
                 <div id="why-us__image-stack">
+                    <!--Images of Rebecca Richards and Paint tin-->
                     <img id="paint" src="assets/images/paint-tin.webp" alt="paint tray">
                     <img id="portrait-left" src="assets/images/home-portrait.webp" alt="photo of artist">
                 </div>
             </div>
         </div>
         <div id="featured-outer">
+            <!--As Featured in to build brand credibility-->
             <h1 class="sub-heading"> AS FEATURED IN...</h1>
             <!--Image credits, wedding and honeymoon blog, Whimsical Weddings, English wedding blog, Hive Tribe, The Wedding Industry Awards, Wedding Chicks, Rock My Wedding-->
+            <!--Flexbox container for badges-->
             <div id="featured-container">
                 <ul>
+                    <!--Wedding Honeymoon Blog-->
                     <li>
                         <img src="assets/images/dwha-badge.webp" alt="Weddings and honeymoon blog badge">
                     </li>
+                    <!--Whimsical Wedding Badge-->
                     <li>
                         <img src="assets/images/www-badge.webp" alt="Whimsical Wedding badge">
                     </li>
+                    <!--The English Wedding Blog Badge-->
                     <li>
                         <img src="assets/images/the-english-wedding-blog-badge.webp"
                             alt="The english wedding blog badge">
                     </li>
+                    <!--Hive Tribe Member Badge-->
                     <li>
                         <img src="assets/images/hivetribe-badge.webp" alt="Hive Tribe member badge">
                     </li>
                 </ul>
                 <ul>
+                    <!--B-Loved Badge-->
                     <li>
                         <img src="assets/images/b-loved-badge.webp" alt="b-loved icon">
                     </li>
+                    <!--The Wedding industry awards badge-->
                     <li>
                         <img src="assets/images/twia-badge.webp" alt="twia icon">
                     </li>
+                    <!--Wedding Chicks badge-->
                     <li>
                         <img src="assets/images/weddingchicks-badge.webp" alt="weddingchicks icon">
                     </li>
+                    <!--Rock my Wedding badge-->
                     <li>
                         <img src="assets/images/rock-my-wedding-badge.webp" alt="rock my wedding icon">
                     </li>
@@ -166,8 +186,10 @@
         <!--Kind words text credits from Rebecca Richards Designs, legitemate customer testimonials, permission granted-->
         <div id="kind-words">
             <h1 class="sub-heading">KIND WORDS</h1>
+            <!--Flexbox for testimonial container-->
             <div class="testimonial-container">
                 <div class="testimonial-box">
+                    <!--Alex and Freddie testimonial, granted from RR Weddings-->
                     <p class="testimonial__heading">
                         "Rebecca is incredibly talented and did a fantastic job of delivering the idea i had in my head onto paper!"
                     </p>
@@ -179,6 +201,7 @@
                     </p>
                 </div>
                 <div class="testimonial-box">
+                    <!--Charlotte and Alex testimonial, granted from RR Weddings-->
                     <p class="testimonial__heading">
                         "Rebecca did an amazing job of all the stationery at our wedding, best decision we made! her designs were totally original and sooooo beautiful."
                     </p>
@@ -191,6 +214,7 @@
                     </p>
                 </div>
                 <div class="testimonial-box">
+                    <!--Sharon and Toby testimonial, granted from RR Weddings-->
                     <p class="testimonial__heading">
                         "Rebecca made it very easy for us to create invites which could be quite complicated due to it
                         being a wedding with a mix of two religions/cultures but all of our needs were listened to."
@@ -207,6 +231,7 @@
         </div>
     </section>
     <footer>
+        <!--Double horizontal footer line with HTML inline styling-->
         <hr
             style="height: 1px; border-width:0;color:gray;background-color:gray; width:100%; margin-left: auto;margin-right: auto; margin-bottom: 10px;">
         <hr
@@ -226,28 +251,22 @@
                     <!--Image links to partner sites, images used in website are credited from these artists-->
                     <li>
                         <a href="https://rebeccacarpenterphotography.com/" target="_blank"
-                            rel="noopener noreferrer">Rebecca Carpenter
-                            Photography</a>
+                            rel="noopener noreferrer">Rebecca Carpenter Photography</a>
                     </li>
                     <li>
-                        <a href="https://pierragphotography.com/" target="_blank" rel="noopener noreferrer">Pierra G
-                            Photography</a>
+                        <a href="https://pierragphotography.com/" target="_blank" rel="noopener noreferrer">Pierra G Photography</a>
                     </li>
                     <li>
-                        <a href="https://www.stottweddings.com/" target="_blank" rel="noopener noreferrer">Stott
-                            Weddings</a>
+                        <a href="https://www.stottweddings.com/" target="_blank" rel="noopener noreferrer">Stott Weddings</a>
                     </li>
                     <li>
-                        <a href="https://annaroussos.com/" target="_blank" rel="noopener noreferrer">Anna Roussos
-                            Photography</a>
+                        <a href="https://annaroussos.com/" target="_blank" rel="noopener noreferrer">Anna Roussos Photography</a>
                     </li>
-                    <li> <a href="https://katherineyiannaki.com/" target="_blank" rel="noopener noreferrer">Katherine
-                            Yiannaki Photography</a>
+                    <li> <a href="https://katherineyiannaki.com/" target="_blank" rel="noopener noreferrer">Katherine Yiannaki Photography</a>
                     </li>
                     <li>
                         <a href="https://davidboyntonweddingphotography.pixieset.com/" target="_blank"
-                            rel="noopener noreferrer">David Boynton
-                            Photography</a>
+                            rel="noopener noreferrer">David Boynton Photography</a>
                     </li>
                     <li>My Little Eye Photograph</li>
                 </ul>
@@ -272,10 +291,12 @@
                                             <span aria-hidden="true">&times;</span>
                                         </button>
                                     </div>
+                                    <!--Text for terms and conditions from RR Weddings permission granted-->
                                     <div class="modal-body">
                                         <p>
                                             Please carefully read the following Terms and Conditions and make sure youunderstand them before placing your order with Rebecca Richards Designs.These Terms and Conditions will apply to any order for the sale of goods and services from Rebecca Richards Designs. By sending payment of your deposit you are confirming you agree to these Terms and Conditions, at which point a contract will come into existence between you and Rebecca Richards Designs.  Until payment has been received, acknowledging you accept these Terms and Conditions, Rebecca Richards Designs will not be able to supply goods or services to you. All orders placed with Rebecca Richards Design will be subject to these Terms and Conditions. Rebecca Richards Designs reserves the right to cancel an order at any stage should any of the Terms and Conditions not be adhered to.
                                         </p>
+                                        <!--Timings conditions-->
                                         <h5>TIMINGS</h5>
                                         <p>
                                             Once your order has been placed with receipt of your deposit/full payment, Rebecca Richards Designs (RR) will provide you with a date for when the design process is due to commence and at which stage any remaining payment is due. It is important that you notify RR immediately if you are unable to work to the schedule as any delay in supplying feedback, providing copy or approving proofs/artwork may result in a delay to your order. Rebecca Richards Designs aims to complete orders as soon as possible but as a guide please allow the following timelines for orders:
@@ -289,6 +310,7 @@
                                         <p>
                                             Wedding day stationery - depending on the number of items to design and the finish it is advised that all wedding day stationery is ordered no later than 8 weeks prior to your wedding date. I aim to have orders delivered no later than 1 week prior to the wedding date but this is only possible where enough notice has been provided and the required information/feedback has been provided on time.
                                         </p>
+                                        <!--Rush Orders Clause-->
                                         <h5>RUSH ORDERS</h5>
                                         <p>
                                             If your entire order is required within a 4 week period, depending on the schedule in the studio this may be considered a rush job.
@@ -296,6 +318,7 @@
                                         <p>
                                             RR cannot guarantee the complettion and delivery of orders that are completed less than 1 week before the wedding date or the date in which it is required. Every effort will be made via a next day tracked courier but RR accepts no liability for the delay, loss or damage of any parcels.
                                         </p>
+                                        <!--Quotes and payments-->
                                         <h5>QUOTES & PAYMENTS</h5>
                                         <p>
                                             Upon approval of the quote sent by Rebecca Richards Designs a non-refundable deposit will be required to either secure a future date for your invitations if you don’t require them at the point of enquiry, or as a payment to commence the design process.
@@ -309,6 +332,7 @@
                                         <p>
                                             Once final proofs have been approved the remainder of the balance will be due before printing will begin. All costs are quoted in and are to be paid in pounds sterling by bank transfer. Payment details will be provided on the invoice sent by RR. RR cannot be held responsible for any delay to delivery as a result of late payment.
                                         </p>
+                                        <!--Proofs and artwork clause-->
                                         <h5>PROOFS & ARTWORK</h5>
                                         <p>
                                             Digital proofs will be sent via email, unless specifically requested. Great care is taken to ensure all information is accurate, however it is ultimately the responsibility of the customer to check layout, copy, spelling and grammar.
@@ -327,10 +351,12 @@
                                         <p>
                                             Design and proofing takes time and this has been factored in to the cost. RR will provide up to 3 free digital proofs and up to 3 proof revisions for each order, thereafter proofs will be charged at £30.00 each. It is recommended that you carefully check the design and content and clearly notify RR of any information that needs to be amended straight away.
                                         </p>
+                                        <!--Minimum order conditions-->
                                         <h5>MINIMUM ORDERS</h5>
                                         <p>
                                             There is a minimum order of 35 invitations or Save the Date cards due to the time involved in creating artwork and printer minimum quantities. There is a minimum order of 50 (of each item) for all hot foil, letterpress or debossing/embossing prints. It is advisable to order both day and evening invitations at the same time to avoid any additional special order fees. If an additional order is received for fewer than 35 of an item, an individual quote will be given as printing costs are higher for short runs.
                                         </p>
+                                        <!--Delivery and costs-->
                                         <h5>DELIVERY & COSTS</h5>
                                         <p>
                                             The cost of UK delivery is included as a separate cost in the quotation. All orders are dispatched with a tracked and signed courier and we do our very best to ensure that an order is dispatched on the day specified for next day delivery. Every effort will be made to deliver on time, and no liability is accepted for any loss arising from delay or error in the delivery of the goods.
@@ -341,10 +367,12 @@
                                         <p>
                                             For delivery overseas, RR will discuss the most suitable delivery arrangements with you and agree them in writing in advance of delivery. A delivery address will be confirmed with you before your stationery is posted, it is important that you provide an address where someone will be able to sign for it.
                                         </p>
+                                        <!--International pricing lause-->
                                         <h5>INTERNATIONAL ORDERS & DELIVERY COSTS</h5>
                                         <p>
                                             Once an order has been placed, RR will try to accommodate any amendments that you request to numbers and requirements. However, once proofs have been approved, the full amount will be charged. RR cannot be held responsible for any loss or damage to your order once it has been dispatched. RR will not be liable or responsible for any delays that is caused by any act or event beyond our reasonable control. If such an event occurs, RR will contact you as soon as reasonably possible to notify you. Our obligations will be suspended and the time for performance of our obligations will be extended for the duration of the event and RR will arrange a new timeline and delivery date.
                                         </p>
+                                        <!--Social media clauses-->
                                         <h5>SOCIAL MEDIA</h5>
                                         <p>
                                             Once you have received your final prints you may post images on your social media channels. If you do please tag Rebecca Richards Designs in your posts using the below tags:
@@ -454,6 +482,7 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <script src="assets/js/script.js" defer></script>
+    <script src="https://kit.fontawesome.com/acb51437a2.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

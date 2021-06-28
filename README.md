@@ -432,20 +432,16 @@ The modal displays as a button in all pages until in mobile view then is availab
 The HTML of the each page of the site was validated using [W3C Markup Validation Service](https://validator.w3.org/).  All pages returned a pass with 0 errors and 0 warnings.
 
 <details><summary>Home</summary>
-<img src="docs/validation/html-validation/html-validation-index.png
-">
+<img src="docs/validation/html-validation/html-validation-index.png">
 </details>
 <details><summary>About</summary>
-<img src="docs/validation/html-validation/html-validation-about_us.png
-">
+<img src="docs/validation/html-validation/html-validation-about_us.png">
 </details>
 <details><summary>Products</summary>
-<img src="docs/validation/html-validation/html-validation-products.png
-">
+<img src="docs/validation/html-validation/html-validation-products.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/validation/html-validation/html-validation-contact.png
-">
+<img src="docs/validation/html-validation/html-validation-contact.png">
 </details>
 ### CSS Validation
 The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. 
@@ -453,8 +449,7 @@ The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) w
 The CSS passed with 0 errors
 
 <details><summary>RR Weddings</summary>
-<img src="docs/validation/css-validation/css-validation.png
-">
+<img src="docs/validation/css-validation/css-validation.png">
 </details>
 
 ### Accessibility

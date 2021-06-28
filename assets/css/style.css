@@ -917,10 +917,12 @@ h3 {
 /* 404 Page */
 
 #error-outer {
-    position: relative;
-    height:400px;
-    width:80%;
-    background-color:lightcyan;
+    display: flex;
+    justify-content: center;
+}
+
+#error-container {
+    width: 320px;
 }
 
 #image-404 {

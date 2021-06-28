@@ -926,9 +926,10 @@ h3 {
     background: url(../images/404-image.png) no-repeat center center;
     height:100%;
     background-size: contain;
-    position: absolute;
-    bottom: 150px;
-    right: 300px;
 }
 
-
+#error-outer a {
+    position: absolute;
+    bottom: 150px;
+    right:33%;
+}

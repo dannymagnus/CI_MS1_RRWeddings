@@ -557,85 +557,150 @@ All devices were able to pass all tests.
 
 ### Testing user stories
 
-*1. As a first time user; I want to be able to navigate the site and access the information easily.*
+1. As a first time user; I want to be able to navigate the site and access the information easily.
 
-| Feature                            |                 Action                 |                           Expected result |     Actual result |
- ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
 | Find Navigation bar on top right of each page       |      Click each link to desired page       | Site loads each page as clicked in same browser tab | Works as expected |
 | Find brand header logo in top left of each page  |   Click on header logo    | Navigates to home page in same browser tab | Works as expected |
 
-[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-1.png)
+<details><summary>Screenshots</summary>
+<img src="/docs/testing/user-story-1.png">
+</details>
 
-*2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.*
+2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
 
-*4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*
-
-*9. 9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
-
-| Feature                            |                 Action                 |                           Expected result |     Actual result |
- ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
-| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
 | Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
+| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
 
-[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-2-4-9.png)
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user-story-2-4-9.png">
+</details>
 
-*3. As a first time user; I want to see that the businesses values match my own.*
 
-| Feature                            |                 Action                 |                           Expected result |     Actual result |
- ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+3. As a first time user; I want to see that the businesses values match my own.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
 | Find link to About page in nav bar       |      Click link and scroll down      |To see images of artist and text about values | Works as expected |
 
-[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-3.png)
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user-story-3.png">
+</details>
 
-*4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*
-*9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
+4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.
 
-| Feature                            |                 Action                 |                           Expected result |     Actual result |
- ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
 | Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery |To see images of stationary designs | Works as expected |
 | Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
-[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-4-9.png)
 
-*5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.*
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user-story-4-9.png">
+</details>
 
-| Feature                            |                 Action                 |                           Expected result |     Actual result |
- ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
 | Find link to products page in nav bar       |      Click link and scroll down to Bespoke and Customisable sections      |Entry price points and timescales in text | Works as expected |
 | Find Terms and Conditions link in footer  |   Click on link and scroll open dialogue | Opens modal with scollable text with prices and timings| Works as expected |
 
-[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-5.png)
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user-story-5.png">
+</details>
 
-*6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
-*8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
-*10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
-*11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
-*
+6. As a first time user; I want to be able to contact the business if I have any initial queries easily. 
 
-| Feature                            |                 Action                 |                           Expected result |     Actual result |
- ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+ Find Enquire now Modal in nav bar      |      Click link, complete all fields and press submit OR close button     |Form submits and closes OR closes without submission.  If all fields not filled correctly, higlights error to user | Works as expected |
+| Find Get in touch button | Click button, complete all fields and click submit OR close icon | Form submits and closes OR closes without submission.  If all fields not filled correctly, higlights error to user | Works as expected |
+| Find internal get in touch OR email me links   |   Click on link   | Redirects to Contact page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user-story-6-8-10-11.png">
+</details>
+
+7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Testimonials and 'As Featured in'      |      Scroll down in home page     |To see as featured in section with 8 badges and then testimonials section | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user-story-7.png">
+</details>
+
+8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
 | Find Enquire now Modal in nav bar      |      Click link, complete all fields and press submit OR close button     |Form submits and closes OR closes without submission.  If all fields not filled correctly, higlights error to user | Works as expected |
 | Find Get in touch button | Click button, complete all fields and click submit OR close icon | Form submits and closes OR closes without submission.  If all fields not filled correctly, higlights error to user | Works as expected |
 | Find internal get in touch OR email me links   |   Click on link   | Redirects to Contact page | Works as expected |
 
-[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-6-8-10-11.png)
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user-story-6-8-10-11.png">
+</details>
 
-*7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.*
+9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
 
-| Feature                            |                 Action                 |                           Expected result |     Actual result |
- ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
-| Testimonials and 'As Featured in'      |      Scroll down in home page     |To see as feaured in section with 8 badges and then testimonials section | Works as expected |
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery |To see images of stationary designs | Works as expected |
+| Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
 
-[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-7.png)
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user-story-4-9.png">
+</details>
 
-*12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.*
+10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Find Enquire now Modal in nav bar      |      Click link, complete all fields and press submit OR close button     |Form submits and closes OR closes without submission.  If all fields not filled correctly, highlights error to user | Works as expected |
+| Find Get in touch button | Click button, complete all fields and click submit OR close icon | Form submits and closes OR closes without submission.  If all fields not filled correctly, highlights error to user | Works as expected |
+| Find internal get in touch OR email me links   |   Click on link   | Redirects to Contact page | Works as expected |
 
-| Feature                            |                 Action                 |                           Expected result |     Actual result |
- ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
-| Find Products page       |      Click product page link in nav bar, scroll down page OR click links in products page for Bepoke / Customisable  |To see video / images of stationary and description of service | Works as expected |
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user-story-6-8-10-11.png">
+</details>
 
-[Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-.png)
-------Bugs
-EXPLAIN
+11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Find Enquire now Modal in nav bar      |      Click link, complete all fields and press submit OR close button     |Form submits and closes OR closes without submission.  If all fields not filled correctly, highlights error to user | Works as expected |
+| Find Get in touch button | Click button, complete all fields and click submit OR close icon | Form submits and closes OR closes without submission.  If all fields not filled correctly, highlights error to user | Works as expected |
+| Find internal get in touch OR email me links   |   Click on link   | Redirects to Contact page | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user-story-6-8-10-11.png">
+</details>
+
+12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Find Products page       |      Click product page link in nav bar, scroll down page OR click links in products page for Bespoke / Customisable  |To see video / images of stationary and description of service | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user-story-12.png">
+</details>
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Text in about me main landing overhangs the container on resize | Change text size to vw to be responsive |
+| The user can submit a contact form input without a message | Add required attribute to message input field |
+| Footer logo does not display in flex container | Set explicit	width and height for image |
+| Footer icons fail accessibility checks | Add font awesome sr class and aria-hidden=“true” |
+| Link to modal fails on selecting ‘Get in touch’ button on home when Nav bar in toggle display | Change location of modal from header to get in touch for home page|
+|Body and Header were failing accessibility contrast | Change font colour|
+Modal submit button had no effect | Button was in modal footer outside of form, moved inside form |
+
 ## Deployment
 
 ### GitHub Pages

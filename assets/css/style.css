@@ -913,3 +913,10 @@ h3 {
     width: 340px;
     margin: 0 10px 50px;
 }
+
+/* 404 Page */
+
+#image-404 {
+    width: 100%;
+    background-image: url(../images/404-image.png);
+}

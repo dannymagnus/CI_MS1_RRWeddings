@@ -292,8 +292,6 @@ The product hero image is aimed to capture to visitors attention and to maintain
 The bespoke section provides the customer with a product description, and copy including pricing and timescales, alongside a demonstration video.
 The video adds another dimension to the business, enabling potential customers to visualise how their purchase would be created.
 
-Link to feature
-
 *Section 3 – Customisable*
 
 The customisable section provides the customer with a product description, and copy including pricing and timescales.

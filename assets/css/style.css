@@ -928,7 +928,7 @@ h3 {
     height:400px;
 }
 
-#oops-container__image img {
+.oops-container__image img {
     width: 100%;
     height: 100%;
     object-fit:contain;

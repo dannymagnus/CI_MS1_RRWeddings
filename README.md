@@ -246,11 +246,11 @@ Images were chosen from the publications that RRweddings has been featured in.  
 
 ![Featured](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/featured.png)
 
-*Section 4 – Testimonials: *
+*Section 4 – Testimonials:*
 
 The testominals section is comprised of text boxes with previous customers reviews. This is important to have visible on the first page to help build trust with prospective customers.
 
-Info about text box layout & link
+This was built using flexbox.
 
 ![Testimonials](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/testimonials.png)
 

@@ -206,7 +206,7 @@ Each page contains the following structure
 
 ## Features
 
-The website consists of four pages and 10 features.
+The website consists of four pages and 8 features.
 
 ### Current Features
 
@@ -242,26 +242,23 @@ Info about image layout/modal button & link
 
 The featured section shows the business logos of high profile wedding businesses which the brand has been featured in. This aims to show credibility and to show customers that the products on offer are of a high standard.
 
-Info about image layout & link
-
 ![Featured](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/featured.png)
 
 *Section 4 – Testimonials:*
 
 The testominals section is comprised of text boxes with previous customers reviews. This is important to have visible on the first page to help build trust with prospective customers.
 
-
 ![Testimonials](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/testimonials.png)
 
 *Section 5 – Modal pop up form:*
+
+The pop up form appears when a visitor chooses 'Enquire Now' or 'Get in Touch'. For more information see feature 7.
 
 ![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal_pop_up.png)
 
 *Section 6 – footer:*
 
-The footer is a feature across all pages but is important to allow customers to explore other areas of the business and gain more inspiration.
-
-Info about footer & link
+The footer is a feature across all pages but is important to allow customers to explore other areas of the business and gain more inspiration. For more information about the footer see feature 6.
 
 ![Footer](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/footer.png)
 
@@ -299,14 +296,10 @@ The call to action takes the customer straight to a contact form.
 
 The product hero image is aimed to capture to visitors attention and to maintain the brand identity throughout the different pages. The internal page links provide easy navigation access.
 
-Link to hero image
-
 *Section 2 - Bespoke
 
 The bespoke section provides the customer with a product description, and copy including pricing and timescales, alongside a demonstration video.
-The video adds another dimension to the business, enabling potential customers to visualise how their purchase would be created.
-
-Link to feature
+The video adds another dimension to the business, enabling potential customers to visualise how their purchase would be created. The video is owned by RRweddings. Permissions granted.
 
 *Section 3 – Customisable
 
@@ -328,20 +321,23 @@ The Peony gallery contains detailed product description to inform the customer w
 
 *Section 6 – Call to action
 
-The call to action button takes the customer directly to the contact form.
+The call to action button is highlighted within the text copy and takes the customer directly to the contact form. 
 
 ![Get in Touch](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/call_to_action.png)
 
 **The Product page features highlight the following user stories:**
 
-2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
-1. As a first time user; I want to be able to navigate the site and access the information easily.
-5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
-As a site owner; I want potential clients to be able to view imagery to inspire and attract them to book or purchase.
-- As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
-4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.
-9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
-12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
+*1. As a first time user; I want to be able to navigate the site and access the information easily.*
+
+*2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.*
+
+*4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*
+
+*5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.*
+
+*9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
+
+*12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.*
 
 
 
@@ -352,17 +348,22 @@ This section includes brand imagery of the business owner. The copy provides the
 ![A Bit About Me](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/about.png)
 
 **The About Me page feature highlights the following user stories:**
-3. As a first time user; I want to see that the businesses values match my own.
-11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
-7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.
+
+*3. As a first time user; I want to see that the businesses values match my own.*
+
+*7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.*
+
+*11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.*
 
 
 
 ### Feature 4: Contact
 
-The sections of the Contact page include:
+The sections of the Contact page includes:
+
 Location map
 Contact form 
+
 **Section 1 – Location Map**
 
 The location map shows the business location via googlemaps.
@@ -371,16 +372,19 @@ The location map shows the business location via googlemaps.
 
 **Section 2 – Contact form**
 
-See what she has written for contact form
+The contact form is a simple form to encourage visitors to complete it, the form will be submitted once all fields are populated.
 
 ![Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/contact_form.png)
 
 **The Contact feature highlights the following user stories:**
 
-6. As a first time user; I want to be able to contact the business if I have any initial queries easily. 
-8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
-10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
-11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
+*6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
+
+*8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
+
+*10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
+
+*11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.*
 
 
 
@@ -390,8 +394,10 @@ The navigation bar is responsive depending on whether it’s viewed on desktop o
 
 **The Navigation bar feature highlights the following user stories:**
 
-1. As a first time user; I want to be able to navigate the site and access the information easily.
-2. - As a first time user; I want to be able to navigate the site and access the information easily.
+*1. As a first time user; I want to be able to navigate the site and access the information easily.*
+
+*6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
+
 
 ![Nav Bar](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/nav_bar.png)
 
@@ -406,16 +412,13 @@ The Footer is displayed across all pages, it shows the business copyright, conta
 
 **The Footer feature highlights the following user stories:**
 
-2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
-1. As a first time user; I want to be able to navigate the site and access the information easily.
-- As a site owner; I want potential clients to be able to view imagery to inspire and attract them to book or purchase.
-5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
-9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
+*1. As a first time user; I want to be able to navigate the site and access the information easily.*
 
+*2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.*
 
+*5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.*
 
-
-She also explains the contact form & modal in more detail as separate features??
+*9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
 
 
 
@@ -427,9 +430,20 @@ The modal displays as a button in all pages until in mobile view then is availab
 
 **The Modal feature highlights the following user stories**
 
-6. As a first time user; I want to be able to contact the business if I have any initial queries easily. 
-10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
-8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
+*6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
+
+*8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
+
+*10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
+
+
+
+## Feature 8: 404
+
+This feature isn't considered a user feature but it redirects the user back to any of the valid links.
+
+![Error 404](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/oops-feature.png)
+
 
 ## Validation
 

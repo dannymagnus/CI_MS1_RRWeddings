@@ -525,13 +525,6 @@ The website was tested on the following browsers:
 
 All devices were able to pass all tests.
 
-### Browser compatability
-
-- **Microsoft Edge**: Website and user stories work as expected. 
-- **Google Chrome**: Website and user stories work as expected. 
-- **Safari**:  Website and user stories work as expected. 
-- **Firefox**: Website and user stories work as expected. 
-
 ### Testing user stories
 
 1. As a first time user; I want to be able to navigate the site and access the information easily.

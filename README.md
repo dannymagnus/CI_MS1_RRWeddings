@@ -250,7 +250,6 @@ Info about image layout & link
 
 The testominals section is comprised of text boxes with previous customers reviews. This is important to have visible on the first page to help build trust with prospective customers.
 
-Info about text box layout & link
 
 ![Testimonials](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/testimonials.png)
 
@@ -268,13 +267,13 @@ Info about footer & link
 
 **The home page features highlight the following user stories:**
 
-2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
-3. As a first time user; I want to see that the businesses values match my own.
-4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.
-6. As a first time user; I want to be able to contact the business if I have any initial queries easily. 
-7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.
-8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
-10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
+*2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.*
+*3. As a first time user; I want to see that the businesses values match my own.*
+*4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*
+*6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
+*7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.*
+*8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
+*10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
 
 
 

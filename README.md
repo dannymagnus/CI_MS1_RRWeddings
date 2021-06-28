@@ -234,8 +234,6 @@ The slideshow is the first impression that the business gets to make on the visi
 
 The why us section has text and images with a call to action. The imagery shows the business owner which aims to build trust with potential customers. The call to action provides an easy way for customers to get in touch quickly.
 
-Info about image layout/modal button & link
-
 ![Why CHoose Us](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/why_choose_us.png)
 
 *Section 3 – Featured:*
@@ -570,7 +568,7 @@ All devices were able to pass all tests.
 
 *4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*
 
-*9. 9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
+*9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
 
 | Feature                            |                 Action                 |                           Expected result |     Actual result |
  ---------------------------------- | :------------------------------------ | ---------------------------------------- | ---------------- |
@@ -588,6 +586,7 @@ All devices were able to pass all tests.
 [Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-3.png)
 
 *4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.*
+
 *9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
 
 | Feature                            |                 Action                 |                           Expected result |     Actual result |
@@ -606,7 +605,9 @@ All devices were able to pass all tests.
 [Screenshot to show user story](https://github.com/dannymagnus/wedding-company/blob/master/docs/testing/user-story-5.png)
 
 *6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
+
 *8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
+
 *10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
 *11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
 *

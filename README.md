@@ -425,6 +425,7 @@ The Footer is displayed across all pages, it shows the business copyright, conta
 The modal displays as a button in all pages until in mobile view then is available as a get in touch button on the home page.
 
 ![Enquire Now](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/enquire_now.png)
+![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal_pop_up.png)
 
 **The Modal feature highlights the following user stories**
 

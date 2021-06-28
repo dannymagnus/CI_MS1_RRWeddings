@@ -928,13 +928,7 @@ h3 {
 #image-404 {
     width: 100%;
     height:100%;
-    background: url(../images/404-image.png) no-repeat center center;
+    background: url(../images/oops-image.png) no-repeat center center;
     background-size: contain;
     background-color: rgb(204, 202, 199);
-}
-
-#error-outer a {
-    position: absolute;
-    bottom: 100px;
-    right:0;
 }

@@ -921,8 +921,14 @@ h3 {
     justify-content: center;
 }
 
-#error-container {
+#oops-container {
     width: 320px;
+}
+
+#oops-container img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
 }
 
 #image-404 {

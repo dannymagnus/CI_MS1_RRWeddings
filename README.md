@@ -500,7 +500,7 @@ The website was tested on the following browsers:
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Egde
--Safari
+- Safari
 
 #### Tests performed: 
 

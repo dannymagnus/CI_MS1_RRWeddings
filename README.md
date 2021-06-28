@@ -625,6 +625,7 @@ All devices were able to pass all tests.
 
 <details><summary>Screenshots</summary>
 <img src="docs/testing/user-story-4-9.png">
+<img src="docs/testing/user-story-9.png">
 </details>
 
 10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.

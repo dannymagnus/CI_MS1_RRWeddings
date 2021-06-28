@@ -443,6 +443,7 @@ The HTML of the each page of the site was validated using [W3C Markup Validation
 <details><summary>Contact</summary>
 <img src="docs/validation/html-validation/html-validation-contact.png">
 </details>
+
 ### CSS Validation
 The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. 
 

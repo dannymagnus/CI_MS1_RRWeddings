@@ -926,6 +926,7 @@ h3 {
     height:100%;
     background: url(../images/404-image.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #error-outer a {

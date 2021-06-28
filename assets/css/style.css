@@ -934,10 +934,24 @@ h3 {
     margin: 0 10px;
 }
 
+.oops-container h1 {
+    text-align: center;
+}
+
+.oops-container h2 {
+    text-align: center;
+}
+
 @media (min-width: 560px) {
     #error-outer {
         flex-direction: row;
         margin: 100px 0;
     }
-
+    .oops-container h1 {
+        text-align: left;
+    }
+    
+    .oops-container h2 {
+        text-align: left;
+    }
 }

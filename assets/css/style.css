@@ -934,6 +934,6 @@ h3 {
     object-fit:contain;
 }
 
-.oops-container h1 {
-    font-size: 2rem;
+.oops-container>h1 {
+    font-size: 5rem;
 }

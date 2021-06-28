@@ -329,12 +329,10 @@ The call to action button takes the customer directly to the contact form.
 
 **The Product page features highlight the following user stories:**
 
-2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
 1. As a first time user; I want to be able to navigate the site and access the information easily.
-5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
-As a site owner; I want potential clients to be able to view imagery to inspire and attract them to book or purchase.
-- As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
+2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
 4. As a first time user; I want to find some wedding stationery that will set the tone of my wedding and give that ‘wow’ factor.
+5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
 9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
 12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
 
@@ -347,17 +345,17 @@ This section includes brand imagery of the business owner. The copy provides the
 ![A Bit About Me](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/about.png)
 
 **The About Me page feature highlights the following user stories:**
+
 3. As a first time user; I want to see that the businesses values match my own.
-11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
 7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.
-
-
+11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
 
 ### Feature 4: Contact
 
 The sections of the Contact page include:
 Location map
 Contact form 
+
 **Section 1 – Location Map**
 
 The location map shows the business location via googlemaps.
@@ -377,8 +375,6 @@ See what she has written for contact form
 10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
 11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
 
-
-
 ### Feature 5: Navigation bar
 
 The navigation bar is responsive depending on whether it’s viewed on desktop or tablet and mobile. It also has a collapsible toggle.
@@ -386,14 +382,11 @@ The navigation bar is responsive depending on whether it’s viewed on desktop o
 **The Navigation bar feature highlights the following user stories:**
 
 1. As a first time user; I want to be able to navigate the site and access the information easily.
-2. - As a first time user; I want to be able to navigate the site and access the information easily.
+2. As a first time user; I want to be able to navigate the site and access the information easily.
 
 ![Nav Bar](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/nav_bar.png)
 
-
-
 ### Feature 6: Footer
-
 
 The Footer is displayed across all pages, it shows the business copyright, contains links to the businesses social media pages, terms and conditions, privacy policy and credits to external partners.
 
@@ -401,22 +394,14 @@ The Footer is displayed across all pages, it shows the business copyright, conta
 
 **The Footer feature highlights the following user stories:**
 
-2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
 1. As a first time user; I want to be able to navigate the site and access the information easily.
-- As a site owner; I want potential clients to be able to view imagery to inspire and attract them to book or purchase.
+2. As a first time user; I want to be able to get ideas and inspiration for my wedding stationery.
 5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
 9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
 
-
-
-
-She also explains the contact form & modal in more detail as separate features??
-
-
-
 ## Feature 7: Modal
 
-The modal displays as a button in all pages until in mobile view then is available as a get in touch button on the home page.
+The modal displays as a button in all pages until in mobile view then is available as a get in touch button on the home page.  This then reveals a form overlay on the page that only dismisses once completed or closed.
 
 ![Enquire Now](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/enquire_now.png)
 

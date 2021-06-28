@@ -916,9 +916,16 @@ h3 {
 
 /* 404 Page */
 
+#error-outer {
+    position: relative;
+    height:600px;
+}
+
 #image-404 {
     width: 100%;
     background: url(../images/404-image.png) no-repeat center center;
-    height:600px;
+    height:100%;
     background-size: contain;
 }
+
+

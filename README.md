@@ -226,7 +226,7 @@ The site is fully responsive and tested on tablet on mobile. The copy is partial
 
 *Section 1 – Slideshow:*
 
-The slideshow is the first impression that the business gets to make on the visitor. I chose 3 images all with a cohesive theme in terms of the colour palette and the styling. It plays automatically to add some movement to the page.
+The slideshow is the first impression that the business gets to make on the visitor. I chose 3 images all with a cohesive theme in terms of the colour palette and the styling. It plays automatically to add some movement to the page using a bootstrap carousel.
 
 ![Hero image](https://github.com/dannymagnus/wedding-company/blob/master/assets/images/slide1.webp)
 
@@ -234,7 +234,7 @@ The slideshow is the first impression that the business gets to make on the visi
 
 The why us section has text and images with a call to action. The imagery shows the business owner which aims to build trust potential customers. The call to action provides an easy way for customers to get in touch quickly.
 
-Info about image layout/modal button & link
+The button was built using an anchor tag and a div containing a bootstrap modal form which is referenced later in this readme
 
 ![Why CHoose Us](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/why_choose_us.png)
 
@@ -242,11 +242,11 @@ Info about image layout/modal button & link
 
 The featured section shows the business logos of high profile wedding businesses which the brand has been featured in. This aims to show credibility and to show customers that the products on offer are of a high standard.
 
-Info about image layout & link
+Images were chosen from the publications that RRweddings has been featured in.  Badges were chosen rather than text to be quicker to view and more visually appealling than text alone.
 
 ![Featured](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/featured.png)
 
-*Section 4 – Testimonials:*
+*Section 4 – Testimonials: *
 
 The testominals section is comprised of text boxes with previous customers reviews. This is important to have visible on the first page to help build trust with prospective customers.
 
@@ -254,15 +254,9 @@ Info about text box layout & link
 
 ![Testimonials](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/testimonials.png)
 
-*Section 5 – Modal pop up form:*
-
-![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal_pop_up.png)
-
-*Section 6 – footer:*
+*Section 5 – footer:*
 
 The footer is a feature across all pages but is important to allow customers to explore other areas of the business and gain more inspiration.
-
-Info about footer & link
 
 ![Footer](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/footer.png)
 
@@ -276,8 +270,6 @@ Info about footer & link
 8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
 10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
 
-
-
 ### Feature 2: Products
 
 The sections of home page include:
@@ -289,39 +281,38 @@ The ‘Anemone’ section is a product example with pricing.
 The ‘Peony section is a product example with pricing.
 The call to action takes the customer straight to a contact form.
 
-
-*Section 1 - Product hero image and internal page links
+*Section 1 - Product hero image and internal page links*
 
 The product hero image is aimed to capture to visitors attention and to maintain the brand identity throughout the different pages. The internal page links provide easy navigation access.
 
-Link to hero image
+![Products](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/feature-products.png)
 
-*Section 2 - Bespoke
+*Section 2 - Bespoke*
 
 The bespoke section provides the customer with a product description, and copy including pricing and timescales, alongside a demonstration video.
 The video adds another dimension to the business, enabling potential customers to visualise how their purchase would be created.
 
 Link to feature
 
-*Section 3 – Customisable
+*Section 3 – Customisable*
 
 The customisable section provides the customer with a product description, and copy including pricing and timescales.
 
 ![Bespoke and Customisable](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/bespoke_customisable.png)
 
-*Section 4 – Anemone gallery
+*Section 4 – Anemone gallery*
 
 The Anemone gallery contains detailed product description to inform the customer with key details including product pricing.
 
 ![Anemone](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/anemone.png)
 
-*Section 5 – Peony Gallery
+*Section 5 – Peony Gallery*
 
 The Peony gallery contains detailed product description to inform the customer with key details including product pricing.
 
 ![Peony](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/peony.png)
 
-*Section 6 – Call to action
+*Section 6 – Call to action*
 
 The call to action button takes the customer directly to the contact form.
 
@@ -335,8 +326,6 @@ The call to action button takes the customer directly to the contact form.
 5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
 9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
 12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
-
-
 
 ### Feature 3: About me
 
@@ -409,7 +398,18 @@ The modal displays as a button in all pages until in mobile view then is availab
 
 6. As a first time user; I want to be able to contact the business if I have any initial queries easily. 
 10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
-8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase
+8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.
+
+#### Feature 8: 404 Error Page
+
+This page displays when a user enters a URL that does not exist. The main purpose of this page is to let users know that an error has occurred and to redirect them back to the website. The design of this page is simple as I want users to return the main pages of the site as soon as possible upon seeing this page. It consists of a heading, subheading and button.
+
+The page is fully responsive on mobile and tablet.
+
+![404 page](https://github.com/TaraRhoseyn/CI_MS1_CardiffSwimCentre/blob/main/docs/features/feature-6.PNG)
+
+While this page does not cover any specific user story, it aids them all by allowing the user to easily navigate themselves back to all of the other features and pages on the site.
+
 
 ## Validation
 

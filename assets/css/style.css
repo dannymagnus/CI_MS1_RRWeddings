@@ -919,15 +919,12 @@ h3 {
 #error-outer {
     display: flex;
     justify-content: center;
-}
-
-#oops-container {
-    width: 320px;
+    align-items: center;
 }
 
 #oops-container img {
-    width: 100%;
-    height: 100%;
+    width: 320px;
+    height: 400px;
     object-fit:contain;
 }
 

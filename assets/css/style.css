@@ -66,7 +66,7 @@ h3 {
     color: inherit;
     padding: 0 1.5rem;
     margin-right: 1.5rem;
-    background-color: rgba(250, 218, 221, 0.5);
+    background-color: #f2dcdc80;
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgb(173, 175, 177);
 }
@@ -78,8 +78,7 @@ h3 {
 }
 
 .modal-header {
-    background-color: rgba(250, 218, 221, 0.5);
-}
+    background-color: #f2dcdc80;}
 
 .navbar-links {
     height: 100%;
@@ -184,7 +183,7 @@ h3 {
 /* Hero text and description*/
 
 #hero-text h1 {
-    background-color: rgba(250, 218, 221, 0.5);
+    background-color: #f2dcdc80;
 }
 
 #hero-text p {
@@ -355,7 +354,7 @@ h3 {
     width: 100%;
     padding-bottom: 50px;
     background-image: url(../images/outline2.webp);
-    background-color: rgba(250, 235, 215, .5);
+    background-color: #f2dcdc80;
     background-size: contain;
 }
 
@@ -535,7 +534,7 @@ h3 {
 #about-me-top__text-container {
     height: 800px;
     width: 33%;
-    background-color: rgba(255, 245, 231, 0.9);
+    background-color: #f5eee6e6;
     text-align: center;
     position: absolute;
     bottom: 0;
@@ -644,7 +643,7 @@ h3 {
 }
 
 #products-banner {
-    background-color: rgba(175, 238, 238, .5);
+    background-color: #ebeff280;
 }
 
 #product-anchors {
@@ -784,7 +783,7 @@ h3 {
     background-image: url(../images/peony-1-banner.webp);
     background-size: cover;
     background-position: center center;
-    background-color: pink;
+    background-color: #d9bfbf;
 }
 
 .cust-product-outer {

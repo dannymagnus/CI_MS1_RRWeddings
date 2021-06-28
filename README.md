@@ -661,9 +661,18 @@ All devices were able to pass all tests.
 <details><summary>Screenshots</summary>
 <img src="docs/testing/user-story-12.png">
 </details>
-------Bugs
-EXPLAIN
-## Deployment
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| Text in about me main landing overhangs the container on resize | Change text size to vw to be responsive |
+| The user can submit a contact form input without a message | Add required attribute to message input field |
+| Footer logo does not display in flex container | Set explicit	width and height for image |
+| Footer icons fail accessibility checks | Add font awesome sr class and aria-hidden=“true” |
+| Link to modal fails on selecting ‘Get in touch’ button on home when Nav bar in toggle display | Change location of modal from header to get in touch for home page |
+| Body and Header were failing accessibility contrast | Change font colour |
+| Modal submit button had no effect | Button was in modal footer outside of form, moved inside form |
 
 ### GitHub Pages
 

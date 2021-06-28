@@ -234,8 +234,6 @@ The slideshow is the first impression that the business gets to make on the visi
 
 The why us section has text and images with a call to action. The imagery shows the business owner which aims to build trust with potential customers. The call to action provides an easy way for customers to get in touch quickly.
 
-Info about image layout/modal button & link
-
 ![Why CHoose Us](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/why_choose_us.png)
 
 *Section 3 – Featured:*
@@ -339,8 +337,6 @@ The call to action button is highlighted within the text copy and takes the cust
 
 *12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.*
 
-
-
 ### Feature 3: About me
 
 This section includes brand imagery of the business owner. The copy provides the customer with business values and there are call to action points for the visitors to get in touch.
@@ -354,8 +350,6 @@ This section includes brand imagery of the business owner. The copy provides the
 *7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.*
 
 *11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.*
-
-
 
 ### Feature 4: Contact
 
@@ -386,8 +380,6 @@ The contact form is a simple form to encourage visitors to complete it, the form
 
 *11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.*
 
-
-
 ### Feature 5: Navigation bar
 
 The navigation bar is responsive depending on whether it’s viewed on desktop or tablet and mobile. It also has a collapsible toggle.
@@ -398,11 +390,7 @@ The navigation bar is responsive depending on whether it’s viewed on desktop o
 
 *6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
 
-
 ![Nav Bar](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/nav_bar.png)
-
-
-
 ### Feature 6: Footer
 
 
@@ -420,13 +408,12 @@ The Footer is displayed across all pages, it shows the business copyright, conta
 
 *9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
 
-
-
 ## Feature 7: Modal
 
 The modal displays as a button in all pages until in mobile view then is available as a get in touch button on the home page.
 
 ![Enquire Now](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/enquire_now.png)
+![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal_pop_up.png)
 
 **The Modal feature highlights the following user stories**
 
@@ -436,14 +423,11 @@ The modal displays as a button in all pages until in mobile view then is availab
 
 *10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
 
-
-
 ## Feature 8: 404
 
 This feature isn't considered a user feature but it redirects the user back to any of the valid links.
 
 ![Error 404](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/oops-feature.png)
-
 
 ## Validation
 
@@ -699,9 +683,7 @@ All devices were able to pass all tests.
 | Footer icons fail accessibility checks | Add font awesome sr class and aria-hidden=“true” |
 | Link to modal fails on selecting ‘Get in touch’ button on home when Nav bar in toggle display | Change location of modal from header to get in touch for home page|
 |Body and Header were failing accessibility contrast | Change font colour|
-Modal submit button had no effect | Button was in modal footer outside of form, moved inside form |
-
-## Deployment
+Modal submit button had no effect | Button was in modal footer outside of form, moved inside form |## Deployment
 
 ### GitHub Pages
 

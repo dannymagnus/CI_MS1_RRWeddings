@@ -8,12 +8,15 @@
     border: none;
     box-sizing: border-box;
 }
+
 /* Class to clear after floats */
+
 .clear {
     clear: both;
 }
 
 /* Overide bootstrap style */
+
 body {
     color: #383d41;
     font-family: 'Playfair Display', sans-serif;
@@ -22,6 +25,7 @@ body {
 }
 
 /* Overide bootstrap style  and correct sizing for all h1 */
+
 h1,
 h2,
 h3 {
@@ -601,7 +605,8 @@ h3 {
     margin: 10px;
 }
 
-.bottom-box a {text-decoration: none;
+.bottom-box a {
+    text-decoration: none;
     color:inherit;
     font-weight:bold;
     }
@@ -982,6 +987,12 @@ h3 {
 
 .oops-container h2 {
     text-align: center;
+}
+
+.oops-container a{
+    text-decoration: none;
+    color:inherit;
+    font-weight:bold;
 }
 
 @media (min-width: 560px) {

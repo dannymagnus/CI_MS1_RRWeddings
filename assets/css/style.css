@@ -248,10 +248,11 @@ h3 {
     margin: 25px;
 }
 
-#reasons-text hr {
+#reasons-hr {
     height: 1px; 
     border-width:0;
     color:gray;
+    background-color:gray;
     width:75%; 
     margin-left: auto;
     margin-right: auto; 

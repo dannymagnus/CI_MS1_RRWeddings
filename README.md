@@ -475,7 +475,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <img src="docs/validation/wave-validation/wave-validation-products.png">
 </details>
 <details><summary>Contact</summary>
-<img src="docs/validation/wave-validation/wave-validation-index.png">
+<img src="docs/validation/wave-validation/wave-validation-contact.png">
 </details>
 <details><summary>404</summary>
 <img src="docs/validation/wave-validation/wave-validation-404.png">

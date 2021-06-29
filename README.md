@@ -449,6 +449,7 @@ The HTML of the each page of the site was validated using [W3C Markup Validation
 <details><summary>Contact</summary>
 <img src="docs/validation/html-validation/html-validation-contact.png">
 </details>
+<details><summary>404</summary>
 <img src="docs/validation/html-validation/html-validation-404.png">
 </details>
 

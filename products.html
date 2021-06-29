@@ -53,7 +53,9 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
                             </div>
                             <div class="modal-body">
+                                <!--Modal form used code institute form dump url for post-->
                                 <form id="md-form" class="form" action="https://formdump.codeinstitute.net/" method="post" target="_blank">
+                                    <!--All form inputs set to required before submit-->
                                     <label for="md-name">Name</label><br>
                                     <input id="md-name" name="name" type="text" required size="30"><br>
                                     <label for="md-email">Email</label><br>
@@ -63,6 +65,7 @@
                                     <label for="md-message">Your message</label><br>
                                     <textarea id="md-message" name="message" rows="5" cols="30" required><br>Please enter your message here</textarea>
                                     <div class="modal-footer">
+                                        <!--Submit button using custom css-->
                                         <button type="submit" class="booking-button" data-dismiss="modal">
                                             Lets do this!
                                         </button>
@@ -76,16 +79,20 @@
         </nav>
     </header>
     <section id="product-hero-outer">
+        <!--Main landing image-->
         <div id="product-hero">
             <img src="assets/images/product-hero.webp" alt="invitations">
         </div>
+        <!--Banner under main landing image-->
         <h1 class="banner" id="products-banner">Our Products</h1>
         <div class="banner" id="product-anchors">
+            <!--Anchors to bespoke and customisable main page-->
             <a href="#bespoke">Bespoke</a>
             <a href="#customisable" id="customisable-border">customisable</a>
         </div>
         <div id="product-text-outer">
             <div id="products-text-container">
+                <!--Products intro text with hidden content for small devices-->
                 <p class="sm">
                     The great thing about wedding stationery is that you can create almost anything, this can also be a little overwhelming because there are so many options. the first thing really is to decide which service would suit you best - bespoke or customisable?
                 </p>
@@ -102,38 +109,29 @@
         <div>
             <h1 class="sub-heading">bespoke</h1>
         </div>
+        <!--Flex container for responsive text wrap to video-->
         <div class="bespoke-container">
             <div class="bespoke-box">
+                <!--Video with alternative to show Bespoke creation-->
                 <video width="340" controls class="bespoke-box">
                     <source src="assets/videos/speed-painting.webm" type="video/webm">
                     <source src="assets/videos/speed-painting.mp4" type="video/mp4">
                     Your browser does not support embedded video
                 </video>
             </div>
+            <!--Bespoke text with hidden content for small devices-->
             <div class="bespoke-box" id="bespoke-text-1">
                 <p>
-                    I absolutely LOVE designing bespoke wedding stationery - it is the perfect way to set the scene of
-                    your wedding. I design and paint each element from scratch, which is the perfect way for you to
-                    <span class=sm>inject your personality and style into your invitations and</span> portray the feel
-                    of your day.
+                    I absolutely LOVE designing bespoke wedding stationery - it is the perfect way to set the scene of your wedding. I design and paint each element from scratch, which is the perfect way for you to <span class=sm>inject your personality and style into your invitations and</span> portray the feel of your day.
                 </p>
                 <p>
-                    I work with you every step of the way <span class=sm>, whether you have a complete idea of what you
-                        would like, or
-                        if you need a little more help and guidance,</span> to create a lovingly detailed stationery
-                    suite.
+                    I work with you every step of the way <span class=sm>, whether you have a complete idea of what you would like, or if you need a little more help and guidance,</span> to create a lovingly detailed stationery suite.
                 </p>
             </div>
+            <!--Text for bespoke containing timings and fees-->
             <div class="bespoke-box" id="bespoke-text-2">
                 <p>
-                    The bespoke design fee starts at £300 <span class="sm">, depending on the scope of your stationery
-                        suite</span>.This fee
-                    includes the desgin of the invitation suite and a personalised element, either a custom monogram or
-                    a line drawing of your venue
-
-                    . <span class="sm"> if you're interested in multiple custom illustrated elements this would be
-                        quoted on an individual
-                        basis.</span>
+                    The bespoke design fee starts at £300 <span class="sm">, depending on the scope of your stationery suite</span>.This fee includes the desgin of the invitation suite and a personalised element, either a custom monogram or a line drawing of your venue . <span class="sm"> if you're interested in multiple custom illustrated elements this would be quoted on an individual basis.</span>
                 </p>
                 <p>
                     The turnaround time for a bespoke package is 8 - 12 weeks.
@@ -146,41 +144,37 @@
             <h1 class="sub-heading">Customisable</h1>
             <div class="customisable-container">
                 <div class="banner" id="customisable-text">
+                    <!--Customisable intro text-->
                     <p>
-                        My customisable designs will compliment any wedding, featuring my unique hand painted
-                        watercolour
-                        illustrations and beautiful textured papers.
-                        These designs offer a quicker turnaround time than the bespoke service and offer options to suit
-                        different budgets. The turnaround on these packages is 4 weeks.
+                        My customisable designs will compliment any wedding, featuring my unique hand painted watercolour illustrations and beautiful textured papers. These designs offer a quicker turnaround time than the bespoke service and offer options to suit different budgets. The turnaround on these packages is 4 weeks.
                     </p>
                     <p>
-                        With customisable invitations, only the text will be personalised to your requirements. I can
-                        change envelope colours inclusive in the cost of the invitations.
+                        With customisable invitations, only the text will be personalised to your requirements. I can change envelope colours inclusive in the cost of the invitations.
                     </p>
+                    <!--Paragraph with call to action and link to contact page-->
                     <p>
                         To find out more take a look at the examples below then <a href="contact.html">get in touch</a>.
                     </p>
                 </div>
             </div>
+            <!--Peony div-->
+            <!--Peony banner image with text overlay image from RR Weddings-->
             <div class="customisable-banner" id="peony-banner">
                 <div>
                     <h1 class="banner">Peony</h1>
                 </div>
             </div>
+            <!--Flex container for peony text and images-->
             <div class="cust-product-outer" id="peony-outer">
                 <div class="cust-product-text-container">
-                    <p>A romantic pastel design with pink hued rose illustrations. Featuring a super pretty pink was
-                        seal as well as a vellum wrap to add that touch of luxury.
+                    <p>
+                        A romantic pastel design with pink hued rose illustrations. Featuring a super pretty pink was seal as well as a vellum wrap to add that touch of luxury.
                     </p>
                     <p>
-                        Included within the price for these customisable designs is wording and text changes, and small
-                        layout alterations.
-                        Font style and theme colour change from £40. If you want to change to design further please
-                        contact me for a semi-customisable design, this would include adding any extra prints, changing
-                        the printing or paper finishes and major layout
-                        or colour changes. The fee for this starts at £125.
+                        Included within the price for these customisable designs is wording and text changes, and small layout alterations. Font style and theme colour change from £40. If you want to change to design further please contact me for a semi-customisable design, this would include adding any extra prints, changing the printing or paper finishes and major layout or colour changes. The fee for this starts at £125.
                     </p>
                 </div>
+                <!--Peony design images in flex-->
                 <div class="cust-product-img-container">
                     <img src="assets/images/peony-1.webp" alt="peony invitation in vellum wrap">
                     <img src="assets/images/peony-2.webp" alt="peony invitation four item layout">
@@ -188,25 +182,23 @@
                     <img src="assets/images/peony-4.webp" alt="peony invitation with wax seal">
                 </div>
             </div>
+            <!--Anenome div-->
+            <!--Anenome banner image with text overlay image from RR Weddings-->
             <div class="customisable-banner" id="anenome-banner">
                 <div>
                     <h1 class="banner">Anenome</h1>
                 </div>
             </div>
+            <!--Flex container for peony text and images-->
             <div class="cust-product-outer" id="anenome-outer">
                 <div class="cust-product-text-container">
-                    <p>A mix of flowers and foliage with watercolour ferns and anemones that would suit most weddings,
-                        with an optional vellum overlay
+                    <p>A mix of flowers and foliage with watercolour ferns and anemones that would suit most weddings, with an optional vellum overlay
                     </p>
                     <p>
-                        Included within the price for these customisable designs is wording and text changes, and small
-                        layout alterations.
-                        Font style and theme colour change from £40
-                        If you want to change to design further please contact me for a semi-customisable design, this
-                        would include adding any extra prints, changing the printing or paper finishes and major layout
-                        or colour changes. The fee for this starts at £125.
+                        Included within the price for these customisable designs is wording and text changes, and small layout alterations. Font style and theme colour change from £40 If you want to change to design further please contact me for a semi-customisable design, this would include adding any extra prints, changing the printing or paper finishes and major layout or colour changes. The fee for this starts at £125.
                     </p>
                 </div>
+                <!--Anenome design images in flex-->
                 <div class="cust-product-img-container">
                     <img src="assets/images/anenome-2.webp" alt="anenome five invitation layout">
                     <img src="assets/images/anenome-4.webp" alt="anenome invites, two peices">

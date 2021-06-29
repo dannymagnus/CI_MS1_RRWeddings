@@ -53,7 +53,9 @@
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
                             </div>
                             <div class="modal-body">
+                                <!--Modal form used code institute form dump url for post-->
                                 <form id="md-form" class="form" action="https://formdump.codeinstitute.net/" method="post" target="_blank">
+                                    <!--All form inputs set to required before submit-->
                                     <label for="md-name">Name</label><br>
                                     <input id="md-name" name="name" type="text" required size="30"><br>
                                     <label for="md-email">Email</label><br>
@@ -63,6 +65,7 @@
                                     <label for="md-message">Your message</label><br>
                                     <textarea id="md-message" name="message" rows="5" cols="30" required><br>Please enter your message here</textarea>
                                     <div class="modal-footer">
+                                        <!--Submit button using custom css-->
                                         <button type="submit" class="booking-button" data-dismiss="modal">
                                             Lets do this!
                                         </button>
@@ -75,13 +78,17 @@
             </div>
         </nav>
     </header>
+    <!--Flexbox container for 404-->
     <div id="error-outer">
         <div class="oops-container__image">
+            <!--Flower image courtesy of RR Designs-->
             <img src="assets/images/oops-image.png" alt="flower drawing">
         </div>
         <div class="oops-container">
+            <!--404 hidden on smaller devices to show text below to encourage scrolling for content-->
             <span class="sm"><h1>ERROR 404</h1><br></span>
             <h2>OOPS!</h2><br>
+            <!--anchors to redirect to relevant areas of the site-->
             <p>Looks like we got lost in the flower garden...</p>
             <p>Let's get you back on the right track with some helpful links</p>
             <p>See why RR Weddings is right for you at our <a href="index.html">home</a></p>

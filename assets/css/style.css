@@ -39,10 +39,7 @@ h3 {
     margin-top: 3rem;
 }
 
-
 /*Header styling*/
-
-
 /* Nav bar */
 
 .navbar {
@@ -66,6 +63,7 @@ h3 {
 
 /* Booking button and modal */
 /* Too round edges of booking buttons in modal anchors */
+
 .booking-button {
     text-decoration: none;
     color: inherit;
@@ -90,6 +88,7 @@ h3 {
 }
 
 /* Flex to display nav list horizontally */
+
 .navbar-links ul {
     display: flex;
     margin: 0;
@@ -284,6 +283,7 @@ h3 {
     }
 }
 /* Style why us images */
+
 #why-us__image-stack {
     position: relative;
     min-height: 30rem;
@@ -466,7 +466,6 @@ h3 {
 h3 {
     padding-bottom: 10px;
 }
-
 
 /*Styling social media*/
 

@@ -651,7 +651,7 @@ All devices were able to pass all tests.
 10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Find Enquire now Modal in nav bar      |      Click link, complete all fields and press submit OR close button     |Form submits and closes OR closes without submission.  If all fields not filled correctly, highlights error to user | Works as expected |
+| Find Enquire now Modal in nav bar      |      Click link, complete all fields and press submit OR close button     | Form submits and closes OR closes without submission.  If all fields not filled correctly, highlights error to user | Works as expected |
 | Find Get in touch button | Click button, complete all fields and click submit OR close icon | Form submits and closes OR closes without submission.  If all fields not filled correctly, highlights error to user | Works as expected |
 | Find internal get in touch OR email me links   |   Click on link   | Redirects to Contact page | Works as expected |
 
@@ -674,7 +674,7 @@ All devices were able to pass all tests.
 12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Find Products page       |      Click product page link in nav bar, scroll down page OR click links in products page for Bespoke / Customisable  |To see video / images of stationary and description of service | Works as expected |
+| Find Products page       |      Click product page link in nav bar, scroll down page OR click links in products page for Bespoke / Customisable  | To see video / images of stationary and description of service | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/testing/user-story-12.png">

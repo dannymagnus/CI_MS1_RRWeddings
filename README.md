@@ -173,6 +173,9 @@ Each page contains the following structure
 <details><summary>Contact</summary>
 <img src="docs/wireframes/contact_wireframe.png">
 </details>
+<details><summary>404</summary>
+<img src="docs/wireframes/404_wireframe.png">
+</details>
 
 ## Technologies Used
 

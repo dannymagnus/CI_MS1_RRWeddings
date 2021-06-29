@@ -652,6 +652,7 @@ All devices were able to pass all tests.
 </details>
 
 10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Find Enquire now Modal in nav bar      |      Click link, complete all fields and press submit OR close button     | Form submits and closes OR closes without submission.  If all fields not filled correctly, highlights error to user | Works as expected |
@@ -675,6 +676,7 @@ All devices were able to pass all tests.
 </details>
 
 12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
+
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Find Products page       |      Click product page link in nav bar, scroll down page OR click links in products page for Bespoke and Customisable  |  To see video and images of stationary and description of service  |  Works as expected  |

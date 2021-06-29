@@ -696,6 +696,9 @@ All devices were able to pass all tests.
 | 404 Page       |      Enter invalid site extension eg /products.htmll  |  redirected to internal error 404 page  |  Works as expected  |
 | 404 Page     | Click links from 404 page text  |  Redirects to valid site pages   |   Works as expected  |
 
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user-story-13.png">
+</details>
 
 ## Bugs
 

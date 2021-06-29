@@ -511,7 +511,7 @@ The website was tested on the following browsers:
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Egde
--Safari
+- Safari
 
 #### Tests performed: 
 
@@ -687,7 +687,8 @@ All devices were able to pass all tests.
 | Footer icons fail accessibility checks | Add font awesome sr class and aria-hidden=“true” |
 | Link to modal fails on selecting ‘Get in touch’ button on home when Nav bar in toggle display | Change location of modal from header to get in touch for home page|
 |Body and Header were failing accessibility contrast | Change font colour|
-Modal submit button had no effect | Button was in modal footer outside of form, moved inside form |## Deployment
+Modal submit button had no effect | Button was in modal footer outside of form, moved inside form |
+## Deployment
 
 ### GitHub Pages
 
@@ -743,6 +744,7 @@ Media from the following artists was used throughout the site.
 - [Anna Rousos](https://annaroussos.com/)
 - [Katherine Yiannaki](https://katherineyiannaki.com/)
 - [David Boyton Photography](https://davidboyntonweddingphotography.pixieset.com/)
+- RR Designs
 
 
 ### Acknowledgements: 

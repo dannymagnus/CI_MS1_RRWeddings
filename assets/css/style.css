@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 
+/* Clear inherited and add box sizing */
 * {
     margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
 }
-
+/* Class to clear after floats */
 .clear {
     clear: both;
 }
 
+/* Overide bootstrap style */
 body {
     color: #383d41;
     font-family: 'Playfair Display', sans-serif;
@@ -19,6 +21,7 @@ body {
     text-transform: uppercase;
 }
 
+/* Overide bootstrap style  and correct sizing for all h1 */
 h1,
 h2,
 h3 {
@@ -26,10 +29,12 @@ h3 {
     font-size: 180%;
 }
 
+/* Used for text under hero images on home, product pages */
 .banner {
     text-align: center;
 }
 
+/* Used generically to add uniform space between sections or divs */
 .spacer {
     margin-top: 3rem;
 }
@@ -60,7 +65,7 @@ h3 {
 }
 
 /* Booking button and modal */
-
+/* Too round edges of booking buttons in modal anchors */
 .booking-button {
     text-decoration: none;
     color: inherit;
@@ -84,6 +89,7 @@ h3 {
     height: 100%;
 }
 
+/* Flex to display nav list horizontally */
 .navbar-links ul {
     display: flex;
     margin: 0;
@@ -222,6 +228,8 @@ h3 {
     display: block;
     font-size: 300%;
 }
+/* Container for why us section */
+
 #reasons-container {
     display: flex;
     margin-top: 5rem;
@@ -236,7 +244,7 @@ h3 {
 #reasons-text p {
     margin: 25px;
 }
-/*Get in touch*/
+/*Get in touch button*/
 
 #reasons-text h1 {
     margin: 25px;
@@ -334,6 +342,8 @@ h3 {
 #featured-container li {
     width: 20%
 }
+
+/* As featured in images */
 
 #featured-container img {
     height: 100%;
@@ -520,6 +530,8 @@ h3 {
     position: relative;
 }
 
+/* About me image container */
+
 #about-me-top__image-container {
     height: 800px;
     width: 100%;
@@ -530,6 +542,8 @@ h3 {
     background-repeat: repeat-x;
     position: relative;
 }
+
+/*About me text ribbon */
 
 #about-me-top__text-container {
     height: 800px;
@@ -592,12 +606,15 @@ h3 {
     color:inherit;
     font-weight:bold;
     }
+ 
+/* Call to action buttons */    
     
 .bottom-box a:hover {text-decoration: none;
-        color:rgb(160, 160, 160);
+    color:rgb(160, 160, 160);
     font-weight:bolder;
     }
 
+/* About images container */
 #overlap-container {
     position: relative;
     height: 550px;
@@ -622,6 +639,8 @@ h3 {
     background-size: cover;
 }
 
+/* About us portrait of artist bottom right */
+
 #about-bottom-portrait {
     background-image: url(../images/about-me-bottom-right.webp);
     background-repeat: no-repeat;
@@ -631,10 +650,14 @@ h3 {
 
 /* Products Page*/
 
+/* Hero image container */
+
 #product-hero {
     height: 450px;
     overflow: hidden;
 }
+
+/* Product image */
 
 #product-hero img {
     object-fit: cover;
@@ -645,6 +668,8 @@ h3 {
 #products-banner {
     background-color: #ebeff2;
 }
+
+/* Customisable Bespoke internal page anchors */
 
 #product-anchors {
     margin: 1rem;
@@ -664,6 +689,8 @@ h3 {
     border-left: 2px solid #3a3a3a;
     padding-left: .5rem;
 }
+
+/* Product text summary */
 
 #product-text-outer {
     display: flex;
@@ -688,6 +715,8 @@ h3 {
 
 /*Bespoke Section*/
 
+/* Container for images and text */
+
 .bespoke-container {
     margin-top: 50px;
     display: flex;
@@ -706,10 +735,10 @@ h3 {
         width: auto;
         margin: 10px;
     } 
-        #bespoke-text-2 {
-            width: auto;
-            margin: 10px;
-        }
+     #bespoke-text-2 {
+        width: auto;
+        margin: 10px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -773,7 +802,7 @@ h3 {
     }
 }
 
-/*Peony*/
+/*Peony Banner*/
 
 #peony-banner {
     background-image: url(../images/peony-1-banner.webp);
@@ -781,6 +810,8 @@ h3 {
     background-position: center center;
     background-color: #d9bfbf;
 }
+
+/* Flex container for Peony and Anenome */
 
 .cust-product-outer {
     display: flex;
@@ -834,6 +865,8 @@ h3 {
     }
 }
 
+/* Anenome Banner */
+
 #anenome-banner {
     background-image: url(../images/anenome-1.webp);
     background-size: cover;
@@ -856,6 +889,7 @@ h3 {
     overflow: hidden;
     position: relative;
 }
+/* Contact us map */
 
 #map-outer {
     width: 90%;
@@ -883,6 +917,7 @@ h3 {
     max-width:800px;
     padding-top: 20px;
 }
+/* Styling for form */
 
 .form textarea {
     border: 1px solid grey;
@@ -912,6 +947,8 @@ h3 {
 
 /* 404 Page */
 
+/* Image and text flex container */
+
 #error-outer {
     display: flex;
     flex-direction: column;
@@ -919,16 +956,22 @@ h3 {
     align-items: center;
 }
 
+/* Image container */
+
 .oops-container__image {
     width: 320px;
     height:400px;
 }
+
+/* Oops flower image */
 
 .oops-container__image img {
     width: 100%;
     height: 100%;
     object-fit:contain;
 }
+
+/* Oops text container */
 
 .oops-container {
     margin: 0 10px;

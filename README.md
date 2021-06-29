@@ -431,9 +431,13 @@ The modal displays as a button in all pages until in mobile view then is availab
 
 ## Feature 8: 404
 
-This feature isn't considered a user feature but it redirects the user back to any of the valid links.
+This feature redirects the user back to any of the valid links rather than the user using browser controls.
 
 ![Error 404](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/oops-feature.png)
+
+**The 404 page highlights the following user stories**
+
+*13. The user should be able to navigate back through the site structure in case of page not found without using the browser back button.
 
 ## Validation
 
@@ -684,6 +688,14 @@ All devices were able to pass all tests.
 <details><summary>Screenshots</summary>
 <img src="docs/testing/user-story-12.png">
 </details>
+
+13. The user should be able to navigate back through the site structure in case of page not found without using the browser back button.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| 404 Page       |      Enter invalid site extension eg /products.htmll  |  redirected to internal error 404 page  |  Works as expected  |
+| 404 Page     | Click links from 404 page text  |  Redirects to valid site pages   |   Works as expected  |
+
 
 ## Bugs
 

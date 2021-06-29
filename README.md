@@ -530,11 +530,10 @@ The website was tested on the following browsers:
 7. Images and text collapse into a column view when view on mobile devices.
 9. The google map has a location pin and is responsive to show company location.
 11. Inline anchor in product page direct customer to contact page.
-12. Anchor elements show a grow effect when hovered over and selected. 
-13. All pages are responsive and no text or image cut off in mobile views
-14. Designated items and text do not show in mobile layout.
-15. All copy is clear and legible.
-16. Flexbox and direction and breakpoints checked on browser resizing.
+12. All pages are responsive and no text or image cut off in mobile views
+13. Designated items and text do not show in mobile layout.
+14. All copy is clear and legible.
+15. Flexbox and direction and breakpoints checked on browser resizing.
 
 #### Results: 
 

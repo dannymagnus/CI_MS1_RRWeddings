@@ -247,6 +247,18 @@ h3 {
 #reasons-text p {
     margin: 25px;
 }
+
+#reasons-text hr {
+    height: 1px; 
+    border-width:0;
+    color:gray;
+    width:75%; 
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 50px;
+}
+
+
 /*Get in touch button*/
 
 #reasons-text h1 {

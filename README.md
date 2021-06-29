@@ -488,7 +488,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <img src="docs/validation/lighthouse-validation/lighthouse-validation-contact.png">
 </details>
 <details><summary>404</summary>
-<img src="docs/validation/lighthouse-validation/lighthouse-validation-contact.png">
+<img src="docs/validation/lighthouse-validation/lighthouse-validation-404.png">
 </details>
 
 ### Performing tests on various devices 

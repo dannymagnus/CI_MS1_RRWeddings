@@ -41,10 +41,40 @@
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
-            <!--Link to modal later in page, used there as this becomes hidden on resize-->
+            <!--modal here is in different location to index as there is no get in touch button later in page-->
+            <!--Bootstrap 4 used with some custom CSS-->
             <div class="enquire-navbar">
-                <a class="booking-button" href="#mymodal" data-toggle="modal" data-target="#mymodal">Enquire
-                    now!</a>
+                <a class="booking-button" href="#mymodal" data-toggle="modal" data-target="#mymodal">Enquire now!</a>
+                <div class="modal" id="mymodal">
+                    <div class="modal-dialog ">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Contact us</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
+                            </div>
+                            <div class="modal-body">
+                                <form id="md-form" class="form" action="https://formdump.codeinstitute.net/"
+                                    method="post" target="_blank">
+                                    <label for="md-name">Name</label><br>
+                                    <input id="md-name" name="name" type="text" required size="30"><br>
+                                    <label for="md-email">Email</label><br>
+                                    <input id="md-email" name="email" type="email" required size="30"><br>
+                                    <label for="md-phone">Contact no.</label><br>
+                                    <input id="md-phone" name="phone" type="text" size="13"><br>
+                                    <label for="md-message">Your message</label><br>
+                                    <textarea id="md-message" name="message" rows="5"
+                                        cols="30">Please enter your message here</textarea>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="booking-button" data-dismiss="modal">Lets
+                                            do
+                                            this!
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>

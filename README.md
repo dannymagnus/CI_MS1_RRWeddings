@@ -88,6 +88,7 @@
 10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
 11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
 12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
+13. The user should be able to navigate back through the site structure in case of page not found without using the browser back button.
 
 ## Scope
 
@@ -206,6 +207,8 @@ Each page contains the following structure
 - VSCode was the IDE used to write the remainder of the project code.
 11. [Google Maps](https://www.google.co.uk/maps)
 - Google Maps was used for the iframe in contact information.
+12. [Favicon](www.favicon.io)
+- Favicon was used for the browser tab icon.
 
 ## Features
 
@@ -674,7 +677,7 @@ All devices were able to pass all tests.
 12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Find Products page       |      Click product page link in nav bar, scroll down page OR click links in products page for Bespoke / Customisable  | To see video / images of stationary and description of service | Works as expected |
+| Find Products page       |      Click product page link in nav bar, scroll down page OR click links in products page for Bespoke and Customisable  |  To see video and images of stationary and description of service  |  Works as expected  |
 
 <details><summary>Screenshots</summary>
 <img src="docs/testing/user-story-12.png">
@@ -732,10 +735,13 @@ By forking this GitHub repository you are making a copy of the original to view 
 
 - **WebDev Simplified** [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=363s) [Units](https://www.youtube.com/watch?v=-GR52czEd-0) Youtuber for understanding flexbox and implementing testimonials, units, implementing responsive navbar.
 - **Frontend Paathshala** [Modal Forms](https://https://www.youtube.com/watch?v=29ENlVMuTHs)
-- **CSS Tricks** [Flexbox](https://www.youtube.com/watch?v=29ENlVMuTHs) For flexbox in 
-overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers) 
+- **CSS Tricks** [Flexbox](https://www.youtube.com/watch?v=29ENlVMuTHs) For flexbox
 - **W3C Schools** - for [Breakpoints](https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp) in making each page responsive on different devices.
-
+- **Google Fonts** - for [Importing Fonts](https://fonts.google.com/)
+- **Boot strap** - for [Landing Carousel and Modals](https://getbootstrap.com/docs/5.0/getting-started/introduction/). Bootstrap was used for the landing carousel, responsive nav bar, contact form modal, privacy policy and general terms and conditions modals.
+- **Font Awesome** - for [Social Media Icons](https://fontawesome.com/)
+- **Favicon** - for [Browser icon](www.favicon.io)
+- **Google Maps** for [iframe](https://www.google.co.uk/maps)
 ### Media
 
 Media from the following artists was used throughout the site.

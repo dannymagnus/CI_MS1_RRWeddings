@@ -79,16 +79,17 @@
 5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.
 6. As a first time user; I want to be able to contact the business if I have any initial queries easily. 
 7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.
+8. As a first time user; I want to be able to navigate back through the site structure in case of page not found without using the browser back button.
 
 #### Returning User
-8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.
+9. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.
 
 #### Site Owner 
-9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
-10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
-11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
-12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
-13. The user should be able to navigate back through the site structure in case of page not found without using the browser back button.
+10. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
+11. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
+12. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
+13. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
+14. As a site owner; I want the site to be fully responsive across mobile, tablet and desktop devices.
 
 ## Scope
 
@@ -216,7 +217,6 @@ The website consists of four pages and 8 features.
 
 ### Current Features
 
-
 ### Feature 1: home page
 
 The sections of home page include:
@@ -278,9 +278,9 @@ The footer is a feature across all pages but is important to allow customers to 
 
 *7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.*
 
-*8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
+*9. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
 
-*10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
+*11. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
 
 
 
@@ -294,7 +294,6 @@ The ‘customisable’ section provides product information
 The ‘Anemone’ section is a product example with pricing.
 The ‘Peony section is a product example with pricing.
 The call to action takes the customer straight to a contact form.
-
 
 *Section 1 - Product hero image and internal page links
 
@@ -339,9 +338,9 @@ The call to action button is highlighted within the text copy and takes the cust
 
 *5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.*
 
-*9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
+*10. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
 
-*12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.*
+*13. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.*
 
 ### Feature 3: About me
 
@@ -355,7 +354,7 @@ This section includes brand imagery of the business owner. The copy provides the
 
 *7. As a first time user; I want to work with a brand that is trustworthy and credible as the wedding will be one of the most important days of my life.*
 
-*11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.*
+*12. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.*
 
 ### Feature 4: Contact
 
@@ -380,11 +379,11 @@ The contact form is a simple form to encourage visitors to complete it, the form
 
 *6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
 
-*8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
+*9. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
 
-*10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
+*11. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
 
-*11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.*
+*12. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.*
 
 ### Feature 5: Navigation bar
 
@@ -412,7 +411,7 @@ The Footer is displayed across all pages, it shows the business copyright, conta
 
 *5. As a first time user; I want to be able to see some indication of prices and timescales so I know whether this product is right for me.*
 
-*9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
+*10. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.*
 
 ## Feature 7: Modal
 
@@ -425,9 +424,9 @@ The modal displays as a button in all pages until in mobile view then is availab
 
 *6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
 
-*8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
+*9. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
 
-*10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
+*11. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
 
 ## Feature 8: 404
 
@@ -437,7 +436,7 @@ This feature redirects the user back to any of the valid links rather than the u
 
 **The 404 page highlights the following user stories**
 
-*13. The user should be able to navigate back through the site structure in case of page not found without using the browser back button.
+*8. The user should be able to navigate back through the site structure in case of page not found without using the browser back button.
 
 ## Validation
 
@@ -632,7 +631,18 @@ All devices were able to pass all tests.
 <img src="docs/testing/user-story-7.png">
 </details>
 
-8. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.
+8. The user should be able to navigate back through the site structure in case of page not found without using the browser back button.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| 404 Page       |      Enter invalid site extension eg /products.htmll  |  redirected to internal error 404 page  |  Works as expected  |
+| 404 Page     | Click links from 404 page text  |  Redirects to valid site pages   |   Works as expected  |
+
+<details><summary>Screenshots</summary>
+<img src="docs/testing/user-story-13.png">
+</details>
+
+9. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -644,7 +654,7 @@ All devices were able to pass all tests.
 <img src="docs/testing/user-story-6-8-10-11.png">
 </details>
 
-9. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
+10. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -655,7 +665,7 @@ All devices were able to pass all tests.
 <img src="docs/testing/user-story-4-9.png">
 </details>
 
-10. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
+11. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -667,7 +677,7 @@ All devices were able to pass all tests.
 <img src="docs/testing/user-story-6-8-10-11.png">
 </details>
 
-11. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
+12. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -679,7 +689,7 @@ All devices were able to pass all tests.
 <img src="docs/testing/user-story-6-8-10-11.png">
 </details>
 
-12. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
+13. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -689,15 +699,14 @@ All devices were able to pass all tests.
 <img src="docs/testing/user-story-12.png">
 </details>
 
-13. The user should be able to navigate back through the site structure in case of page not found without using the browser back button.
+14. As a site owner; I want the site to be fully responsive across mobile, tablet and desktop devices.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| 404 Page       |      Enter invalid site extension eg /products.htmll  |  redirected to internal error 404 page  |  Works as expected  |
-| 404 Page     | Click links from 404 page text  |  Redirects to valid site pages   |   Works as expected  |
+| Site responsiveness     |      Use website inspector in Firefox OR Chrome for mobile (320px min), tablet, desktop MDPI, desktop HDPI |  Site should work and display correctly with no major errors/defects  |  Works as expected  |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/user-story-13.png">
+<img src="docs/testing/user-story-12.png">
 </details>
 
 ## Bugs

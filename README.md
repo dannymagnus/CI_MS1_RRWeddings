@@ -461,10 +461,16 @@ The HTML of the each page of the site was validated using [W3C Markup Validation
 ### CSS Validation
 The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. 
 
-The CSS passed with 0 errors
+The CSS file I wrote passed with 0 errors
 
 <details><summary>RR Weddings</summary>
 <img src="docs/validation/css-validation/css-validation.png">
+</details>
+
+Whole site validation returned 2 errors on third party resources
+
+<details><summary>RR Weddings</summary>
+<img src="docs/validation/css-validation/css-validation-site.png">
 </details>
 
 ### Accessibility

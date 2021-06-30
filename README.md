@@ -241,7 +241,7 @@ The slideshow is the first impression that the business gets to make on the visi
 
 The why us section has text and images with a call to action. The imagery shows the business owner which aims to build trust with potential customers. The call to action provides an easy way for customers to get in touch quickly.
 
-![Why Choose Us](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/why_choose_us.png)
+![Why Choose Us](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/why-choose-us.png)
 
 *Section 3 – Featured:*
 
@@ -259,7 +259,7 @@ The testominals section is comprised of text boxes with previous customers revie
 
 The pop up form appears when a visitor chooses 'Enquire Now' or 'Get in Touch'. For more information see feature 7.
 
-![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal_pop_up.png)
+![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal-pop-up.png)
 
 *Section 6 – footer:*
 
@@ -307,7 +307,7 @@ The video adds another dimension to the business, enabling potential customers t
 
 The customisable section provides the customer with a product description, and copy including pricing and timescales.
 
-![Bespoke and Customisable](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/bespoke_customisable.png)
+![Bespoke and Customisable](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/bespoke-customisable.png)
 
 *Section 4 – Anemone gallery
 
@@ -325,7 +325,7 @@ The Peony gallery contains detailed product description to inform the customer w
 
 The call to action button is highlighted within the text copy and takes the customer directly to the contact form. 
 
-![Get in Touch](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/call_to_action.png)
+![Get in Touch](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/call-to-action.png)
 
 **The Product page features highlight the following user stories:**
 
@@ -372,7 +372,7 @@ The location map shows the business location via googlemaps.
 
 The contact form is a simple form to encourage visitors to complete it, the form will be submitted once all fields are populated.
 
-![Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/contact_form.png)
+![Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/contact-form.png)
 
 **The Contact feature highlights the following user stories:**
 
@@ -394,7 +394,7 @@ The navigation bar is responsive depending on whether it’s viewed on desktop o
 
 *6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
 
-![Nav Bar](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/nav_bar.png)
+![Nav Bar](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/nav-bar.png)
 ### Feature 6: Footer
 
 
@@ -416,8 +416,8 @@ The Footer is displayed across all pages, it shows the business copyright, conta
 
 The modal displays as a button in all pages until in mobile view then is available as a get in touch button on the home page.
 
-![Enquire Now](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/enquire_now.png)
-![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal_pop_up.png)
+![Enquire Now](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/enquire-now.png)
+![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal-pop-up.png)
 
 **The Modal feature highlights the following user stories**
 

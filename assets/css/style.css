@@ -85,7 +85,8 @@ h3 {
 }
 
 .modal-header {
-    background-color: #f2dcdc80;}
+    background-color: #f2dcdc80;
+}
 
 .navbar-links {
     height: 100%;
@@ -231,6 +232,7 @@ h3 {
     display: block;
     font-size: 300%;
 }
+
 /* Container for why us section */
 
 #reasons-container {
@@ -238,24 +240,26 @@ h3 {
     margin-top: 5rem;
     min-height: 25rem;
 }
+
 #reasons-text {
     min-height: 25rem;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
+
 #reasons-text p {
     margin: 25px;
 }
 
 #reasons-hr {
-    height: 1px; 
-    border-width:0;
-    color:gray;
-    background-color:gray;
-    width:75%; 
+    height: 1px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    width: 75%;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     margin-bottom: 50px;
 }
 
@@ -282,22 +286,28 @@ h3 {
     #reasons-text {
         margin-bottom: 5rem;
     }
+
     #reasons-container {
         flex-direction: column;
     }
+
     #portrait-left {
         top: 75px;
     }
+
     #reasons-text {
         align-items: center;
     }
+
     #reasons-text p {
         text-align: center;
     }
+
     .sub-heading {
         font-size: 250%;
     }
 }
+
 /* Style why us images */
 
 #why-us__image-stack {
@@ -311,6 +321,7 @@ h3 {
     margin-right: -15%;
     margin-left: 0;
 }
+
 #portrait-left {
     width: 55%;
     position: absolute;
@@ -409,7 +420,7 @@ h3 {
     min-height: 33%;
     vertical-align: middle;
     margin-top: 50px;
-    font-size:large;
+    font-size: large;
     font-family: 'Cormorant Garamond';
 }
 
@@ -439,22 +450,22 @@ h3 {
 /* Styling Footer */
 
 .footer-hr-upper {
-    height: 1px; 
-    border-width:0;
-    color:gray;
-    background-color:gray;
-    width:100%;
-    margin-left:auto;
-    margin-right:auto; 
+    height: 1px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 10px;
 }
 
 .footer-hr-lower {
     height: 1px;
-    border-width:0;
-    color:gray;
-    background-color:gray;
-    width:100%;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -593,15 +604,18 @@ h3 {
     padding: 2%;
 }
 
-@media (max-width:800px) {
-    #about-me-top__text-container {
-        font-size: 1.75vw;
-    }
-}
-
 @media (max-width:1000px) {
     #about-me-top__text-container {
         font-size: 1.5vw;
+    }
+}
+
+@media (max-width:768px) {
+    #about-me-top__text-container {
+        font-size: 14px;
+    }
+    #about-me-top__text-container span {
+        display: none;
     }
 }
 
@@ -611,7 +625,7 @@ h3 {
         width: 95%;
         height: 350px;
         right: 0;
-        font-size: 2.3vw;
+        font-size: 12px;
     }
 }
 
@@ -641,16 +655,17 @@ h3 {
 
 .bottom-box a {
     text-decoration: none;
-    color:inherit;
-    font-weight:bold;
-    }
- 
-/* Call to action buttons */    
-    
-.bottom-box a:hover {text-decoration: none;
-    color:rgb(160, 160, 160);
-    font-weight:bolder;
-    }
+    color: inherit;
+    font-weight: bold;
+}
+
+/* Call to action buttons */
+
+.bottom-box a:hover {
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+    font-weight: bolder;
+}
 
 /* About images container */
 #overlap-container {
@@ -766,16 +781,16 @@ h3 {
 .bespoke-box {
     width: 340px;
     text-align: center;
+    margin: 10px;
 }
 
 @media (min-width: 560px) {
     #bespoke-text-1 {
         width: auto;
-        margin: 10px;
-    } 
-     #bespoke-text-2 {
+    }
+
+    #bespoke-text-2 {
         width: auto;
-        margin: 10px;
     }
 }
 
@@ -830,7 +845,7 @@ h3 {
 
 #customisable-text a {
     color: inherit;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 @media (min-width: 992px) {
@@ -927,6 +942,7 @@ h3 {
     overflow: hidden;
     position: relative;
 }
+
 /* Contact us map */
 
 #map-outer {
@@ -952,14 +968,15 @@ h3 {
     flex-wrap: wrap;
     width: 90%;
     margin: 5rem auto 0;
-    max-width:800px;
+    max-width: 800px;
     padding-top: 20px;
 }
+
 /* Styling for form */
 
 .form textarea {
     border: 1px solid grey;
-    color:grey;
+    color: grey;
     font-family: inherit;
     text-transform: uppercase;
 }
@@ -973,7 +990,7 @@ h3 {
 }
 
 .form button {
-    margin-top:20px;
+    margin-top: 20px;
     font-family: inherit;
     text-transform: uppercase;
 }
@@ -998,7 +1015,7 @@ h3 {
 
 .oops-container__image {
     width: 320px;
-    height:400px;
+    height: 400px;
 }
 
 /* Oops flower image */
@@ -1006,7 +1023,7 @@ h3 {
 .oops-container__image img {
     width: 100%;
     height: 100%;
-    object-fit:contain;
+    object-fit: contain;
 }
 
 /* Oops text container */
@@ -1023,10 +1040,10 @@ h3 {
     text-align: center;
 }
 
-.oops-container a{
+.oops-container a {
     text-decoration: none;
-    color:inherit;
-    font-weight:bold;
+    color: inherit;
+    font-weight: bold;
 }
 
 @media (min-width: 560px) {
@@ -1034,10 +1051,11 @@ h3 {
         flex-direction: row;
         margin: 100px 0;
     }
+
     .oops-container h1 {
         text-align: left;
     }
-    
+
     .oops-container h2 {
         text-align: left;
     }

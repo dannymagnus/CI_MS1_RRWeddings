@@ -129,7 +129,7 @@ I wanted a site that was straightforward, with the information being concise and
 - Background colours - #fff
 - Modals and buttons - rgba(250, 218, 221, 0.5)
 
-These colours have been chosen as they fit with the images that will be used for background and for foreground images and a representative of the end product.  They must also be suitable for accessibility support.
+These colours have been chosen as they fit with the images that will be used for background and for foreground images and are representative of the end product.  They must also be suitable for accessibility support.
 <br>
 
 <img src="docs/features/colour_pallette.png">
@@ -143,11 +143,12 @@ My body font is Playfair Display from Google Fonts. I chose this font because:
 It contrasts well with the header font.
 
 ### Structure
-The structure of the site is to contain four pages in order; 
+The structure of the site is to contain five pages in order; 
 - Home 
 - Products
 - About
 - Contact
+- 404 (internal page for page not found errors)
 
 Each page contains the following structure
 
@@ -240,7 +241,7 @@ The slideshow is the first impression that the business gets to make on the visi
 
 The why us section has text and images with a call to action. The imagery shows the business owner which aims to build trust with potential customers. The call to action provides an easy way for customers to get in touch quickly.
 
-![Why CHoose Us](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/why_choose_us.png)
+![Why Choose Us](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/why_choose_us.png)
 
 *Section 3 – Featured:*
 
@@ -281,8 +282,6 @@ The footer is a feature across all pages but is important to allow customers to 
 *9. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
 
 *11. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
-
-
 
 ### Feature 2: Products
 
@@ -721,7 +720,7 @@ All devices were able to pass all tests.
 | Link to modal fails on selecting ‘Get in touch’ button on home when Nav bar in toggle display | Change location of modal from header to get in touch for home page|
 |Body and Header were failing accessibility contrast | Change font colour|
 Modal submit button had no effect | Button was in modal footer outside of form, moved inside form |
-| Modal submit did not submit | update correct form dump path |
+| Modal submit did not submit form | update correct form dump path |
 ## Deployment
 
 ### GitHub Pages

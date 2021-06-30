@@ -768,15 +768,15 @@ By forking this GitHub repository you are making a copy of the original to view 
 
 ### Code
 
-- **WebDev Simplified** [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=363s) [Units](https://www.youtube.com/watch?v=-GR52czEd-0) Youtuber for understanding flexbox and implementing testimonials, units, implementing responsive navbar.
-- **Frontend Paathshala** [Modal Forms](https://https://www.youtube.com/watch?v=29ENlVMuTHs)
-- **CSS Tricks** [Flexbox](https://www.youtube.com/watch?v=29ENlVMuTHs) For flexbox
+- **WebDev Simplified** - for [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=363s) and [Units](https://www.youtube.com/watch?v=-GR52czEd-0). Youtuber for understanding flexbox and implementing testimonials, units, implementing responsive navbar.
+- **Frontend Paathshala** - [Modal Forms](https://https://www.youtube.com/watch?v=29ENlVMuTHs)
+- **CSS Tricks** - for [Flexbox](https://www.youtube.com/watch?v=29ENlVMuTHs)
 - **W3C Schools** - for [Breakpoints](https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp) in making each page responsive on different devices.
 - **Google Fonts** - for [Importing Fonts](https://fonts.google.com/)
 - **Bootstrap** - for [Landing Carousel and Modals](https://getbootstrap.com/docs/5.0/getting-started/introduction/). Bootstrap was used for the landing carousel, responsive nav bar, contact form modal, privacy policy and general terms and conditions modals.
 - **Font Awesome** - for [Social Media Icons](https://fontawesome.com/)
 - **Favicon** - for [Browser icon](www.favicon.io)
-- **Google Maps** for [iframe](https://www.google.co.uk/maps)
+- **Google Maps** - for [iframe](https://www.google.co.uk/maps)
 ### Media
 
 Media from the following artists was used throughout the site.

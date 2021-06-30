@@ -858,7 +858,7 @@ h3 {
     background-color: #d9bfbf;
 }
 
-/* Flex container for Peony and Anenome */
+/* Flex container for Peony and Anemone */
 
 .cust-product-outer {
     display: flex;
@@ -912,10 +912,10 @@ h3 {
     }
 }
 
-/* Anenome Banner */
+/* Anemone Banner */
 
-#anenome-banner {
-    background-image: url(../images/anenome-1.webp);
+#anemone-banner {
+    background-image: url(../images/anemone-1.webp);
     background-size: cover;
     background-position: center center;
     background-color: palegreen;

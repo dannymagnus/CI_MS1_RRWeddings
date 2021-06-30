@@ -129,7 +129,7 @@ I wanted a site that was straightforward, with the information being concise and
 - Background colours - #fff
 - Modals and buttons - rgba(250, 218, 221, 0.5)
 
-These colours have been chosen as they fit with the images that will be used for background and for foreground images and a representative of the end product.  They must also be suitable for accessibility support.
+These colours have been chosen as they fit with the images that will be used for background and for foreground images and are representative of the end product.  They must also be suitable for accessibility support.
 <br>
 
 <img src="docs/features/colour_pallette.png">
@@ -143,11 +143,12 @@ My body font is Playfair Display from Google Fonts. I chose this font because:
 It contrasts well with the header font.
 
 ### Structure
-The structure of the site is to contain four pages in order; 
+The structure of the site is to contain five pages in order; 
 - Home 
 - Products
 - About
 - Contact
+- 404 (internal page for page not found errors)
 
 Each page contains the following structure
 
@@ -240,7 +241,7 @@ The slideshow is the first impression that the business gets to make on the visi
 
 The why us section has text and images with a call to action. The imagery shows the business owner which aims to build trust with potential customers. The call to action provides an easy way for customers to get in touch quickly.
 
-![Why CHoose Us](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/why_choose_us.png)
+![Why Choose Us](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/why-choose-us.png)
 
 *Section 3 – Featured:*
 
@@ -258,7 +259,7 @@ The testominals section is comprised of text boxes with previous customers revie
 
 The pop up form appears when a visitor chooses 'Enquire Now' or 'Get in Touch'. For more information see feature 7.
 
-![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal_pop_up.png)
+![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal-pop-up.png)
 
 *Section 6 – footer:*
 
@@ -281,8 +282,6 @@ The footer is a feature across all pages but is important to allow customers to 
 *9. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.*
 
 *11. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.*
-
-
 
 ### Feature 2: Products
 
@@ -308,7 +307,7 @@ The video adds another dimension to the business, enabling potential customers t
 
 The customisable section provides the customer with a product description, and copy including pricing and timescales.
 
-![Bespoke and Customisable](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/bespoke_customisable.png)
+![Bespoke and Customisable](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/bespoke-customisable.png)
 
 *Section 4 – Anemone gallery
 
@@ -326,7 +325,7 @@ The Peony gallery contains detailed product description to inform the customer w
 
 The call to action button is highlighted within the text copy and takes the customer directly to the contact form. 
 
-![Get in Touch](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/call_to_action.png)
+![Get in Touch](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/call-to-action.png)
 
 **The Product page features highlight the following user stories:**
 
@@ -373,7 +372,7 @@ The location map shows the business location via googlemaps.
 
 The contact form is a simple form to encourage visitors to complete it, the form will be submitted once all fields are populated.
 
-![Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/contact_form.png)
+![Contact](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/contact-form.png)
 
 **The Contact feature highlights the following user stories:**
 
@@ -395,7 +394,7 @@ The navigation bar is responsive depending on whether it’s viewed on desktop o
 
 *6. As a first time user; I want to be able to contact the business if I have any initial queries easily.*
 
-![Nav Bar](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/nav_bar.png)
+![Nav Bar](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/nav-bar.png)
 ### Feature 6: Footer
 
 
@@ -417,8 +416,8 @@ The Footer is displayed across all pages, it shows the business copyright, conta
 
 The modal displays as a button in all pages until in mobile view then is available as a get in touch button on the home page.
 
-![Enquire Now](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/enquire_now.png)
-![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal_pop_up.png)
+![Enquire Now](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/enquire-now.png)
+![Modal pop up](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/modal-pop-up.png)
 
 **The Modal feature highlights the following user stories**
 
@@ -475,7 +474,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <img src="docs/validation/wave-validation/wave-validation-index.png">
 </details>
 <details><summary>About</summary>
-<img src="docs/validation/wave-validation/wave-validation-about_us.png">
+<img src="docs/validation/wave-validation/wave-validation-about-us.png">
 </details>
 <details><summary>Products</summary>
 <img src="docs/validation/wave-validation/wave-validation-products.png">
@@ -708,6 +707,7 @@ All devices were able to pass all tests.
 <details><summary>Screenshots</summary>
 <img src="docs/testing/user-story-14a.png">
 <img src="docs/testing/user-story-14b.png">
+<img src="docs/testing/user-story-14c.png">
 </details>
 
 ## Bugs
@@ -721,7 +721,8 @@ All devices were able to pass all tests.
 | Link to modal fails on selecting ‘Get in touch’ button on home when Nav bar in toggle display | Change location of modal from header to get in touch for home page|
 |Body and Header were failing accessibility contrast | Change font colour|
 Modal submit button had no effect | Button was in modal footer outside of form, moved inside form |
-| Modal submit did not submit | update correct form dump path |
+| Modal submit did not submit form | Update correct form dump path |
+| 404 link to about us didn't work | Corrected .html file name in anchor |
 ## Deployment
 
 ### GitHub Pages

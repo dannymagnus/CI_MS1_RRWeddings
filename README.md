@@ -569,7 +569,7 @@ All devices were able to pass all tests.
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
-| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationery designs | Works as expected |
+| Find link to products page in nav bar       |      Click link and scroll page peony and anemone gallery OR click internal links to customisable and scroll      |To see images of stationery designs | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/testing/user-story-2-4-9.png">
@@ -590,7 +590,7 @@ All devices were able to pass all tests.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery |To see images of stationery designs | Works as expected |
+| Find link to products page in nav bar       |      Click link and scroll page peony and anemone gallery |To see images of stationery designs | Works as expected |
 | Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
 
 <details><summary>Screenshots</summary>
@@ -657,7 +657,7 @@ All devices were able to pass all tests.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery |To see images of stationery designs | Works as expected |
+| Find link to products page in nav bar       |      Click link and scroll page peony and anemone gallery |To see images of stationery designs | Works as expected |
 | Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
 
 <details><summary>Screenshots</summary>

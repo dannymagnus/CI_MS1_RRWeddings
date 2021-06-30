@@ -707,6 +707,7 @@ All devices were able to pass all tests.
 <details><summary>Screenshots</summary>
 <img src="docs/testing/user-story-14a.png">
 <img src="docs/testing/user-story-14b.png">
+<img src="docs/testing/user-story-14c.png">
 </details>
 
 ## Bugs

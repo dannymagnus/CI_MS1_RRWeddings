@@ -62,10 +62,10 @@
                                     <label for="md-phone">Contact no.</label><br>
                                     <input id="md-phone" name="phone" type="text" size="13" required><br>
                                     <label for="md-message">Your message</label><br>
-                                    <textarea id="md-message" name="message" rows="5" cols="30" required><br>Please enter your message here</textarea>
+                                    <textarea id="md-message" name="message" rows="5" cols="30" required>Please enter your message here</textarea>
                                     <div class="modal-footer">
                                         <!--Submit button using custom css-->
-                                        <button type="submit" class="booking-button" data-dismiss="modal"> Lets do this! </button>
+                                        <button type="submit" value="submit" class="booking-button"> Lets do this! </button>
                                     </div>
                                 </form>
                             </div>
@@ -208,15 +208,15 @@
     </section>
     <footer>
         <!--Double horizontal footer line with HTML inline styling-->
-        <hr style="height: 1px; border-width:0;color:gray;background-color:gray; width:100%; margin-left: auto;margin-right: auto; margin-bottom: 10px;">
-        <hr style="height: 1px; border-width:0;color:gray;background-color:gray; width:100%; margin-left: auto;margin-right: auto;">
+        <hr class="footer-hr-upper">
+        <hr class="footer-hr-lower">
         <div class="footer-outer">
-            <div class="footer__box">
+            <div class="footer-box">
                 <!--Copyright icon from Font Awesome-->
                 <h3><i class="far fa-copyright"></i> 2020 Rebecca Richards <br> Designs</h3>
             </div>
             <!--Footer box for links to partners - credited for imagery used in RRWeddings site-->
-            <div class="footer__box">
+            <div class="footer-box">
                 <ul>
                     <li>
                         <h3>Photography Credit:</h3>
@@ -252,10 +252,10 @@
                 </ul>
             </div>
             <!--Logo image sourced from RR Designs-->
-            <div class="footer__box" id="footer-brand-logo-container">
+            <div class="footer-box" id="footer-brand-logo-container">
                 <img id="footer-brand-logo" src="assets/images/logoweb.webp" alt="brand logo" aria-labelledby="footer-brand-logo">
             </div>
-            <div class="footer__box">
+            <div class="footer-box">
                 <h3>Company</h3>
                 <ul>
                     <!--Scroll modals from bootstrap with additional custom CSS used for Ts and Cs-->
@@ -435,7 +435,7 @@
                 </ul>
             </div>
             <!--Social media buttons from fontawesome with Font awesome styles with custom mod-->
-            <div class="footer__box footer__box__social" id="footer-social">
+            <div class="footer-box footer-box-social" id="footer-social">
                 <ul>
                     <li>
                         <!--Social media links to live RRWeddings accounts-->

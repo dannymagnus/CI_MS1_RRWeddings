@@ -310,7 +310,7 @@ h3 {
 
 /* Style why us images */
 
-#why-us__image-stack {
+#why-us-image-stack {
     position: relative;
     min-height: 30rem;
     margin-left: 1rem;
@@ -416,7 +416,7 @@ h3 {
     background-color: white;
 }
 
-.testimonial__heading {
+.testimonial-heading {
     min-height: 33%;
     vertical-align: middle;
     margin-top: 50px;
@@ -424,13 +424,13 @@ h3 {
     font-family: 'Cormorant Garamond';
 }
 
-.testimonial__body {
+.testimonial-body {
     min-height: 33%;
     margin: 50px 25px;
     vertical-align: middle;
 }
 
-.testimonial__person {
+.testimonial-person {
     margin: 50px 25px;
     font-family: 'Cormorant Garamond', serif;
     font-size: larger;
@@ -470,7 +470,6 @@ h3 {
     margin-right: auto;
 }
 
-
 .footer-outer {
     position: relative;
     display: flex;
@@ -479,7 +478,7 @@ h3 {
     align-items: flex-start;
 }
 
-.footer__box {
+.footer-box {
     width: 18%;
     vertical-align: middle;
     font-size: .75em;
@@ -494,37 +493,37 @@ h3 {
     margin-top: 0;
 }
 
-.footer__box>ul {
+.footer-box>ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
 }
 
-.footer__box a {
+.footer-box a {
     text-decoration: none;
     color: inherit;
     padding-top: 20px;
 }
 
-.footer__box a:hover {
+.footer-box a:hover {
     font-weight: bold;
     font-size: 110%;
 }
 
-.footer__box h2,
+.footer-box h2,
 h3 {
     padding-bottom: 10px;
 }
 
 /*Styling social media*/
 
-.footer__box__social>ul {
+.footer-box-social>ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.footer__box__social h2 {
+.footer-box-social h2 {
     width: 33%;
     margin: 0 auto;
 }
@@ -535,11 +534,6 @@ h3 {
     height: 100%;
 }
 
-.footer__box__center {
-    border-left: 1px solid #3a3a3a;
-    border-right: 1px solid #3a3a3a;
-}
-
 @media (max-width: 800px) {
     .footer-outer {
         flex-direction: column-reverse;
@@ -547,11 +541,11 @@ h3 {
         justify-content: start;
     }
 
-    .footer__box {
+    .footer-box {
         width: auto;
     }
 
-    .footer__box.footer__box__social {
+    .footer-box.footer-box-social {
         width: 100%;
     }
 
@@ -580,7 +574,7 @@ h3 {
 
 /* About me image container */
 
-#about-me-top__image-container {
+#about-me-top-image-container {
     height: 800px;
     width: 100%;
     background: url(../images/about-me-main.webp) center center;
@@ -593,7 +587,7 @@ h3 {
 
 /*About me text ribbon */
 
-#about-me-top__text-container {
+#about-me-top-text-container {
     height: 800px;
     width: 33%;
     background-color: #f5eee6e6;
@@ -605,22 +599,22 @@ h3 {
 }
 
 @media (max-width:1000px) {
-    #about-me-top__text-container {
+    #about-me-top-text-container {
         font-size: 1.5vw;
     }
 }
 
 @media (max-width:768px) {
-    #about-me-top__text-container {
+    #about-me-top-text-container {
         font-size: 14px;
     }
-    #about-me-top__text-container span {
+    #about-me-top-text-container span {
         display: none;
     }
 }
 
 @media (max-width:560px) {
-    #about-me-top__text-container {
+    #about-me-top-text-container {
         margin: 0;
         width: 95%;
         height: 350px;

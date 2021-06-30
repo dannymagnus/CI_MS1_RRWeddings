@@ -103,19 +103,20 @@
                                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">x</button>
                                     </div>
                                     <div class="modal-body">
-                                        <!--Input form for modal contact all fields to be completed-->
-                                        <form id="md-form" class="form" action="https://formdump.codeinstitute.net/"
-                                            method="post" target="_blank">
+                                        <!--Modal form used code institute form dump url for post-->
+                                        <form id="md-form" class="form" action="https://formdump.codeinstitute.net/" method="post">
+                                            <!--All form inputs set to required before submit-->
                                             <label for="md-name">Name</label><br>
-                                            <input id="md-name" name="name" type="text" required size="25"><br>
+                                            <input id="md-name" name="name" type="text" required size="30"><br>
                                             <label for="md-email">Email</label><br>
-                                            <input id="md-email" name="email" type="email" required size="25"><br>
+                                            <input id="md-email" name="email" type="email" required size="30"><br>
                                             <label for="md-phone">Contact no.</label><br>
                                             <input id="md-phone" name="phone" type="text" size="13" required><br>
                                             <label for="md-message">Your message</label><br>
-                                            <textarea id="md-message" name="message" rows="5" cols="25" required>Please enter your message here</textarea>
+                                            <textarea id="md-message" name="message" rows="5" cols="30" required>Please enter your message here</textarea>
                                             <div class="modal-footer">
-                                                <button type="submit" class="booking-button" data-dismiss="modal">Lets do this!</button>
+                                                <!--Submit button using custom css-->
+                                                <button type="submit" value="submit" class="booking-button"> Lets do this! </button>
                                             </div>
                                         </form>
                                     </div>

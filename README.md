@@ -41,10 +41,10 @@
 ## Project Goals 
 
 ### User Goals
-- Finding stationary products and services for wedding events.
+- Finding station3ry products and services for wedding events.
 - See example products and be able to contact the company.
 - Find information about the restaurant.
-- Get ideas and inspiration for wedding stationary.
+- Get ideas and inspiration for wedding stationery.
 
 ### Site Owner Goals
 - To generate leads for sales of the different wedding stationery packages. 
@@ -56,8 +56,8 @@
 ### Target Audience
 - Brides
 - Grooms
-- wedding planners
-- wedding venues
+- Wedding planners
+- Wedding venues
 
 ### User Requirements and Expectations
 
@@ -65,9 +65,9 @@
 - Able to navigate the site quickly and easily.
 - No broken links.
 - Responsive and visually appealing on all devices.
-- An easy way to contact the bussiness
-- Easy access to content through links but not too deep into site
-- Accessibility
+- An easy way to contact the business.
+- Easy access to content through links but not too deep into site.
+- Accessibility.
 
 ### User Stories
 
@@ -85,7 +85,7 @@
 9. As a return visitor; I want an easy way to get in touch with the business to proceed with my purchase.
 
 #### Site Owner 
-10. As a site owner; I want potential clients to be able to be able to view imagery to inspire and attract them to book or purchase.
+10. As a site owner; I want potential clients to be able to view imagery to inspire and attract them to book or purchase.
 11. As a site owner; I want prospective customers to be able to get in touch with me easily with any queries.
 12. As a site owner; I want prospective customers to be able to contact me via email alternatively to book their wedding stationery or for follow up queries.
 13. As a site owner; I want customers to be able to find information about my products easily to help them find the best design package to suit their needs.
@@ -96,7 +96,7 @@
 The scope of the project in it’s first release is defined by the following features: 
 
 - Responsive navigation bar mirrored across each page which enables users to navigate the site without user the browser buttons.
-- A footer across all pages with links to social media, terms and conditions with pricing, links to featured partners. 
+- A footer across all pages with links to social media, terms and conditions with pricing, links and credits to partners. 
 - Modal where you can book an intial enquiry with the site owner/company.
 - Pricing page which communicates the costs of the different products and packages simply. 
 - Contact form where the customer can send an enquiry, when all fields are populated.
@@ -113,7 +113,7 @@ Features to be built in future releases:
 
 - Further four designs with image galleries in customisable section. 
 - Links to downloadable price lists for each suite of options.
-- A page for 'on the day' stationary offerings, to include propositions such as menus, place cards, orders of service, signage.
+- A page for 'on the day' stationery offerings, to include propositions such as menus, place cards, orders of service, signage.
 
 ## Design
 
@@ -219,14 +219,14 @@ The website consists of four pages and 8 features.
 
 ### Feature 1: home page
 
-The sections of home page include:
+The sections of the home page include:
 
-The main feature of the home page is the slideshow which plays on entry to the site.
-A ‘why us’ section which aims to build trust with potential customers
-A ‘featured’ to build brand credibility
-A ‘testimonials’ section to build trust with potential customers.
-Modal pop up form to enable customers to contact the business easily
-The footer contains links to social media to provide additional inspiration for visitors.
+1. The main feature of the home page is the slideshow which plays on entry to the site.
+2. A ‘why us’ section which aims to build trust with potential customers.
+3. A ‘featured’ section to build brand credibility.
+4. A ‘testimonials’ section to build trust with potential customers.
+5. A modal pop up form to enable customers to contact the business easily.
+6. A footer which contains links to social media to provide additional inspiration for visitors.
 
 The site is fully responsive and tested on tablet on mobile. The copy is partially written by myself in addition to copy given by RRweddings. Permission has been granted in all cases.
 
@@ -252,7 +252,7 @@ The featured section shows the business logos of high profile wedding businesses
 
 The testominals section is comprised of text boxes with previous customers reviews. This is important to have visible on the first page to help build trust with prospective customers.
 
-![Testimonials](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/testimonials.png)
+![Testimonials](https://github.com/dannymagnus/wedding-company/blob/master/docs/features/kind-words.png)
 
 *Section 5 – Modal pop up form:*
 
@@ -288,12 +288,12 @@ The footer is a feature across all pages but is important to allow customers to 
 
 The sections of home page include:
 
-The hero image with internal page links.
-The ‘bespoke’ section provides product information
-The ‘customisable’ section provides product information
-The ‘Anemone’ section is a product example with pricing.
-The ‘Peony section is a product example with pricing.
-The call to action takes the customer straight to a contact form.
+1. The hero image with internal page links.
+2. The ‘bespoke’ section provides product information
+3. The ‘customisable’ section provides product information
+4. The ‘Anemone’ section is a product example with pricing.
+5. The ‘Peony section is a product example with pricing.
+6. The call to action takes the customer straight to a contact form.
 
 *Section 1 - Product hero image and internal page links
 
@@ -436,7 +436,7 @@ This feature redirects the user back to any of the valid links rather than the u
 
 **The 404 page highlights the following user stories**
 
-*8. The user should be able to navigate back through the site structure in case of page not found without using the browser back button.
+*8. The user should be able to navigate back through the site structure in case of page not found without using the browser back button.*
 
 ## Validation
 
@@ -570,7 +570,7 @@ All devices were able to pass all tests.
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
-| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationary designs | Works as expected |
+| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery OR click internal links to customisable and scroll      |To see images of stationery designs | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/testing/user-story-2-4-9.png">
@@ -591,7 +591,7 @@ All devices were able to pass all tests.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery |To see images of stationary designs | Works as expected |
+| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery |To see images of stationery designs | Works as expected |
 | Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
 
 <details><summary>Screenshots</summary>
@@ -658,7 +658,7 @@ All devices were able to pass all tests.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery |To see images of stationary designs | Works as expected |
+| Find link to products page in nav bar       |      Click link and scroll page peony and anenome gallery |To see images of stationery designs | Works as expected |
 | Find links to Pinterest and Instagram in page footer  |   Click on link   | Opens Pinterest board for RR Weddings or RRWeddings Instagram respectively | Works as expected |
 
 <details><summary>Screenshots</summary>
@@ -693,7 +693,7 @@ All devices were able to pass all tests.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| Find Products page       |      Click product page link in nav bar, scroll down page OR click links in products page for Bespoke and Customisable  |  To see video and images of stationary and description of service  |  Works as expected  |
+| Find Products page       |      Click product page link in nav bar, scroll down page OR click links in products page for Bespoke and Customisable  |  To see video and images of stationery and description of service  |  Works as expected  |
 
 <details><summary>Screenshots</summary>
 <img src="docs/testing/user-story-12.png">

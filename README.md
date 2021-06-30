@@ -721,7 +721,8 @@ All devices were able to pass all tests.
 | Link to modal fails on selecting ‘Get in touch’ button on home when Nav bar in toggle display | Change location of modal from header to get in touch for home page|
 |Body and Header were failing accessibility contrast | Change font colour|
 Modal submit button had no effect | Button was in modal footer outside of form, moved inside form |
-| Modal submit did not submit form | update correct form dump path |
+| Modal submit did not submit form | Update correct form dump path |
+| 404 link to about us didn't work | Corrected .html file name in anchor |
 ## Deployment
 
 ### GitHub Pages

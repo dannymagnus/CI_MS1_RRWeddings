@@ -461,10 +461,16 @@ The HTML of the each page of the site was validated using [W3C Markup Validation
 ### CSS Validation
 The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. 
 
-The CSS passed with 0 errors
+The custom CSS file passed with 0 errors
 
-<details><summary>RR Weddings</summary>
+<details><summary>Custom CSS file</summary>
 <img src="docs/validation/css-validation/css-validation.png">
+</details>
+
+Whole site validation returned 2 errors on third party resources
+
+<details><summary>Whole site</summary>
+<img src="docs/validation/css-validation/css-validation-site.png">
 </details>
 
 ### Accessibility
@@ -762,15 +768,15 @@ By forking this GitHub repository you are making a copy of the original to view 
 
 ### Code
 
-- **WebDev Simplified** [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=363s) [Units](https://www.youtube.com/watch?v=-GR52czEd-0) Youtuber for understanding flexbox and implementing testimonials, units, implementing responsive navbar.
-- **Frontend Paathshala** [Modal Forms](https://https://www.youtube.com/watch?v=29ENlVMuTHs)
-- **CSS Tricks** [Flexbox](https://www.youtube.com/watch?v=29ENlVMuTHs) For flexbox
+- **WebDev Simplified** - for [Flexbox](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=363s) and [Units](https://www.youtube.com/watch?v=-GR52czEd-0). Youtuber for understanding flexbox and implementing testimonials, units, implementing responsive navbar.
+- **Frontend Paathshala** - [Modal Forms](https://https://www.youtube.com/watch?v=29ENlVMuTHs)
+- **CSS Tricks** - for [Flexbox](https://www.youtube.com/watch?v=29ENlVMuTHs)
 - **W3C Schools** - for [Breakpoints](https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp) in making each page responsive on different devices.
 - **Google Fonts** - for [Importing Fonts](https://fonts.google.com/)
-- **Boot strap** - for [Landing Carousel and Modals](https://getbootstrap.com/docs/5.0/getting-started/introduction/). Bootstrap was used for the landing carousel, responsive nav bar, contact form modal, privacy policy and general terms and conditions modals.
+- **Bootstrap** - for [Landing Carousel and Modals](https://getbootstrap.com/docs/5.0/getting-started/introduction/). Bootstrap was used for the landing carousel, responsive nav bar, contact form modal, privacy policy and general terms and conditions modals.
 - **Font Awesome** - for [Social Media Icons](https://fontawesome.com/)
 - **Favicon** - for [Browser icon](www.favicon.io)
-- **Google Maps** for [iframe](https://www.google.co.uk/maps)
+- **Google Maps** - for [iframe](https://www.google.co.uk/maps)
 ### Media
 
 Media from the following artists was used throughout the site.
@@ -782,11 +788,11 @@ Media from the following artists was used throughout the site.
 - [Anna Rousos](https://annaroussos.com/)
 - [Katherine Yiannaki](https://katherineyiannaki.com/)
 - [David Boyton Photography](https://davidboyntonweddingphotography.pixieset.com/)
-- RR Designs
+- [Rebecca Richards Designs](https://www.instagram.com/accounts/login/?next=/rebeccarichardsdesigns/)
 
 
 ### Acknowledgements: 
 
-- To my wife Rebbeca Richards for her testing, support, feedback, permissions for content and images on this project. 
+- To my wife Rebecca Richards for her testing, support, feedback, permissions for content and images on this project. 
 - To my mentor Mo Shami for his invaluable guidance and direction.
 - To the Code Institute slack community of students.

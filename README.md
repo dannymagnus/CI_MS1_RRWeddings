@@ -773,7 +773,7 @@ By forking this GitHub repository you are making a copy of the original to view 
 - **CSS Tricks** [Flexbox](https://www.youtube.com/watch?v=29ENlVMuTHs) For flexbox
 - **W3C Schools** - for [Breakpoints](https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp) in making each page responsive on different devices.
 - **Google Fonts** - for [Importing Fonts](https://fonts.google.com/)
-- **Boot strap** - for [Landing Carousel and Modals](https://getbootstrap.com/docs/5.0/getting-started/introduction/). Bootstrap was used for the landing carousel, responsive nav bar, contact form modal, privacy policy and general terms and conditions modals.
+- **Bootstrap** - for [Landing Carousel and Modals](https://getbootstrap.com/docs/5.0/getting-started/introduction/). Bootstrap was used for the landing carousel, responsive nav bar, contact form modal, privacy policy and general terms and conditions modals.
 - **Font Awesome** - for [Social Media Icons](https://fontawesome.com/)
 - **Favicon** - for [Browser icon](www.favicon.io)
 - **Google Maps** for [iframe](https://www.google.co.uk/maps)
@@ -788,11 +788,11 @@ Media from the following artists was used throughout the site.
 - [Anna Rousos](https://annaroussos.com/)
 - [Katherine Yiannaki](https://katherineyiannaki.com/)
 - [David Boyton Photography](https://davidboyntonweddingphotography.pixieset.com/)
-- RR Designs
+- [Rebecca Richards Designs](https://www.instagram.com/accounts/login/?next=/rebeccarichardsdesigns/)
 
 
 ### Acknowledgements: 
 
-- To my wife Rebbeca Richards for her testing, support, feedback, permissions for content and images on this project. 
+- To my wife Rebecca Richards for her testing, support, feedback, permissions for content and images on this project. 
 - To my mentor Mo Shami for his invaluable guidance and direction.
 - To the Code Institute slack community of students.

@@ -706,7 +706,7 @@ All devices were able to pass all tests.
 | Site responsiveness     |      Use website inspector in Firefox OR Chrome for mobile (320px min), tablet, desktop MDPI, desktop HDPI |  Site should work and display correctly with no major errors/defects  |  Works as expected  |
 
 <details><summary>Screenshots</summary>
-<img src="docs/testing/user-story-12.png">
+<img src="docs/testing/user-story-14a.png">
 </details>
 
 ## Bugs

@@ -3,7 +3,7 @@
 
 ![Mockup of RR Weddings](https://github.com/dannymagnus/wedding-company/blob/master/docs/mockup/mockup_rrweddings.png)
 
-[View live site](https://dannymagnus.github.io/wedding-company/)
+[View live site](https://dannymagnus.github.io/CI_MS1_RRWeddings/)
 
 ## Table of Content
 
